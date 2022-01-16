@@ -16,7 +16,7 @@ class GroupListItemWidget extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => PlayerScreenWidget(url: channel?.link)),
+                  builder: (context) => PlayerScreenWidget()),
             );
           },
           title: Text(channel?.name ?? ''),
