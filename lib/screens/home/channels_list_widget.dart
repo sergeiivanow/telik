@@ -1,20 +1,30 @@
 import 'package:flutter/material.dart';
 import 'channels_list_item_widget.dart';
+import 'channels_modal.dart';
 
 class ChannelsListWidget extends StatelessWidget {
-  const ChannelsListWidget({Key? key}) : super(key: key);
+  final ChannelsGroup? channelsGroup;
+  const ChannelsListWidget({Key? key, required this.channelsGroup})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 300,
-      child: ListView(
-        // This next line does the trick.
-        scrollDirection: Axis.horizontal,
-        children: const <Widget>[
-          ChannelsListItemWidget(),
-        ],
-      ),
+      height: 100,
+      child: ListView.builder(
+          itemCount: channelsGroup?.channels == null
+              ? 0
+              : channelsGroup?.channels.length,
+          scrollDirection: Axis.horizontal,
+          itemBuilder: (BuildContext context, int index) {
+            return ChannelsListItemWidget(
+                channel: Channel(
+              id: channelsGroup?.channels[index]['id'],
+              link: channelsGroup?.channels[index]['link'],
+              logo: channelsGroup?.channels[index]['logo'],
+              name: channelsGroup?.channels[index]['name'],
+            ));
+          }),
     );
   }
 }

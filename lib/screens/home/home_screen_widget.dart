@@ -3,7 +3,6 @@ import 'group_list_widget.dart';
 import 'package:provider/provider.dart';
 import 'channels_modal.dart';
 
-
 class HomeScreenWidget extends StatelessWidget {
   const HomeScreenWidget({
     Key? key,
@@ -14,7 +13,10 @@ class HomeScreenWidget extends StatelessWidget {
     return ChangeNotifierProvider(
         create: (context) => Channels(),
         child: Scaffold(
-          appBar: AppBar(title: const Text('Телик')),
+          appBar: AppBar(
+              foregroundColor: Colors.black,
+              backgroundColor: Colors.white,
+              title: const Text('Телик')),
           body: const GroupListWidget(),
         ));
   }

@@ -4,17 +4,23 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
+class ChannelsGroup {
+  String group;
+  List<dynamic> channels = [];
+
+  ChannelsGroup({required this.group, required this.channels});
+}
+
 class Channel {
   String id;
   String logo;
   String name;
   String? timezone;
-  String group;
   String link;
 
 
   Channel(
-      {required this.id, required this.logo, required this.name, this.timezone, required this.group, required this.link});
+      {required this.id, required this.logo, required this.name, this.timezone, required this.link});
 }
 
 class Channels extends ChangeNotifier {

@@ -8,19 +8,14 @@ class GroupListWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final channels = context.watch<Channels>().data;
+    final data = context.watch<Channels>().data;
     return ListView.builder(
-        itemCount: channels == null ? 0 : channels.length,
+        itemCount: data.length,
         itemBuilder: (BuildContext context, int index) {
           return GroupListItemWidget(
-            channel: Channel(
-              name: channels[index]['name'],
-              group: channels[index]['group'],
-              id: channels[index]['id'],
-              link: channels[index]['link'],
-              logo: channels[index]['logo'],
-            ),
-          );
+              channelsGroup: ChannelsGroup(
+                  group: data[index]['group'],
+                  channels: data[index]['list']));
         });
   }
 }
