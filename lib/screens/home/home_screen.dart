@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'group_list_widget.dart';
+import 'group_list.dart';
 import 'package:provider/provider.dart';
 import 'channels_modal.dart';
 
@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
               foregroundColor: Colors.black,
               backgroundColor: Colors.white,
               title: const Text('Телик')),
-          body: const GroupListWidget(),
+          body: const GroupList(),
         ));
   }
 }

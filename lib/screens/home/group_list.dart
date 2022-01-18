@@ -3,8 +3,8 @@ import 'group_list_item_widget.dart';
 import 'package:provider/provider.dart';
 import 'channels_modal.dart';
 
-class GroupListWidget extends StatelessWidget {
-  const GroupListWidget({Key? key}) : super(key: key);
+class GroupList extends StatelessWidget {
+  const GroupList({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
