@@ -3,8 +3,8 @@ import 'group_list_widget.dart';
 import 'package:provider/provider.dart';
 import 'channels_modal.dart';
 
-class HomeScreenWidget extends StatelessWidget {
-  const HomeScreenWidget({
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({
     Key? key,
   }) : super(key: key);
 
