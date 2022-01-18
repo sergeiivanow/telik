@@ -15,7 +15,5 @@ jobs:
     - run: flutter pub get
     - run: flutter build apk --debug --split-per-abi
     - name: Create a Release APK
-      uses:
-      with:
-        artifacts: "build/app/outputs/apk/debug/*.apk"
-        token: ${{ secrets.TOKEN }}
+      artifacts: "build/app/outputs/apk/debug/*.apk"
+      token: ${{ secrets.TOKEN }}
