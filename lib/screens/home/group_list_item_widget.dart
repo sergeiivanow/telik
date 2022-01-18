@@ -9,11 +9,24 @@ class GroupListItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment:  CrossAxisAlignment.start,
       children: <Widget>[
-        ListTile(
-          title: Text(channelsGroup?.group ?? ''),
+        Container(
+          height: 50,
+          child:  Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Text(
+            channelsGroup?.group ?? '',
+            textAlign: TextAlign.left,
+            style: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
         ),
-       ChannelsListWidget(channelsGroup: channelsGroup),
+        ),
+       
+        ChannelsListWidget(channelsGroup: channelsGroup),
       ],
     );
   }

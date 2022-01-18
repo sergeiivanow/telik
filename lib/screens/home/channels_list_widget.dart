@@ -9,8 +9,8 @@ class ChannelsListWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 100,
+    return Container(
+      height: 150,
       child: ListView.builder(
           itemCount: channelsGroup?.channels == null
               ? 0

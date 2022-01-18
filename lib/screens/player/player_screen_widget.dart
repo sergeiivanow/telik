@@ -34,6 +34,17 @@ class _VideoPlayerScreenState extends State<PlayerScreenWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0.0,
+        leading: IconButton(
+          splashRadius: 20.0,
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+      ),
       backgroundColor: Colors.black,
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
