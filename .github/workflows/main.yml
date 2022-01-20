@@ -5,7 +5,7 @@ jobs:
     name: Build APK
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello world"
+      - run: echo "${{ github.GITHUB_ACTION_PATH }}"
     # env:
     #   STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
     #   KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
