@@ -15,7 +15,7 @@ jobs:
     - run: flutter pub get
     - run: flutter build apk --debug
     - name: Create a Release APK
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
         name: APK for QA
-        path: build/app/outputs/apk/debug/debug.apk
+        path: build/app/outputs/apk/debug/*.apk
