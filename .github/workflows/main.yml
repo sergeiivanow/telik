@@ -7,7 +7,7 @@ jobs:
     name: Build Codesing App
     runs-on: ubuntu-latest
     - name: Add environment variables
-      run: echo $STORE_FILE| base64 -d > android/app/keystore/release.jks
+    - run: echo $STORE_FILE| base64 -d > android/app/keystore/release.jks
       env:
         STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
