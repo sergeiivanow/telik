@@ -21,7 +21,7 @@ jobs:
         STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-        STORE_FILE: release.jks
+        STORE_FILE: ../../release.jks
     - name: Create a Release APK
       uses: actions/upload-artifact@v2
       with:
