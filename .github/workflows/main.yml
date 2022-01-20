@@ -5,7 +5,7 @@ name: Build Release APK and appbundle
 jobs:
   build:
     name: Build Codesing App
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     env:
       STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
       KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
