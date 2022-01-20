@@ -18,4 +18,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: APK for QA
-        path: build/app/outputs/apk/debug/*.apk
+        path: build/app/outputs/apk/debug/debug.apk
