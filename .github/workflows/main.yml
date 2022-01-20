@@ -13,7 +13,7 @@ jobs:
       STORE_FILE: release.jks
     steps:
     - uses: actions/checkout@v1
-      run: echo "${{ secrets.STORE_FILE }}" | base64 -d > android/keystore/release.jks
+    - run: echo "${{ secrets.STORE_FILE }}" | base64 -d > android/keystore/release.jks
     - uses: actions/setup-java@v1
       with:
         java-version: '12.x'
