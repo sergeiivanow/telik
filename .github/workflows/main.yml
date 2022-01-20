@@ -16,7 +16,7 @@ jobs:
     - name: Get keystore from GitHub Secrets
       run: echo "${{ secrets.STORE_FILE }}" | base64 -d > release.jks
     - run: flutter build apk --release
-    - run: flutter build appbundle
+    - run: flutter build appbundle --release
       env:
         STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
