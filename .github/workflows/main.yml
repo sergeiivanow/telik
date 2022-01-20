@@ -15,10 +15,10 @@ jobs:
     - run: flutter pub get
     - run: flutter build apk --release
         env:
-        STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-        STORE_FILE: ${{ secrets.STORE_FILE }}
+          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          STORE_FILE: ${{ secrets.STORE_FILE }}
     - name: Create a Release APK
       uses: actions/upload-artifact@v2
       with:
