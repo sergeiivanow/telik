@@ -1,0 +1,12 @@
+android {
+    signingConfigs {
+        release {
+            apply from: '../keystore/releaseConfig.gradle'
+
+            keyAlias keystoreConfig.keyAlias
+            keyPassword keystoreConfig.keyPassword
+            storeFile file(keystoreConfig.storeFile)
+            storePassword keystoreConfig.storePassword
+        }
+    }
+}

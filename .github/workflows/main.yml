@@ -1,5 +1,5 @@
 on: push
-name: Build Release apk
+name: Build Release APK
 jobs:
   build:
     name: Build APK
@@ -13,9 +13,14 @@ jobs:
       with:
         flutter-version: '2.8.1'
     - run: flutter pub get
-    - run: flutter build apk --debug
+    - run: flutter build apk --release
+        env:
+        STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        STORE_FILE: ${{ secrets.STORE_FILE }}
     - name: Create a Release APK
       uses: actions/upload-artifact@v2
       with:
         name: APK for QA
-        path: build/app/outputs/apk/debug/*.apk
+        path: build/app/outputs/apk/release/*.apk
