@@ -18,11 +18,11 @@ jobs:
         mkdir signing
         echo "${{ secrets.STORE_FILE }}" | base64 -d > ./signing/release.jks
     - run: flutter build apk --release
-        env:
-          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          STORE_FILE: "../../signing/release.jks"
+      env:
+        STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+        STORE_FILE: "../../signing/release.jks"
     - name: Create a Release APK
       uses: actions/upload-artifact@v2
       with:
