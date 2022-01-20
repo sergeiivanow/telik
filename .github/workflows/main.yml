@@ -10,7 +10,7 @@ jobs:
       STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
       KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
       KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-      STORE_FILE: release.jks
+      STORE_FILE: ../../release.jks
 
     steps:
     - uses: actions/checkout@v1
@@ -23,7 +23,7 @@ jobs:
     - run: flutter pub get
 
     - name: Get store file from GitHub Secrets
-      run: echo "${{ secrets.STORE_FILE }}" | base64 -d > keystore/release.jks
+      run: echo "${{ secrets.STORE_FILE }}" | base64 -d > release.jks
       working-directory: android
 
     - run: flutter build apk --split-per-abi
