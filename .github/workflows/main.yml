@@ -22,7 +22,7 @@ jobs:
     - run: flutter pub get
     - name: Get store file from GitHub Secrets
       run: echo "${{ secrets.STORE_FILE }}" | base64 -d > release.jks
-    - run: flutter build apk --release
+    - run: flutter build apk --split-per-abi
     - run: flutter build appbundle
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
