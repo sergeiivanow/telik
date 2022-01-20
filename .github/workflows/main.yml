@@ -19,7 +19,7 @@ jobs:
 
     - name: Configure Keystore for Android
       run: |
-        echo ${{ secrets.STORE_FILE }} | base64 --decode > keyboard/release.jks
+        echo ${{ secrets.STORE_FILE }} | base64 --decode > keystore/release.jks
       env:
         STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
