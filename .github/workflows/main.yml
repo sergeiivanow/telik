@@ -13,12 +13,16 @@ jobs:
       with:
         flutter-version: '2.8.1'
     - run: flutter pub get
+    - name: Get keystore from GitHub Secrets
+      run: |
+        mkdir signing
+        echo "${{ secrets.STORE_FILE }}" | base64 -d > ./signing/release.jks
     - run: flutter build apk --release
-      env:
+        env:
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          STORE_FILE: ${{ secrets.STORE_FILE }}
+          STORE_FILE: "../../signing/release.jks"
     - name: Create a Release APK
       uses: actions/upload-artifact@v2
       with:
