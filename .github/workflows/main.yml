@@ -17,7 +17,8 @@ jobs:
       run: |
         mkdir signing
         echo "${{ secrets.STORE_FILE }}" | base64 -d > ./signing/release.jks
-    - run: flutter build apk --release
+    - run: flutter build apk --release --split-per-abi
+    - run:  flutter build appbundle --release
       env:
         STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
