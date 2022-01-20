@@ -24,6 +24,7 @@ jobs:
         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
         STORE_FILE: ${{ secrets.STORE_FILE }}
+      working-directory: android
 
     - run: flutter build apk --split-per-abi
     - run: flutter build appbundle
