@@ -20,7 +20,7 @@ jobs:
       with:
         flutter-version: '2.8.1'
     - run: flutter pub get
-   - name: Get keystore from GitHub Secrets
+    - name: Get keystore from GitHub Secrets
       run: echo "${{ secrets.STORE_FILE }}" | base64 -d > android/app/keystore/release.jks
     - run: flutter build apk --release
     - run: flutter build appbundle
