@@ -11,7 +11,7 @@ platform :ios do
     ENV["FASTLANE_USER"]
     ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
     ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
-    ENV['MATCH_GIT_PRIVATE_KEY'] # ssh-keyscan github.com | pbcopy -
+    ENV['MATCH_GIT_PRIVATE_KEY']
     match
   end
 
