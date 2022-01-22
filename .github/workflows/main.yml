@@ -40,7 +40,7 @@ jobs:
   #         build/app/outputs/bundle/release/*.aab
   #         build/ios/iphoneos/app.ipa
 
-  build-ios:        
+  buildios:        
     name: Build Android App
     runs-on: macos-latest
     env:
