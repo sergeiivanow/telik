@@ -58,17 +58,17 @@ jobs:
       - run: flutter pub get
 
       - name: Build 
-      run: | 
-        flutter build ios --release --no-codesign
+        run: | 
+          flutter build ios --release --no-codesign
 
-      # - uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'beta'
-      #     subdirectory: 'ios'
+      - uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'beta'
+          subdirectory: 'ios'
 
-      # - name: Upload Artifacts
-      #   uses: actions/upload-artifact@v2
-      #   with:
-      #     name: Artifacts
-      #     path: |
-      #       build/app/ios/build
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Artifacts
+          path: |
+            build/app/ios/build
