@@ -13,7 +13,8 @@ jobs:
     #   KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
     #   STORE_FILE: ../../release.jks 
       
-    # steps:
+    steps:
+      - run: echo "Hello 1"
     #   - uses: actions/checkout@v1
     #   - uses: actions/setup-java@v1
     #     with:
@@ -50,7 +51,8 @@ jobs:
     #   FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
     #   MATCH_GIT_PRIVATE_KEY: ssh-keyscan github.com | pbcopy -
 
-    # steps:
+    steps:
+      - run: echo "Hello 2"
     #   - uses: actions/checkout@v2
     #   - uses: actions/setup-ruby@v1
     #     with:
