@@ -52,7 +52,8 @@ jobs:
 
     steps: 
       - name: Set env
-        run: echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ github.token }}' | base64)" >> $GITHUB_ENV
+        run: |
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
       - uses: actions/checkout@v2
       - uses: subosito/flutter-action@v1
         with:
