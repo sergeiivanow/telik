@@ -1,0 +1,42 @@
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Define info account"
+  before_all do
+    ENV["FASTLANE_GIT_URL"]
+    ENV["FASTLANE_ITC_TEAM_NAME"]
+    ENV["FASTLANE_TEAM_ID"]
+    ENV["FASTLANE_USER"]
+    ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
+    ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
+    ENV['MATCH_GIT_PRIVATE_KEY'] # ssh-keyscan github.com | pbcopy -
+    match
+  end
+
+
+
+  lane :sync_match do 
+    match(type: "adhoc", readonly: true)
+    match(type: "development", readonly: true)
+    match(type: "appstore", readonly: true)
+  end 
+
+
+  desc "Push a new beta build to TestFlight"
+  lane :beta do
+
+    disable_automatic_code_signing
+
+    gym(
+      scheme: "Runner",
+      workspace: "Runner.xcworkspace",
+      export_method: "app-store",
+      clean: true,
+      output_directory: "./build",
+      output_name: "app.ipa",
+    ) 
+    # upload_to_testflight
+  end
+end
