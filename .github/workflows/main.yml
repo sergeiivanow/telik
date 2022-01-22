@@ -48,7 +48,7 @@ jobs:
       FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
       FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
       FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
-      MATCH_GIT_PRIVATE_KEY: ssh-keyscan github.com | pbcopy -
+      MATCH_GIT_PRIVATE_KEY: ${{ secrets.MATCH_GIT_PRIVATE_KEY }}
 
     steps:
       - uses: actions/checkout@v2
