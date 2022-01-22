@@ -49,7 +49,7 @@ jobs:
       FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
       FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
       MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-      MATCH_GIT_BASIC_AUTHORIZATION:  echo -n ${{ github.GITHUB_ACTOR }}:{github.GITHUB_TOKEN} | base64
+      MATCH_GIT_BASIC_AUTHORIZATION:  echo -n ${{ github.GITHUB_ACTOR }}:{{ github.GITHUB_TOKEN }} | base64
 
     steps:
       - uses: actions/checkout@v2
