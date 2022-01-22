@@ -8,16 +8,17 @@ platform :ios do
     ENV["FASTLANE_ITC_TEAM_NAME"]
     ENV["FASTLANE_TEAM_ID"]
     ENV["FASTLANE_USER"]
-    ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
+    ENV["FASTLANE_DONT_STORE_PASSWORD"]
     ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
-    ENV['MATCH_GIT_PRIVATE_KEY']
+    ENV["MATCH_PASSWORD"]
+    ENV['MATCH_GIT_BASIC_AUTHORIZATION']
     match
   end
 
 
 
   lane :sync_match do 
-   # match(type: "adhoc", readonly: true)
+    match(type: "adhoc", readonly: true)
     match(type: "development", readonly: true)
     match(type: "appstore", readonly: true)
   end 
