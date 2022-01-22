@@ -43,33 +43,34 @@ jobs:
   build-ios:        
     name: Build iOS App
     runs-on: macos-latest
-    env:
-      FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
-      FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
-      FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
-      FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
-      MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-      MATCH_GIT_BASIC_AUTHORIZATION:  echo -n "${{ github.GITHUB_ACTOR }}:{{ github.GITHUB_TOKEN }}" | base64
+    # env:
+    #   FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
+    #   FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
+    #   FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+    #   FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+    #   MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+    #   MATCH_GIT_BASIC_AUTHORIZATION:  echo -n "${{ github.GITHUB_ACTOR }}:{{ github.GITHUB_TOKEN }}" | base64
 
-    steps:
-      - uses: actions/checkout@v2
-      - uses: subosito/flutter-action@v1
-        with:
-          flutter-version: '2.8.1'
-      - run: flutter pub get
+    steps: echo Hello 
+      - run: 
+    #   - uses: actions/checkout@v2
+    #   - uses: subosito/flutter-action@v1
+    #     with:
+    #       flutter-version: '2.8.1'
+    #   - run: flutter pub get
 
-      - name: Build 
-        run: | 
-          flutter build ios --release --no-codesign
+    #   - name: Build 
+    #     run: | 
+    #       flutter build ios --release --no-codesign
 
-      - uses: maierj/fastlane-action@v2.0.1
-        with:
-          lane: 'beta'
-          subdirectory: 'ios'
+    #   - uses: maierj/fastlane-action@v2.0.1
+    #     with:
+    #       lane: 'beta'
+    #       subdirectory: 'ios'
 
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: Artifacts
-          path: |
-            ios/build
+    #   - name: Upload Artifacts
+    #     uses: actions/upload-artifact@v2
+    #     with:
+    #       name: Artifacts
+    #       path: |
+    #         ios/build
