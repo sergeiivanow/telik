@@ -29,10 +29,11 @@ platform :ios do
     setup_ci
     
     match(type: "adhoc", readonly: is_ci)
-    # update_code_signing_settings(
-    #   use_automatic_signing: false,
-    #   path: "Runner.xcodeproj",
-    # )
+    
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: "Runner.xcodeproj",
+    )
 
     gym(
       scheme: "Runner",
