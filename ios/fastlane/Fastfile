@@ -26,7 +26,24 @@ platform :ios do
 
   desc "Push a new beta build to TestFlight"
   lane :beta do
-    sync_match
+    #sync_match
+
+    if is_ci
+      create_keychain(
+        name: "keychain.name",
+        password: "keychain.name123",
+        default_keychain: true,
+        unlock: true,
+        timeout: 3600,
+        lock_when_sleeps: false
+      )
+    end
+
+    match(
+      type: "adhoc",
+      keychain_name: "keychain.name",
+      keychain_password: "keychain.name123",
+    )
 
     # update_code_signing_settings(
     #   use_automatic_signing: false,
