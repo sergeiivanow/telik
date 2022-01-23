@@ -7,6 +7,11 @@ jobs:
   build-android:
     name: Build Android App
     runs-on: ubuntu-latest
+    env:
+      STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+      KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+      STORE_FILE: release.jks 
 
     steps:
       - uses: actions/checkout@v1
@@ -21,11 +26,6 @@ jobs:
       - name: Set env
         run: |
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/keystore/release.jks
-        env:
-          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          STORE_FILE: release.jks 
 
       - name: Build
         run: | 
