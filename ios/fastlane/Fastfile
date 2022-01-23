@@ -28,8 +28,8 @@ platform :ios do
   lane :beta do
     setup_ci
     
-    match(type: "adhoc", readonly: is_ci)
-    
+    match(type: "adhoc")
+
     update_code_signing_settings(
       use_automatic_signing: false,
       path: "Runner.xcodeproj",
