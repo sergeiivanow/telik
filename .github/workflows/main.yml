@@ -7,11 +7,6 @@ jobs:
   build-android:
     name: Build Android App
     runs-on: ubuntu-latest
-    env:
-      STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-      KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-      KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-      STORE_FILE: release.jks 
 
     steps:
       - uses: actions/checkout@v1
@@ -23,14 +18,16 @@ jobs:
           flutter-version: '2.8.1'
       - run: flutter pub get
 
-      - name: Set env
-        run: |
-          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/keystore/release.jks
-
       - name: Build
         run: | 
+          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/keystore/release.jks
           flutter build apk --split-per-abi
           flutter build appbundle
+        env:
+          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          STORE_FILE: release.jks 
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
