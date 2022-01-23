@@ -13,9 +13,9 @@ jobs:
   #     KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
   #     STORE_FILE: ../../release.jks 
       
-     steps:
-       - uses: actions/checkout@v1
-       - run: ls ${{ github.workflow }}
+    steps:
+      - uses: actions/checkout@v1
+      - run: ls ${{ github.workflow }}
   #     - uses: actions/setup-java@v1
   #       with:
   #         java-version: '12.x'
