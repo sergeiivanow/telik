@@ -9,19 +9,18 @@ platform :ios do
     ENV["FASTLANE_ITC_TEAM_NAME"]
     ENV["FASTLANE_TEAM_ID"]
     ENV["FASTLANE_USER"]
-    # ENV["FASRLANW_PASSWORD"]
     ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
     ENV["MATCH_PASSWORD"]
-    ENV['MATCH_GIT_BASIC_AUTHORIZATION']
+    ENV['MATCH_GIT_BASIC_AUTHORIZATION'] 
     match
   end
 
 
 
   lane :sync_match do 
-    match(type: "adhoc", readonly: true)
-    # match(type: "development", readonly: true)
-    # match(type: "appstore", readonly: true)
+    match(type: "adhoc")
+    # match(type: "development")
+    # match(type: "appstore")
   end 
 
 
@@ -29,7 +28,10 @@ platform :ios do
   lane :beta do
     sync_match
 
-    disable_automatic_code_signing
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: "Runner.xcodeproj",
+    )
 
     gym(
       scheme: "Runner",
