@@ -20,7 +20,7 @@ jobs:
 
       - name: Build
         run: | 
-          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/keystore/release.jks
+          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
           flutter build apk --split-per-abi
           flutter build appbundle
         env:
