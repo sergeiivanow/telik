@@ -18,22 +18,20 @@ platform :ios do
 
 
   lane :sync_match do 
+    setup_ci
     match(type: "adhoc")
     # match(type: "development")
     # match(type: "appstore")
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: "Runner.xcodeproj",
+    )
   end 
 
 
   desc "Push a new beta build to TestFlight"
   lane :beta do
-    setup_ci
-    
-    match(type: "adhoc")
-
-    update_code_signing_settings(
-      use_automatic_signing: false,
-      path: "Runner.xcodeproj",
-    )
+    sync_match
 
     gym(
       scheme: "Runner",
