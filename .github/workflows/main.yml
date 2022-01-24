@@ -54,8 +54,8 @@ jobs:
           flutter build ios --release --no-codesign
       
       - name: fastlane ios beta
-        run: |
-          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
+        # run: |
+        #   echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
         env:
           CI: ${{ secrets.CI }}
           APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
@@ -65,7 +65,9 @@ jobs:
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
           MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-        uses: maierj/fastlane-action@v2.0.1
+        uses: |
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
+          maierj/fastlane-action@v2.0.1
         with:
           lane: 'beta'
           subdirectory: 'ios'
