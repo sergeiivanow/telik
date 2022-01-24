@@ -47,13 +47,14 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           flutter-version: '2.8.1'
+          
       - run: flutter pub get
 
       - name: Build 
         run: | 
           flutter build ios --release --no-codesign
 
-      - name: Set a basic authorization for match
+      - name: Define a basic authorization for match
         run: |
           echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV    
       
@@ -72,7 +73,7 @@ jobs:
           lane: 'beta'
           subdirectory: 'ios'
 
-      - name: Upload Artifacts
+      - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
           name: Artifacts
