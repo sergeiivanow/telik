@@ -41,21 +41,8 @@ jobs:
   build-ios:        
     name: Build iOS App
     runs-on: macos-latest
-    env:
-      CI: ${{ secrets.CI }}
-      APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
-      FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
-      FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
-      FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
-      FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
-      MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
-      MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
 
     steps:
-      - name: Set env
-        run: |
-          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
-            
       - uses: actions/checkout@v2
       - uses: subosito/flutter-action@v1
         with:
@@ -66,10 +53,22 @@ jobs:
         run: | 
           flutter build ios --release --no-codesign
       
-      - uses: maierj/fastlane-action@v2.0.1
-        with:
-          lane: 'beta'
-          subdirectory: 'ios'
+      - name: fastlane ios beta
+        run: |
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
+        env:
+          CI: ${{ secrets.CI }}
+          APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
+          FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
+          FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
+          FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+          MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+        uses: maierj/fastlane-action@v2.0.1
+          with:
+            lane: 'beta'
+            subdirectory: 'ios'
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
