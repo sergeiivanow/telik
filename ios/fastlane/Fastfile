@@ -28,8 +28,6 @@ platform :ios do
   lane :beta do
     # ensure_git_status_clean
 
-    sh("cd ../.. && flutter build ios --release --no-codesign")
-
     sync_match
 
     gym(
