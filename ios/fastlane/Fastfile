@@ -9,7 +9,8 @@ platform :ios do
   end
 
   lane :sync_match do 
-    setup_ci if ENV['CI']
+    setup_ci 
+    # if ENV['CI']
     match(type: "adhoc", force_for_new_devices: true)
     update_code_signing_settings(
       use_automatic_signing: false,
