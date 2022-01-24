@@ -19,11 +19,6 @@ platform :ios do
     )
   end 
 
-  # lane :del do
-  #   match_nuke(type: "appstore")
-  # end
-
-
   desc "Push a new beta build to TestFlight"
   lane :beta do
     # ensure_git_status_clean
