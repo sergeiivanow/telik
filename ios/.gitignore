@@ -38,4 +38,4 @@ app.app.dSYM.zip
 app.ipa
 fastlane/report.xml
 fastlane/README.md
-fastlane/.env.prod
+fastlane/.env
