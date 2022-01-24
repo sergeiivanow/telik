@@ -1,36 +1,35 @@
-update_fastlane
-
 default_platform(:ios)
 
 platform :ios do
-  desc "Define info account"
+  desc "Define passwords"
   before_all do
     ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
-    ENV["FASTLANE_ITC_TEAM_NAME"]
-    ENV["FASTLANE_TEAM_ID"]
-    ENV["FASTLANE_USER"]
     ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
     ENV["MATCH_PASSWORD"]
-    ENV['MATCH_GIT_BASIC_AUTHORIZATION'] 
-    match
   end
 
 
 
   lane :sync_match do 
-    setup_ci
+    setup_ci if ENV['CI']
     match(type: "adhoc")
-    # match(type: "development")
-    # match(type: "appstore")
     update_code_signing_settings(
       use_automatic_signing: false,
       path: "Runner.xcodeproj",
     )
   end 
 
+  # lane :del do
+  #   match_nuke(type: "appstore")
+  # end
+
 
   desc "Push a new beta build to TestFlight"
   lane :beta do
+    # ensure_git_status_clean
+
+    sh("cd ../.. && flutter build ios --release --no-codesign")
+
     sync_match
 
     gym(
@@ -41,6 +40,16 @@ platform :ios do
       output_directory: "./build",
       output_name: "app.ipa",
     ) 
-    # upload_to_testflight
+    # upload_to_testflight(skip_waiting_for_build_processing: true)
   end
+
+  # desc "Register new devices"
+  # lane :register do
+  #   device_name = prompt(text: "Enter the device name: ")
+  #   device_udid = prompt(text: "Enter the device UDID: ")
+  #   device_hash = {}
+  #   device_hash[device_name] = device_udid
+  #   register_devices(devices: device_hash)
+  #   match(force: true)
+  # end
 end
