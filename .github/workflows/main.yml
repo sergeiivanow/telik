@@ -57,7 +57,7 @@ jobs:
         run: |
           echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
         env:
-          CI: "1" 
+          CI: ${{ secrets.CI }}
           APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
           FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
           FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
