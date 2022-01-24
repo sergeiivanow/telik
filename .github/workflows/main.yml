@@ -66,9 +66,9 @@ jobs:
           MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
         uses: maierj/fastlane-action@v2.0.1
-          with:
-            lane: 'beta'
-            subdirectory: 'ios'
+        with:
+          lane: 'beta'
+          subdirectory: 'ios'
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
