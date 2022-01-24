@@ -52,10 +52,12 @@ jobs:
       - name: Build 
         run: | 
           flutter build ios --release --no-codesign
+
+      - name: Set a basic authorization for match
+        run: |
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV    
       
-      - name: fastlane ios beta
-        # run: |
-        #   echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
+      - name: Package and sign
         env:
           CI: ${{ secrets.CI }}
           APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
@@ -65,9 +67,7 @@ jobs:
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
           MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-        uses: |
-          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV
-          maierj/fastlane-action@v2.0.1
+        uses: maierj/fastlane-action@v2.0.1
         with:
           lane: 'beta'
           subdirectory: 'ios'
