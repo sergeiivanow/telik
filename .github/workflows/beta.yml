@@ -32,48 +32,52 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           STORE_FILE: release.jks
 
-      # - name: Upload appbundle to the Play Store
-      #   uses: r0adkll/upload-google-play@v1
-      #   with:
-      #     serviceAccountJson: play-store-credentials.json
-      #     packageName: ${{ secrets.APP_IDENTIFIER }}
-      #     releaseFiles: build/app/outputs/bundle/release/app-release.aab
-      #     track: beta
-      #     inAppUpdatePriority: 2
-      #     userFraction: 0.33
+      - name: Create play store credentials
+        run: |
+          echo "${{ secrets.SERVICE_ACCOUNT_JSON }}" > play-store-credentials.json
 
-  # build-ios:        
-  #   name: Build iOS App
-  #   runs-on: macos-latest
+      - name: Upload appbundle to the Play Store
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJson: play-store-credentials.json
+          packageName: ${{ secrets.APP_IDENTIFIER }}
+          releaseFiles: build/app/outputs/bundle/release/app-release.aab
+          track: beta
+          inAppUpdatePriority: 2
+          userFraction: 0.33
 
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: subosito/flutter-action@v1
-  #       with:
-  #         flutter-version: '2.8.1'
+  build-ios:        
+    name: Build iOS App
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '2.8.1'
           
-  #     - run: flutter pub get
+      - run: flutter pub get
 
-  #     - name: Build
-  #       run: |
-  #         flutter build ios --release --no-codesign
-  #       # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
+      - name: Build
+        run: |
+          flutter build ios --release --no-codesign
+        # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
 
-  #     - name: Define a basic authorization for match
-  #       run: |
-  #         echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV    
+      - name: Define a basic authorization for match
+        run: |
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV    
       
-  #     - name: Package, sign and upload ipa to the TestFlight
-  #       env:
-  #         CI: ${{ secrets.CI }}
-  #         APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
-  #         FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
-  #         FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
-  #         FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
-  #         FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
-  #         MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
-  #         MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-  #       uses: maierj/fastlane-action@v2.0.1
-  #       with:
-  #         lane: 'beta'
-  #         subdirectory: 'ios'
+      - name: Package, sign and upload ipa to the TestFlight
+        env:
+          CI: ${{ secrets.CI }}
+          APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
+          FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
+          FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
+          FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+          MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'beta'
+          subdirectory: 'ios'
