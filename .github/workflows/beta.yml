@@ -41,7 +41,6 @@ jobs:
           track: beta
           inAppUpdatePriority: 2
           userFraction: 0.33
-          whatsNewDirectory: distribution/whatsnew
 
   build-ios:        
     name: Build iOS App
