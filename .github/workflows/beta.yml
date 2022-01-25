@@ -1,6 +1,6 @@
 on:
   # pull_request:
-  pull:
+  push:
     branches: [dev]
 name: Push new beta builds to test
 jobs:
