@@ -18,9 +18,11 @@ default_platform(:android)
 platform :android do
   lane :deploy do
     upload_to_play_store(
+      package_name: 'com.sergejivanov.telik',
+      json_key: Dir.pwd + '/play-store-credentials.json',
       track: 'internal',
       release_status: 'draft',
-      aab: '/../../build/app/outputs/bundle/release/app-release.aab',
+      aab: Dir.pwd + '/../../build/app/outputs/bundle/release/app-release.aab',
     )
   end
 end
