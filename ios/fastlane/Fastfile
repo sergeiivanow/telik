@@ -11,6 +11,7 @@ platform :ios do
   lane :sync_match do 
     setup_ci if ENV['CI']
     match(type: "adhoc", readonly: true)
+    setup_ci if ENV['CI']
     match(type: "appstore", readonly: true)
     update_code_signing_settings(
       use_automatic_signing: false,
