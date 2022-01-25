@@ -23,7 +23,6 @@ jobs:
       - name: Build and sign
         run: | 
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          echo ${{ secrets.SERVICE_ACCOUNT_JSON }} >> play-store-credentials.json
           flutter build apk
           flutter build appbundle
         # run: flutter build apk --split-per-abi --build-number=$GITHUB_RUN_NUMBER
