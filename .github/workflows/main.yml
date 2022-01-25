@@ -51,8 +51,9 @@ jobs:
       - run: flutter pub get
 
       - name: Build 
-        run: | 
+        run: |
           flutter build ios --release --no-codesign
+        # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
 
       - name: Define a basic authorization for match
         run: |
@@ -65,6 +66,7 @@ jobs:
           FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
           FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
           FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+          FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
           MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
