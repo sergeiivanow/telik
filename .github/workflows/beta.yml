@@ -23,7 +23,7 @@ jobs:
       - name: Build and sign
         run: | 
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          flutter build apk --split-per-abi
+          flutter build apk
           flutter build appbundle
         # run: flutter build apk --split-per-abi --build-number=$GITHUB_RUN_NUMBER
         env:
@@ -37,7 +37,7 @@ jobs:
         with:
           serviceAccountJson: ${{ secrets.SERVICE_ACCOUNT_JSON }}
           packageName: ${{ secrets.APP_IDENTIFIER }}
-          releaseFile: build/app/outputs/bundle/release/*.aab
+          releaseFiles: build/app/outputs/bundle/release/app-release.aab
           track: beta
           inAppUpdatePriority: 2
           userFraction: 0.33
@@ -71,7 +71,6 @@ jobs:
           FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
           FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
           FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
-          FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
           MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
