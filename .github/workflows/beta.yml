@@ -33,8 +33,12 @@ jobs:
           STORE_FILE: release.jks
 
       - name: Create play store credentials
-        run: |
-          echo ${{ secrets.SERVICE_ACCOUNT_JSON }} > ${{ github.workspace }}/android/fastlane/play-store-credentials.json
+        id: create-json
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: "play-store-credentials.json"
+          json: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+          dir: ${{ github.workspace }}/android/fastlane/
 
       - name: Upload appbundle to the Google play
         uses: maierj/fastlane-action@v2.0.1
