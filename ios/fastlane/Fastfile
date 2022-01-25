@@ -8,8 +8,8 @@ platform :ios do
     ENV["MATCH_PASSWORD"]
   end
 
-  desc "Beta"
-  lane :beta do
+  desc "Deploy"
+  lane :deploy do
     setup_ci if ENV['CI']
     match(type: "appstore", readonly: true)
 
@@ -22,8 +22,8 @@ platform :ios do
     upload_to_testflight(skip_waiting_for_build_processing: true)
   end
 
-  desc "Push a new beta build to TestFlight"
-  lane :deploy do
+  desc "Beta"
+  lane :beta do
     # ensure_git_status_clean
 
     setup_ci if ENV['CI']
