@@ -11,6 +11,7 @@ platform :ios do
   lane :sync_match do 
     setup_ci if ENV['CI']
     match(type: "adhoc", readonly: true)
+    match(type: "appstore", readonly: true)
     update_code_signing_settings(
       use_automatic_signing: false,
       path: "Runner.xcodeproj",
@@ -31,7 +32,14 @@ platform :ios do
       output_directory: "./build",
       output_name: "app.ipa",
     ) 
-    # upload_to_testflight(skip_waiting_for_build_processing: true)
+
+    gym(
+      scheme: "Runner",
+      workspace: "Runner.xcworkspace",
+      export_method: "app-store",
+      clean: true,
+    ) 
+    upload_to_testflight(skip_waiting_for_build_processing: true)
   end
 
   # desc "Register new devices"
