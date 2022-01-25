@@ -30,7 +30,7 @@ platform :ios do
     match(type: "adhoc", readonly: true)
 
     gym(
-      scheme: "Runner",
+      scheme: "Runner Ad Hoc",
       workspace: "Runner.xcworkspace",
       export_method: "ad-hoc",
       clean: true,
