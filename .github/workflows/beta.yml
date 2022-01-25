@@ -34,7 +34,7 @@ jobs:
 
       - name: Create play store credentials
         run: |
-          echo "${{ secrets.SERVICE_ACCOUNT_JSON }}" > ${{ github.workspace }}/android/fastlane/play-store-credentials.json
+          echo ${{ secrets.SERVICE_ACCOUNT_JSON }} > ${{ github.workspace }}/android/fastlane/play-store-credentials.json
 
       - name: Upload appbundle to the Google play
         uses: maierj/fastlane-action@v2.0.1
