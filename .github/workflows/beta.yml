@@ -75,6 +75,7 @@ jobs:
 
       - name: Define a basic authorization for match
         run: |
+          echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
           echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
       
       - name: Beta

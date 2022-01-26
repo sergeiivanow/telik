@@ -1,17 +1,26 @@
-update_fastlane
-
 default_platform(:ios)
 
 platform :ios do
   desc "Define passwords"
   before_all do
     ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
-    ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
+    # ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
     ENV["MATCH_PASSWORD"]
+    login
   end
 
   lane :sync_match_development do
     match(type: "development", readonly: true)
+  end
+
+  lane :login do
+    app_store_connect_api_key(
+      key_id: ENV["ASC_KEY_ID"],
+      issuer_id: ENV["ASC_ISSUER_ID"],
+      key_filepath: Dir.pwd + "/asc-auth-key.p8",
+      duration: 1200,
+      in_house: false 
+    )
   end
 
   desc "Deploy"
@@ -28,10 +37,11 @@ platform :ios do
       export_method: "app-store",
       clean: true,
     ) 
-    upload_to_testflight(
-      skip_waiting_for_build_processing: true,
-      apple_id: ENV["APP_APPLE_ID"]
-    )
+    upload_to_testflight
+    # upload_to_testflight(
+    #   skip_waiting_for_build_processing: true,
+    #   apple_id: ENV["APP_APPLE_ID"]
+    # )
   end
 
   desc "Beta"
@@ -39,7 +49,7 @@ platform :ios do
     # ensure_git_status_clean
 
     setup_ci if ENV['CI']
-    match(type: "adhoc", readonly: true)
+    match(type: "adhoc", force: true)
     update_code_signing_settings(
       use_automatic_signing: false,
       profile_name: "match AdHoc com.sergejivanov.telik",

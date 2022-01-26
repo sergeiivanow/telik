@@ -39,3 +39,4 @@ app.ipa
 fastlane/report.xml
 fastlane/README.md
 fastlane/.env
+fastlane/*.p8
