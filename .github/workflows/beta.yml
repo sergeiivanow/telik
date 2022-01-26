@@ -77,14 +77,14 @@ jobs:
         run: |
           echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
       
-      # - name: Beta
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'beta'
-      #     subdirectory: 'ios'
-
-      - name: Deploy
+      - name: Beta
         uses: maierj/fastlane-action@v2.0.1
         with:
-          lane: 'deploy'
-          subdirectory: 'ios' 
+          lane: 'beta'
+          subdirectory: 'ios'
+
+      # - name: Deploy
+      #   uses: maierj/fastlane-action@v2.0.1
+      #   with:
+      #     lane: 'deploy'
+      #     subdirectory: 'ios' 
