@@ -28,7 +28,7 @@ platform :ios do
   lane :beta do
     # ensure_git_status_clean
 
-    setup_ci if ENV['CI']
+    setup_ci
     match(type: "adhoc", readonly: true)
 
     gym(
