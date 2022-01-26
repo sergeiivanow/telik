@@ -49,7 +49,7 @@ platform :ios do
     # ensure_git_status_clean
     login
     setup_ci if ENV['CI']
-    match(type: "adhoc", force: true)
+    match(type: "adhoc", readonly: false, force: true)
     update_code_signing_settings(
       use_automatic_signing: false,
       profile_name: "match AdHoc com.sergejivanov.telik",
