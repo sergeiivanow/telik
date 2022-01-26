@@ -21,14 +21,17 @@ platform :ios do
       export_method: "app-store",
       clean: true,
     ) 
-    upload_to_testflight(skip_waiting_for_build_processing: true)
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+      apple_id: ENV["APP_APPLE_ID"]
+    )
   end
 
   desc "Beta"
   lane :beta do
     # ensure_git_status_clean
 
-    setup_ci
+    setup_ci if ENV['CI']
     match(type: "adhoc", readonly: true)
 
     gym(
