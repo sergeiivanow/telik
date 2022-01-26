@@ -41,6 +41,11 @@ platform :ios do
       clean: true,
       output_directory: "./build",
       output_name: "app.ipa",
+      export_options: {
+        provisioningProfiles: { 
+          "com.sergejivanov.telik" => "match AdHoc com.sergejivanov.telik",
+        },
+      },
     ) 
   end
 
