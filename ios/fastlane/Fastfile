@@ -10,11 +10,18 @@ platform :ios do
     ENV["MATCH_PASSWORD"]
   end
 
+  lane :sync_match_development do
+    match(type: "development", readonly: true)
+  end
+
   desc "Deploy"
   lane :deploy do
     setup_ci if ENV['CI']
     match(type: "appstore", readonly: true)
-
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      profile_name: "match AppStore com.sergejivanov.telik",
+    )
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
@@ -33,9 +40,12 @@ platform :ios do
 
     setup_ci if ENV['CI']
     match(type: "adhoc", readonly: true)
-
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      profile_name: "match AdHoc com.sergejivanov.telik",
+    )
     gym(
-      scheme: "RunnerAdHoc",
+      scheme: "Runner",
       workspace: "Runner.xcworkspace",
       export_method: "ad-hoc",
       clean: true,

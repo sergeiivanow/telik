@@ -83,8 +83,8 @@ jobs:
           lane: 'beta'
           subdirectory: 'ios'
 
-      # - name: Deploy
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'deploy'
-      #     subdirectory: 'ios' 
+      - name: Deploy
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'deploy'
+          subdirectory: 'ios' 

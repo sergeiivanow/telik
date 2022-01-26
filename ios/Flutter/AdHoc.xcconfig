@@ -1,9 +1,0 @@
-//
-//  AdHoc.xcconfig
-//  Runner
-//
-//  Created by Сергей Иванов on 26.01.2022.
-//
-#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.adhoc.xcconfig"
-#include "Generated.xcconfig"
-
