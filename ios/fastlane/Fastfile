@@ -35,19 +35,12 @@ platform :ios do
     match(type: "adhoc", readonly: true)
 
     gym(
-      scheme: "Runner",
+      scheme: "Runner Ad Hoc",
       workspace: "Runner.xcworkspace",
       export_method: "ad-hoc",
       clean: true,
       output_directory: "./build",
       output_name: "app.ipa",
-      export_options: {
-        provisioningProfiles: { 
-          "com.sergejivanov.telik" => "match AdHoc com.sergejivanov.telik",
-        },
-        method: "ad-hoc",
-        signingStyle: "manual"
-      },
     ) 
   end
 
