@@ -6,7 +6,6 @@ platform :ios do
     ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
     # ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
     ENV["MATCH_PASSWORD"]
-    login
   end
 
   lane :sync_match_development do
@@ -25,6 +24,7 @@ platform :ios do
 
   desc "Deploy"
   lane :deploy do
+    login
     setup_ci if ENV['CI']
     match(type: "appstore", readonly: true)
     update_code_signing_settings(
@@ -47,7 +47,7 @@ platform :ios do
   desc "Beta"
   lane :beta do
     # ensure_git_status_clean
-
+    login
     setup_ci if ENV['CI']
     match(type: "adhoc", force: true)
     update_code_signing_settings(
