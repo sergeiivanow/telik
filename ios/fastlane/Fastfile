@@ -45,6 +45,8 @@ platform :ios do
         provisioningProfiles: { 
           "com.sergejivanov.telik" => "match AdHoc com.sergejivanov.telik",
         },
+        method: "ad-hoc",
+        signingStyle: "manual"
       },
     ) 
   end
