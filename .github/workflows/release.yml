@@ -2,8 +2,6 @@ on:
   push:
     branches:
       - "release/*"
-    tags:
-      - '*'
 name: Release
 jobs:
 
