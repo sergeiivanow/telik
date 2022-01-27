@@ -7,7 +7,19 @@ jobs:
 
   build-android:
     name: Build Android App
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
+    env:
+      CI: ${{ secrets.CI }}
+      APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
+      APP_APPLE_ID: ${{ secrets.APP_APPLE_ID }}
+      FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
+      FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
+      FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+      FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+      MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+      MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
 
     steps:
       - uses: actions/checkout@v1
@@ -20,7 +32,7 @@ jobs:
 
       - run: flutter pub get
 
-      - name: Build and sign
+      - name: Build and sign Android App
         run: | 
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
           flutter build apk --split-per-abi 
@@ -31,6 +43,22 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           STORE_FILE: release.jks
 
+      - name: Build iOS App
+        run: |
+          flutter build ios --release --no-codesign
+        # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
+
+      - name: Define a basic authorization for match
+        run: |
+          echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
+      
+      - name: Beta ios
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'beta'
+          subdirectory: 'ios'
+
       - name: Set env
         run: echo "TAG_VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
       
@@ -38,54 +66,8 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: |
-            "build/app/outputs/apk/debug/*.apk"
+            "build/app/outputs/apk/release/*.apk"
+            "ios/build/*.ipa"
           token: ${{ secrets.ACCESS_TOKEN }}
           commit: release/${{ env.TAG_VERSION }}
           tag: ${{ env.TAG_VERSION }}
-
-  # build-ios:        
-  #   name: Build iOS App
-  #   runs-on: macos-latest
-  #   env:
-  #     CI: ${{ secrets.CI }}
-  #     APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
-  #     APP_APPLE_ID: ${{ secrets.APP_APPLE_ID }}
-  #     FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
-  #     FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
-  #     FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
-  #     FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
-  #     MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
-  #     MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
-  #     ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
-  #     ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
-
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - uses: subosito/flutter-action@v1
-  #       with:
-  #         flutter-version: '2.8.1'
-          
-  #     - run: flutter pub get
-
-  #     - name: Build
-  #       run: |
-  #         flutter build ios --release --no-codesign
-  #       # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
-
-  #     - name: Define a basic authorization for match
-  #       run: |
-  #         echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
-  #         echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
-      
-  #     - name: Beta
-  #       uses: maierj/fastlane-action@v2.0.1
-  #       with:
-  #         lane: 'beta'
-  #         subdirectory: 'ios'
-
-  #     - name: Tag Release
-  #     run: |
-  #       version_name=${GITHUB_REF##*/}
-  #       echo "Tagging release with tag $version_name"
-  #       git tag $version_name release/$version_name
-  #       git push origin --tags
