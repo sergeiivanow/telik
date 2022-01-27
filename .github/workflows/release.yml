@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - "release-*"
+    tags:
+      - '*'
 name: Release
 jobs:
 
@@ -10,32 +12,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Tag Release
-          run: |
-            version_name=${GITHUB_REF##*/}
-            echo "Tagging release with tag $version_name"
+      # - name: Tag Release
+      #     run: |
+      #       version_name=${GITHUB_REF##*/}
+      #       echo "Tagging release with tag $version_name"
           # git tag $version_name release/$version_name
           # git push origin --tags
-  #     - uses: actions/checkout@v1
-  #     - uses: actions/setup-java@v1
-  #       with:
-  #         java-version: '12.x'
-  #     - uses: subosito/flutter-action@v1
-  #       with:
-  #         flutter-version: '2.8.1'
+      - uses: actions/checkout@v1
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '12.x'
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '2.8.1'
 
-  #     - run: flutter pub get
+      - run: flutter pub get
 
-  #     - name: Build and sign
-  #       run: | 
-  #         echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-  #         lutter build apk --split-per-abi 
-  #       # run: flutter build apk --split-per-abi --build-number=$GITHUB_RUN_NUMBER
-  #       env:
-  #         STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-  #         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-  #         KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-  #         STORE_FILE: release.jks
+      - name: Build and sign
+        run: | 
+          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
+          lutter build apk --split-per-abi 
+        # run: flutter build apk --split-per-abi --build-number=$GITHUB_RUN_NUMBER
+        env:
+          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          STORE_FILE: release.jks
+      
+      - name: Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: |
+            "build/app/outputs/apk/debug/*.apk"
+          token: ${{ secrets.ACCESS_TOKEN }}
 
   # build-ios:        
   #   name: Build iOS App
