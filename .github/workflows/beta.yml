@@ -1,12 +1,11 @@
 on:
-  # pull_request:
-  push:
+  pull_request:
     branches: [main]
 name: Beta
 jobs:
 
   build-android:
-    name: Build Android App
+    name: Build Android
     runs-on: ubuntu-latest
 
     steps:
