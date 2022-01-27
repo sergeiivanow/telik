@@ -5,9 +5,9 @@ on:
 name: Release
 jobs:
 
-  # build:
-  #   name: Build Apps
-  #   runs-on: macos-latest
+  build:
+    name: Build Apps
+    runs-on: macos-latest
   #   env:
   #     CI: ${{ secrets.CI }}
   #     APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
@@ -21,7 +21,8 @@ jobs:
   #     ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
   #     ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
 
-  #   steps:
+    steps:
+      - run: release
   #     - uses: actions/checkout@v1
   #     - uses: actions/setup-java@v1
   #       with:
