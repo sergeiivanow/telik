@@ -2,7 +2,7 @@ on:
   # pull_request:
   push:
     branches: [master]
-name: Push new beta builds to test
+name: Beta
 jobs:
 
   build-android:
