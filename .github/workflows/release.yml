@@ -41,7 +41,7 @@ jobs:
             "build/app/outputs/apk/debug/*.apk"
           token: ${{ secrets.ACCESS_TOKEN }}
           commit: release
-          tag: ${{ env.RELEASE_VERSION }}
+          tag: ${{ env.TAG_VERSION }}
 
   # build-ios:        
   #   name: Build iOS App
