@@ -1,7 +1,7 @@
 on:
   # pull_request:
   push:
-    branches: [dev]
+    branches: [master]
 name: Push new beta builds to test
 jobs:
 
@@ -63,38 +63,31 @@ jobs:
       ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
 
     steps:
-      - name: Tag Release
-        run: |
-          version_name=${GITHUB_REF##*//d/_}
-          echo "Tagging release with tag $version_name"
-        # git tag $version_name release/$version_name
-        # git push origin --tags
-
-      # - uses: actions/checkout@v2
-      # - uses: subosito/flutter-action@v1
-      #   with:
-      #     flutter-version: '2.8.1'
+      - uses: actions/checkout@v2
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '2.8.1'
           
-      # - run: flutter pub get
+      - run: flutter pub get
 
-      # - name: Build
-      #   run: |
-      #     flutter build ios --release --no-codesign
-      #   # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
+      - name: Build
+        run: |
+          flutter build ios --release --no-codesign
+        # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
 
-      # - name: Define a basic authorization for match
-      #   run: |
-      #     echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
-      #     echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
+      - name: Define a basic authorization for match
+        run: |
+          echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
       
-      # - name: Beta
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'beta'
-      #     subdirectory: 'ios'
+      - name: Beta
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'beta'
+          subdirectory: 'ios'
 
-      # - name: Deploy
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'deploy'
-      #     subdirectory: 'ios' 
+      - name: Deploy
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'deploy'
+          subdirectory: 'ios' 
