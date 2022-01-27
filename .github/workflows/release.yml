@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - "release-*"
+      - "release/*"
     tags:
       - '*'
 name: Release
@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - name: Tag Release
-      #     run: |
-      #       version_name=${GITHUB_REF##*/}
-      #       echo "Tagging release with tag $version_name"
+      - name: Tag Release
+          run: |
+            version_name=${GITHUB_REF##*/}
+            echo "Tagging release with tag $version_name"
           # git tag $version_name release/$version_name
           # git push origin --tags
       - uses: actions/checkout@v1
