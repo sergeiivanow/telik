@@ -1,46 +1,50 @@
 on:
   push:
     branches: [master]
-name: Build Release apps
+name: Release
 jobs:
 
-  # build-android:
-  #   name: Build Android App
-  #   runs-on: ubuntu-latest
+  build-android:
+    name: Build Android App
+    runs-on: ubuntu-latest
 
-    # steps:
-    #   - uses: actions/checkout@v1
-    #   - uses: actions/setup-java@v1
-    #     with:
-    #       java-version: '12.x'
-    #   - uses: subosito/flutter-action@v1
-    #     with:
-    #       flutter-version: '2.8.1'
-    #   - run: flutter pub get
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '12.x'
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '2.8.1'
 
-    #   - name: Build
-    #     run: | 
-    #       echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-    #       flutter build apk --split-per-abi
-    #       flutter build appbundle
-    #     env:
-    #       STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-    #       KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-    #       KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-    #       STORE_FILE: release.jks 
+      - run: flutter pub get
 
-    #   - name: Upload Artifacts
-    #     uses: actions/upload-artifact@v2
-    #     with:
-    #       name: Artifacts
-    #       path: |
-    #         build/app/outputs/apk/release/*.apk
-    #         build/app/outputs/bundle/release/*.aab
-    #         build/ios/iphoneos/app.ipa
+      - name: Build and sign
+        run: | 
+          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
+          lutter build apk --split-per-abi 
+        # run: flutter build apk --split-per-abi --build-number=$GITHUB_RUN_NUMBER
+        env:
+          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          STORE_FILE: release.jks
 
   build-ios:        
     name: Build iOS App
-    runs-on: self-hosted
+    runs-on: macos-latest
+    env:
+      CI: ${{ secrets.CI }}
+      APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
+      APP_APPLE_ID: ${{ secrets.APP_APPLE_ID }}
+      FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
+      FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
+      FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
+      FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+      MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+      MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
 
     steps:
       - uses: actions/checkout@v2
@@ -50,41 +54,25 @@ jobs:
           
       - run: flutter pub get
 
-      - name: Build 
+      - name: Build
         run: |
           flutter build ios --release --no-codesign
         # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
 
       - name: Define a basic authorization for match
         run: |
-          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV    
+          echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
       
-      - name: Package and sign
-        env:
-          CI: ${{ secrets.CI }}
-          APP_IDENTIFIER: ${{ secrets.APP_IDENTIFIER }}
-          FASTLANE_ITC_TEAM_NAME: ${{ secrets.FASTLANE_ITC_TEAM_NAME }}
-          FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
-          FASTLANE_USER: ${{ secrets.FASTLANE_USER }}
-          FASTLANE_PASSWORD: ${{ secrets.FASTLANE_PASSWORD }}
-          FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
-          MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
-          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+      - name: Beta
         uses: maierj/fastlane-action@v2.0.1
         with:
           lane: 'beta'
           subdirectory: 'ios'
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: Artifacts
-          path: |
-            ios/build
-
-      # - name: Tag Release
-      #   run: |
-      #     version_name=${GITHUB_REF##*/}
-      #     echo "Tagging release with tag $version_name"
-      #     git tag $version_name release/$version_name
-      #     git push origin --tags
+      - name: Tag Release
+      run: |
+        version_name=${GITHUB_REF##*/}
+        echo "Tagging release with tag $version_name"
+        git tag $version_name release/$version_name
+        git push origin --tags

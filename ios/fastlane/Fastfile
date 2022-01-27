@@ -1,14 +1,16 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Define passwords"
+  desc "Define match password"
   before_all do
-    ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
-    # ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"]
     ENV["MATCH_PASSWORD"]
   end
 
   lane :sync_match_development do
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      profile_name: "match Development com.sergejivanov.telik",
+    )
     match(type: "development", readonly: true)
   end
 
@@ -38,10 +40,6 @@ platform :ios do
       clean: true,
     ) 
     upload_to_testflight
-    # upload_to_testflight(
-    #   skip_waiting_for_build_processing: true,
-    #   apple_id: ENV["APP_APPLE_ID"]
-    # )
   end
 
   desc "Beta"
