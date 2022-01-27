@@ -23,7 +23,7 @@ jobs:
       - name: Build and sign
         run: | 
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          lutter build apk --split-per-abi 
+          flutter build apk --split-per-abi 
         # run: flutter build apk --split-per-abi --build-number=$GITHUB_RUN_NUMBER
         env:
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
