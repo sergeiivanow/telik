@@ -37,6 +37,8 @@ jobs:
           artifacts: |
             "build/app/outputs/apk/debug/*.apk"
           token: ${{ secrets.ACCESS_TOKEN }}
+          commit: release
+          tag: ${GITHUB_REF##*/}
 
   # build-ios:        
   #   name: Build iOS App
