@@ -40,7 +40,7 @@ jobs:
           artifacts: |
             "build/app/outputs/apk/debug/*.apk"
           token: ${{ secrets.ACCESS_TOKEN }}
-          commit: release
+          commit: release/${{ env.TAG_VERSION }}
           tag: ${{ env.TAG_VERSION }}
 
   # build-ios:        
