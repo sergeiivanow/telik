@@ -66,8 +66,8 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: |
-            "build/app/outputs/apk/release/*.apk"
-            "ios/build/*.ipa"
+            build/app/outputs/apk/release/*.apk
+            ios/build/*.ipa
           token: ${{ secrets.ACCESS_TOKEN }}
           commit: release/${{ env.TAG_VERSION }}
           tag: ${{ env.TAG_VERSION }}
