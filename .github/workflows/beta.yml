@@ -65,7 +65,7 @@ jobs:
     steps:
       - name: Tag Release
         run: |
-          version_name=${GITHUB_REF##*///d/_}
+          version_name=${GITHUB_REF##*//d/_}
           echo "Tagging release with tag $version_name"
         # git tag $version_name release/$version_name
         # git push origin --tags
