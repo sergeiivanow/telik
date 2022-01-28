@@ -60,6 +60,7 @@ jobs:
       #     lane: 'deploy'
       #     subdirectory: 'android'
 
+      
       - name: Build
         run: |
           flutter build ios --release --no-codesign
@@ -81,4 +82,3 @@ jobs:
       #   with:
       #     lane: 'deploy'
       #     subdirectory: 'ios' 
-      
