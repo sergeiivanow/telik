@@ -16,9 +16,6 @@
 default_platform(:android)
 
 platform :android do
-  lane: bump_build_number_android do
-    increment_build_number
-  end
   lane :deploy do
     upload_to_play_store(
       package_name: 'com.sergejivanov.telik',

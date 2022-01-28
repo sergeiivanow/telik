@@ -24,10 +24,6 @@ platform :ios do
     )
   end
 
-  lane: bump_build_number_ios do
-    increment_build_number
-  end
-
   desc "Deploy"
   lane :deploy do
     login
