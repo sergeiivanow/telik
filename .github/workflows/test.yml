@@ -1,4 +1,6 @@
 on:
+  pull_request_review:
+    types: [submitted]
   push:
     branches-ignore:
       - main
@@ -82,4 +84,4 @@ jobs:
       #   with:
       #     lane: 'deploy'
       #     subdirectory: 'ios'
-      
+
