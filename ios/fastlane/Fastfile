@@ -58,7 +58,7 @@ platform :ios do
       export_method: "ad-hoc",
       clean: true,
       output_directory: "./build",
-      output_name: "app.ipa",
+      output_name: "app-release.ipa",
     ) 
   end
 
