@@ -37,9 +37,8 @@ jobs:
       - name: Build and sign
         run: | 
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          flutter build apk
-          flutter build appbundle
-        # run: flutter build apk --split-per-abi --build-number=$GITHUB_RUN_NUMBER
+          flutter build apk --build-number=$GITHUB_RUN_NUMBER
+          flutter build appbundle --build-number=$GITHUB_RUN_NUMBER
         env:
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
@@ -82,14 +81,10 @@ jobs:
       #     lane: 'deploy'
       #     subdirectory: 'ios'
 
-      - name: Commit
-        run: |
-          git status
-
-      # - uses: actions/upload-artifact@v2
-      #   with:
-      #     name: my-artifact
-      #     path: |
-      #       build/app/outputs/apk/release/*.apk
-      #       ios/build/*.ipa
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Artifact (Build Number $GITHUB_RUN_NUMBER)
+          path: |
+            build/app/outputs/apk/release/*.apk
+            ios/build/*.ipa
 
