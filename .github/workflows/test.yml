@@ -1,6 +1,10 @@
 on:
   push:
+    branches-ignore:
+      - main
+
 name: Test
+
 jobs:
 
   test:
@@ -55,7 +59,7 @@ jobs:
       #   with:
       #     lane: 'deploy'
       #     subdirectory: 'android'
-      
+
       - name: Build
         run: |
           flutter build ios --release --no-codesign
