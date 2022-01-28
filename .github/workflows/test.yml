@@ -1,6 +1,6 @@
 on:
   push:
-    branches-ignore:
+    # branches-ignore:
       - main
 
 name: Test
@@ -59,6 +59,12 @@ jobs:
       #   with:
       #     lane: 'deploy'
       #     subdirectory: 'android'
+
+      - name: Bump build number android
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'bump_build_number_android'
+          subdirectory: 'android'
 
       
       # - name: Build
