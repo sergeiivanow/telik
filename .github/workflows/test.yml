@@ -45,24 +45,9 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           STORE_FILE: release.jks
 
-      # - name: Create play store credentials
-      #   id: create-json
-      #   uses: jsdaniell/create-json@1.1.2
-      #   with:
-      #     name: "play-store-credentials.json"
-      #     json: ${{ secrets.SERVICE_ACCOUNT_JSON }}
-      #     dir: 'android/fastlane/'
-
-      # - name: Upload appbundle to the Google play
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'deploy'
-      #     subdirectory: 'android'
-
       - name: Build
         run: |
-          flutter build ios --release --no-codesign
-        # run: flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
+          flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
 
       - name: Define a basic authorization for match
         run: |
@@ -74,12 +59,6 @@ jobs:
         with:
           lane: 'beta'
           subdirectory: 'ios'
-
-      # - name: Deploy
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'deploy'
-      #     subdirectory: 'ios'
 
       - uses: actions/upload-artifact@v2
         with:
