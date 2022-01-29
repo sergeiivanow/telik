@@ -16,6 +16,24 @@
 default_platform(:android)
 
 platform :android do
+  lane :bump_flutter_version do
+    path = Dir.pwd + '/../../pubspec.yaml'
+    fv_re = /\d+.\d+.\d+\+\d+/ 
+    v_re = /\d+.\d+.\d+\+/ 
+    bn_re = /\+\d+/
+
+    ENV["TAG_VERSION"]
+    s = File.read(path)
+    full_version = s[fv_re]
+    build_number = full_version[bn_re]
+    new_build_number = (build_number[1...].to_i + 1).to_s
+    s[fv_re] = (ENV['TAG_VERSION'] ? ENV['TAG_VERSION'] + '+' : full_version[v_re]) + new_build_number
+  
+    f = File.new(path, 'w')
+    f.write(s)
+    f.close
+  end
+  
   lane :deploy do
     upload_to_play_store(
       package_name: 'com.sergejivanov.telik',
