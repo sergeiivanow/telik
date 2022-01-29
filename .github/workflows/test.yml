@@ -7,8 +7,41 @@ name: Test
 
 jobs:
 
-  test:
+  android:
     name: Build Android
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '12.x'
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '2.8.1'
+
+      - run: flutter pub get
+
+      - name: Build and sign
+        run: | 
+          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
+          flutter build apk --build-number=$GITHUB_RUN_NUMBER
+          flutter build appbundle --build-number=$GITHUB_RUN_NUMBER
+        env:
+          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          STORE_FILE: release.jks
+      
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Artifact
+          path: |
+            build/app/outputs/apk/release/*.apk
+
+    
+  ios:
+    name: Build iOS
     runs-on: macos-latest
     env:
       CI: ${{ secrets.CI }}
@@ -34,17 +67,6 @@ jobs:
 
       - run: flutter pub get
 
-      - name: Build and sign
-        run: | 
-          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          flutter build apk --build-number=$GITHUB_RUN_NUMBER
-          flutter build appbundle --build-number=$GITHUB_RUN_NUMBER
-        env:
-          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          STORE_FILE: release.jks
-
       - name: Build
         run: |
           flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
@@ -54,7 +76,7 @@ jobs:
           echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
           echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
       
-      - name: Beta
+      - name: Beta ios
         uses: maierj/fastlane-action@v2.0.1
         with:
           lane: 'beta'
@@ -64,6 +86,5 @@ jobs:
         with:
           name: Artifact
           path: |
-            build/app/outputs/apk/release/*.apk
             ios/build/*.ipa
 
