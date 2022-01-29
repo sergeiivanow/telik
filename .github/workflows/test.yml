@@ -32,6 +32,8 @@ jobs:
         run: |
           git add -A
           git commit -m 'Automated bump version'
+          git push
+
 
       - name: Build and sign
         run: | 
