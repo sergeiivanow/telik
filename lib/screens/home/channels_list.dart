@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'channels_list_item_widget.dart';
+import 'channels_list_item.dart';
 import '../../models/channelsGroup.dart';
 
-class ChannelsListWidget extends StatelessWidget {
+class ChannelsList extends StatelessWidget {
   final ChannelsGroup? channelsGroup;
-  const ChannelsListWidget({Key? key, required this.channelsGroup})
+  const ChannelsList({Key? key, required this.channelsGroup})
       : super(key: key);
 
   @override
@@ -18,7 +18,7 @@ class ChannelsListWidget extends StatelessWidget {
               : channelsGroup?.list.length,
           scrollDirection: Axis.horizontal,
           itemBuilder: (BuildContext context, int index) {
-            return ChannelsListItemWidget(
+            return ChannelsListItem(
                 channel: channelsGroup?.list[index]);
           }),
     );

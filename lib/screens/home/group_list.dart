@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'group_list_item_widget.dart';
+import 'group_list_item.dart';
 import 'package:provider/provider.dart';
 import '../../viewModels/channels.dart';
 
@@ -13,7 +13,7 @@ class GroupList extends StatelessWidget {
         padding: const EdgeInsets.only(top: 20.0 ),
         itemCount: channels.length,
         itemBuilder: (BuildContext context, int index) {
-          return GroupListItemWidget(
+          return GroupListItem(
               channelsGroup: channels[index],
             );
         });

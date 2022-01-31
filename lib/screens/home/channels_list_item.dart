@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import '../player/player_screen_widget.dart';
+import '../video_player/video_player_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../../models/channel.dart';
 
-class ChannelsListItemWidget extends StatelessWidget {
+class ChannelsListItem extends StatelessWidget {
   final Channel? channel;
-  const ChannelsListItemWidget({Key? key, required this.channel})
+  const ChannelsListItem({Key? key, required this.channel})
       : super(key: key);
 
   @override
@@ -18,7 +18,7 @@ class ChannelsListItemWidget extends StatelessWidget {
             context,
             MaterialPageRoute(
                 builder: (context) =>
-                    PlayerScreenWidget(tvUrl: channel?.link ?? '')),
+                    VideoPlayerScreen(tvUrl: channel?.link ?? '')),
           );
         },
         child: SizedBox(

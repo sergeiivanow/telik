@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'channels_list_widget.dart';
+import 'channels_list.dart';
 import '../../models/channelsGroup.dart';
 
-class GroupListItemWidget extends StatelessWidget {
+class GroupListItem extends StatelessWidget {
   final ChannelsGroup? channelsGroup;
-  const GroupListItemWidget({Key? key, this.channelsGroup}) : super(key: key);
+  const GroupListItem({Key? key, this.channelsGroup}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class GroupListItemWidget extends StatelessWidget {
             ),
           ),
         ),
-        ChannelsListWidget(channelsGroup: channelsGroup),
+        ChannelsList(channelsGroup: channelsGroup),
       ],
     );
   }
