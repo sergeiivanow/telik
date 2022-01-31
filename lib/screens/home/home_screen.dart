@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'group_list.dart';
 import 'package:provider/provider.dart';
-import 'channels_modal.dart';
+import '../../../../models/channels.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({

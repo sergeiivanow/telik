@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'channels_list_item_widget.dart';
-import 'channels_modal.dart';
+import '../../models/channels.dart';
 
 class ChannelsListWidget extends StatelessWidget {
   final ChannelsGroup? channelsGroup;
@@ -10,8 +10,9 @@ class ChannelsListWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 150,
+      height: 130,
       child: ListView.builder(
+          padding: EdgeInsets.zero,
           itemCount: channelsGroup?.channels == null
               ? 0
               : channelsGroup?.channels.length,

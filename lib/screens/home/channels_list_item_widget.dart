@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../player/player_screen_widget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'channels_modal.dart';
+import '../../models/channels.dart';
 
 class ChannelsListItemWidget extends StatelessWidget {
   final Channel? channel;
@@ -11,7 +11,7 @@ class ChannelsListItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(10.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: InkWell(
         onTap: () {
           Navigator.push(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'channels_list_widget.dart';
-import 'channels_modal.dart';
+import '../../models/channels.dart';
 
 class GroupListItemWidget extends StatelessWidget {
   final ChannelsGroup? channelsGroup;

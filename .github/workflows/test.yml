@@ -1,7 +1,5 @@
 on:
-  push:
-    # branches-ignore:
-    #  - main
+  pull-request:
 
 name: Test
 
@@ -38,8 +36,8 @@ jobs:
       - name: Build and sign
         run: | 
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          flutter build apk --build-number=$GITHUB_RUN_NUMBER
-          flutter build appbundle --build-number=$GITHUB_RUN_NUMBER
+          flutter build apk
+          flutter build appbundle
         env:
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
