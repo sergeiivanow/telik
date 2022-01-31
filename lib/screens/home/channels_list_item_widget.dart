@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../player/player_screen_widget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import '../../models/channels.dart';
+import '../../models/channel.dart';
 
 class ChannelsListItemWidget extends StatelessWidget {
   final Channel? channel;

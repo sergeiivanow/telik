@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'channels_list_widget.dart';
-import '../../models/channels.dart';
+import '../../models/channelsGroup.dart';
 
 class GroupListItemWidget extends StatelessWidget {
   final ChannelsGroup? channelsGroup;
@@ -9,23 +9,22 @@ class GroupListItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment:  CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Container(
+        SizedBox(
           height: 50,
-          child:  Padding(
-          padding: const EdgeInsets.all(10.0),
-          child: Text(
-            channelsGroup?.group ?? '',
-            textAlign: TextAlign.left,
-            style: const TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.w700,
+          child: Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: Text(
+              channelsGroup?.group ?? '',
+              textAlign: TextAlign.left,
+              style: const TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w700,
+              ),
             ),
           ),
         ),
-        ),
-       
         ChannelsListWidget(channelsGroup: channelsGroup),
       ],
     );

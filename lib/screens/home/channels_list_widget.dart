@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'channels_list_item_widget.dart';
-import '../../models/channels.dart';
+import '../../models/channelsGroup.dart';
 
 class ChannelsListWidget extends StatelessWidget {
   final ChannelsGroup? channelsGroup;
@@ -9,22 +9,17 @@ class ChannelsListWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 130,
       child: ListView.builder(
           padding: EdgeInsets.zero,
-          itemCount: channelsGroup?.channels == null
+          itemCount: channelsGroup?.list == null
               ? 0
-              : channelsGroup?.channels.length,
+              : channelsGroup?.list.length,
           scrollDirection: Axis.horizontal,
           itemBuilder: (BuildContext context, int index) {
             return ChannelsListItemWidget(
-                channel: Channel(
-              id: channelsGroup?.channels[index]['id'],
-              link: channelsGroup?.channels[index]['link'],
-              logo: channelsGroup?.channels[index]['logo'],
-              name: channelsGroup?.channels[index]['name'],
-            ));
+                channel: channelsGroup?.list[index]);
           }),
     );
   }
