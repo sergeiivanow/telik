@@ -1,3 +1,5 @@
+update_fastlane
+
 default_platform(:ios)
 
 platform :ios do
@@ -7,10 +9,6 @@ platform :ios do
   end
 
   lane :sync_match_development do
-    update_code_signing_settings(
-      use_automatic_signing: false,
-      profile_name: "match Development com.sergejivanov.telik",
-    )
     match(type: "development", readonly: true)
   end
 
@@ -29,10 +27,6 @@ platform :ios do
     login
     setup_ci if ENV['CI']
     match(type: "appstore", readonly: true)
-    update_code_signing_settings(
-      use_automatic_signing: false,
-      profile_name: "match AppStore com.sergejivanov.telik",
-    )
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
@@ -47,11 +41,7 @@ platform :ios do
     # ensure_git_status_clean
     login
     setup_ci if ENV['CI']
-    match(type: "adhoc", readonly: false, force: true)
-    update_code_signing_settings(
-      use_automatic_signing: false,
-      profile_name: "match AdHoc com.sergejivanov.telik",
-    )
+    match(type: "adhoc", readonly: true,)
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
