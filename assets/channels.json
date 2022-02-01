@@ -1,0 +1,3797 @@
+[
+  {
+    "group": "Федеральные\n",
+    "list": [
+      {
+        "id": "ch001",
+        "logo": "http://troya.tv/images/chIcons/1.png",
+        "name": "Первый HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch001/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxdU828-rtbiIrlF7QleqjcKdT722CJRZXwDtAnGdqD7"
+      },
+      {
+        "id": "ch363",
+        "logo": "http://troya.tv/images/chIcons/363.png",
+        "name": "Первый +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch363/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1ezL_w1OajsPx_M_iR4cNvkOn-5GZ5CcSpFM7kS0FY3"
+      },
+      {
+        "id": "ch635",
+        "logo": "http://troya.tv/images/chIcons/635.png",
+        "name": "Первый HD +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch635/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3DjX4mFNjAGQ3w1YsoeFiI-ycEEzo5XE6u5MHP2R61S"
+      },
+      {
+        "id": "ch364",
+        "logo": "http://troya.tv/images/chIcons/364.png",
+        "name": "Первый +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch364/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzkSEQwfvgknMhOqmV96hcWO-RvPwcPxcJvLNcz2w8Gz"
+      },
+      {
+        "id": "ch386",
+        "logo": "http://troya.tv/images/chIcons/386.png",
+        "name": "Первый +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch386/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5t7j036Nr1AM3tB0QwlMRJTI7510xhyRnt8zsDF6c3J"
+      },
+      {
+        "id": "ch387",
+        "logo": "http://troya.tv/images/chIcons/387.png",
+        "name": "Первый +8\n",
+        "timezone": "+8",
+        "link": "http://3.troya.tv:34000/ch387/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4fmk5vEBri1Iqj2C_WP_L31NZ-XbhTvEoq20A-peygh"
+      },
+      {
+        "id": "ch649",
+        "logo": "http://troya.tv/images/chIcons/649.png",
+        "name": "Первый канал Европа\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch649/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_1_mWkrfUC0QBdEZ71DJ_1fGtb7lKf2BEaPk5PpSaX5"
+      },
+      {
+        "id": "ch002",
+        "logo": "http://troya.tv/images/chIcons/2.png",
+        "name": "Россия 1 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch002/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV89Ujd5o6PCb_kbxTtrIL2ezcnjqSYqM2_mBGBNNUPvB"
+      },
+      {
+        "id": "ch853",
+        "logo": "http://troya.tv/images/chIcons/853.png",
+        "name": "Россия 1 25fps\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch853/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0RsC1a2DC8jHMuEQd64DRN9zOcNBG3MZYCosrk_V_4O"
+      },
+      {
+        "id": "ch365",
+        "logo": "http://troya.tv/images/chIcons/365.png",
+        "name": "Россия 1 +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch365/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3GWVMy028sr_1uCKOhvor-TSoH9P9ihAiM7StnN9WOt"
+      },
+      {
+        "id": "ch366",
+        "logo": "http://troya.tv/images/chIcons/366.png",
+        "name": "Россия 1 +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch366/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9zVf2nKik3heJn_DfLP79ExLYLdTyU8a_oxx2oLkeg2"
+      },
+      {
+        "id": "ch388",
+        "logo": "http://troya.tv/images/chIcons/388.png",
+        "name": "Россия 1 +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch388/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVy_pUUixPT1kugV0LsVtMsvJfVxf83AtQrnusAVAakoT"
+      },
+      {
+        "id": "ch389",
+        "logo": "http://troya.tv/images/chIcons/389.png",
+        "name": "Россия 1 +8\n",
+        "timezone": "+8",
+        "link": "http://3.troya.tv:34000/ch389/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyknDhn95sGZ7ig_C84MlKQRGdggxalc8rRPgzxSwGnb"
+      },
+      {
+        "id": "ch102",
+        "logo": "http://troya.tv/images/chIcons/102.png",
+        "name": "Россия-Культура\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch102/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1wpBuqGN2QHM2vBcTrCbpwXlF-affuLSc2anQFs2Ng3"
+      },
+      {
+        "id": "ch337",
+        "logo": "http://troya.tv/images/chIcons/337.png",
+        "name": "Planeta RTR\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch337/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV37KgdsYqTk9mgIPvCkHzx7BrINwgBysipNDnfwQA6PN"
+      },
+      {
+        "id": "ch025",
+        "logo": "http://troya.tv/images/chIcons/25.png",
+        "name": "Пятница HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch025/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8pGvSxUyNDDbWuYt3LKNLJOw9UIo8Nzu83z_SwIeBs0"
+      },
+      {
+        "id": "ch412",
+        "logo": "http://troya.tv/images/chIcons/412.png",
+        "name": "Пятница +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch412/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6ZfNa1ZjAX4bfivcsMR9JrFw1U2hAUV4ZqV3gUM7XFZ"
+      },
+      {
+        "id": "ch413",
+        "logo": "http://troya.tv/images/chIcons/413.png",
+        "name": "Пятница +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch413/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2CXu_xXKW27dw-_ZeXx0h_PbKFqrRRg8GWFffD5TMKJ"
+      },
+      {
+        "id": "ch004",
+        "logo": "http://troya.tv/images/chIcons/4.png",
+        "name": "РЕН ТВ HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch004/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0WVSzscOnYiYqCctnsUx5PFODyjsU8z8WbZKHe_Fur6"
+      },
+      {
+        "id": "ch371",
+        "logo": "http://troya.tv/images/chIcons/371.png",
+        "name": "РЕН ТВ +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch371/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV76Idd4nk8h6mLwL_kiXmtqWDRU1RdQ1wEYvNdCXGbA5"
+      },
+      {
+        "id": "ch401",
+        "logo": "http://troya.tv/images/chIcons/401.png",
+        "name": "Рен ТВ +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch401/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9WeDUzt_dVMYiMwe9Y_ejHpT3GwGk56JuiA-_AV6_YQ"
+      },
+      {
+        "id": "ch003",
+        "logo": "http://troya.tv/images/chIcons/3.png",
+        "name": "НТВ HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch003/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8b4rsz178KNUIrJnnlOPQjJYXcyMyTvWRDWaR5jfwo3"
+      },
+      {
+        "id": "ch367",
+        "logo": "http://troya.tv/images/chIcons/367.png",
+        "name": "НТВ +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch367/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxGvZVCHAc7_FS2Scp3DelCx-5qCfewrn9PP5_XCJ_yM"
+      },
+      {
+        "id": "ch368",
+        "logo": "http://troya.tv/images/chIcons/368.png",
+        "name": "НТВ +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch368/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8S8VN8wBwFY3r-jBOr7-TXl-B2ln-TaUCNe5Pzk0UmL"
+      },
+      {
+        "id": "ch390",
+        "logo": "http://troya.tv/images/chIcons/390.png",
+        "name": "НТВ +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch390/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0TQWOpZP6LY5eVuhU7XPBhdH0yVK6Bz8Ib35HkERzOp"
+      },
+      {
+        "id": "ch391",
+        "logo": "http://troya.tv/images/chIcons/391.png",
+        "name": "НТВ +8\n",
+        "timezone": "+8",
+        "link": "http://3.troya.tv:34000/ch391/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxFaSTmS2KhS7GYPO4ae2iYE1iuNLRYHhn9wa9_Vs70U"
+      },
+      {
+        "id": "ch021",
+        "logo": "http://troya.tv/images/chIcons/21.png",
+        "name": "СТС HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch021/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV88QtSpeqlj_wdczKGngefxp4RbS3k_WHmfCCe36XRR-"
+      },
+      {
+        "id": "ch398",
+        "logo": "http://troya.tv/images/chIcons/398.png",
+        "name": "СТС +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch398/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3zYa2QjfGbH9fZqT-nQW6YsBrNvFTQU_bgASNoWpHiI"
+      },
+      {
+        "id": "ch399",
+        "logo": "http://troya.tv/images/chIcons/399.png",
+        "name": "СТС +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch399/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8kRR3kg8B92uSnjgmIpY1FnfdbJToBafJB3P79jn29D"
+      },
+      {
+        "id": "ch400",
+        "logo": "http://troya.tv/images/chIcons/400.png",
+        "name": "СТС +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch400/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6hUn5hcV8GUyJDJatMQWIFEUEjkp4IVmmNQQL3HtPph"
+      },
+      {
+        "id": "ch005",
+        "logo": "http://troya.tv/images/chIcons/5.png",
+        "name": "ТНТ HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch005/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6fVhhyGKyDpbA1zt5Ht3yAPFplvlTUX1RkmZKV53XUI"
+      },
+      {
+        "id": "ch369",
+        "logo": "http://troya.tv/images/chIcons/369.png",
+        "name": "ТНТ +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch369/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-AvaknoDQM91ruwuEEY2YxWb0fyIcNreuBVBNUDpV-r"
+      },
+      {
+        "id": "ch370",
+        "logo": "http://troya.tv/images/chIcons/370.png",
+        "name": "ТНТ +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch370/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3FqEx_BOUTTZeASM9Zt7UKFD2iT-GVtfc716pKUTXkQ"
+      },
+      {
+        "id": "ch397",
+        "logo": "http://troya.tv/images/chIcons/397.png",
+        "name": "ТНТ +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch397/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV01Xc8s1M5P-mKvWWgsiWhPnoO4D_e8s-058ZdjA8eBf"
+      },
+      {
+        "id": "ch014",
+        "logo": "http://troya.tv/images/chIcons/14.png",
+        "name": "ТНТ4\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch014/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyyktZiIEThF0m0jm4miw0KRFl_hPXHhSadFXaNWoQzT"
+      },
+      {
+        "id": "ch423",
+        "logo": "http://troya.tv/images/chIcons/423.png",
+        "name": "ТНТ4 +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch423/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9fpQG2GICLhtmNKsA_ZzZwAMHgZhLwCNxhi0ZtAgNIB"
+      },
+      {
+        "id": "ch424",
+        "logo": "http://troya.tv/images/chIcons/424.png",
+        "name": "ТНТ4 +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch424/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3iwSm8hGdQblTeKTZSHta_Bg6TQQwMlibw_tr6HtZfs"
+      },
+      {
+        "id": "ch425",
+        "logo": "http://troya.tv/images/chIcons/425.png",
+        "name": "ТНТ4 +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch425/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV85zN-z5l-Tb8oUuGiB-cbKSPSXBcn3GNTbERCX1f-cZ"
+      },
+      {
+        "id": "ch006",
+        "logo": "http://troya.tv/images/chIcons/6.png",
+        "name": "Москва 24\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch006/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4YOBjdciEi57-z5OVYsLQvW9T3YcFAkwuSLqKm1xJXu"
+      },
+      {
+        "id": "ch022",
+        "logo": "http://troya.tv/images/chIcons/22.png",
+        "name": "ТВ Центр\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch022/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1V8c2s4ANOIZm2jTH5yuEh82npf7_73myi_sq63pBAI"
+      },
+      {
+        "id": "ch374",
+        "logo": "http://troya.tv/images/chIcons/374.png",
+        "name": "ТВ Центр +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch374/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3Cg7eZTrRYuGtuydnQ8kgaShDuzxce-C6f788BP-CLS"
+      },
+      {
+        "id": "ch393",
+        "logo": "http://troya.tv/images/chIcons/393.png",
+        "name": "ТВ Центр +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch393/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV94vMnpKGYNTC7OZBWJqPqFwKtcXUNsQmnP8F6UjyIhz"
+      },
+      {
+        "id": "ch394",
+        "logo": "http://troya.tv/images/chIcons/394.png",
+        "name": "ТВ Центр +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch394/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxB_5O_yQA3QG_BX-JYKunHm0d3RCqYotXHfpsUJr7oI"
+      },
+      {
+        "id": "ch023",
+        "logo": "http://troya.tv/images/chIcons/23.png",
+        "name": "Звезда\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch023/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwS5eGL8YxDcj0e4tNY2C4ZmPIYlye2S2peJ6Kjfcjhz"
+      },
+      {
+        "id": "ch724",
+        "logo": "http://troya.tv/images/chIcons/724.png",
+        "name": "Звезда Плюс\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch724/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwvSwmxiFf7UZfo3_VQ_fE8IptKdniyZOmeeAj3xBNDD"
+      },
+      {
+        "id": "ch373",
+        "logo": "http://troya.tv/images/chIcons/373.png",
+        "name": "Звезда +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch373/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2NcNfxnSY_QghZj46dwvHG9osYyg2lzavv7FNLFhMRz"
+      },
+      {
+        "id": "ch406",
+        "logo": "http://troya.tv/images/chIcons/406.png",
+        "name": "Звезда +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch406/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzC0XDr_LeBc8ztpXKYbczBO0CRY3RVYx4nGB6FEeV6Z"
+      },
+      {
+        "id": "ch407",
+        "logo": "http://troya.tv/images/chIcons/407.png",
+        "name": "Звезда +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch407/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8mSSGms9R6vFjHqwpreyBP4KtHiu7cwztgl09r7iuFU"
+      },
+      {
+        "id": "ch066",
+        "logo": "http://troya.tv/images/chIcons/66.png",
+        "name": "Победа\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch066/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9Q3SPvhr1tb_Itc-cT6I7w_1mvxltbItmf3NaZVa6Sk"
+      },
+      {
+        "id": "ch068",
+        "logo": "http://troya.tv/images/chIcons/68.png",
+        "name": "Пятый Канал\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch068/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1Ev34T-LegyblAfaiDyoq0wXcZzQgp2yNaNd4XznCrV"
+      },
+      {
+        "id": "ch372",
+        "logo": "http://troya.tv/images/chIcons/372.png",
+        "name": "Пятый канал +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch372/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-4jGyLEbFJAO0fRmVsLNdn0rjL0opM9l8pJohqJKv_R"
+      },
+      {
+        "id": "ch395",
+        "logo": "http://troya.tv/images/chIcons/395.png",
+        "name": "Пятый канал +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch395/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV69Jl0kyyZLy2f-LtF4Nh2hDXCbsG0X0p2wMV-7nMb5e"
+      },
+      {
+        "id": "ch396",
+        "logo": "http://troya.tv/images/chIcons/396.png",
+        "name": "Пятый канал +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch396/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2vs2kiKpvpbmEAmZM6_BqZMPTvZ3x_9aMnPv6kPD_kt"
+      }
+    ]
+  },
+  {
+    "group": "Новостные\n",
+    "list": [
+      {
+        "id": "ch007",
+        "logo": "http://troya.tv/images/chIcons/7.png",
+        "name": "Россия 24\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch007/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9F81hX8km1HCFnJfiGt00iIbamZZCkcd8oNXXBRhOou"
+      },
+      {
+        "id": "ch099",
+        "logo": "http://troya.tv/images/chIcons/99.png",
+        "name": "Рбк ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch099/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2HOs3zDhjbEncw55_J3V65r-qDM4GoXPrw8HuYPDnYc"
+      },
+      {
+        "id": "ch127",
+        "logo": "http://troya.tv/images/chIcons/127.png",
+        "name": "RT\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch127/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5Yr0s-Dc5hNAdQZbyK6mpkesgGKCs9F6u45t0f4OWuE"
+      },
+      {
+        "id": "ch088",
+        "logo": "http://troya.tv/images/chIcons/88.png",
+        "name": "Дождь\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch088/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1TfdSSv5MvN4gdRxk3emC2Ws3PkwxVZ-u5HpuPDDvgo"
+      },
+      {
+        "id": "ch509",
+        "logo": "http://troya.tv/images/chIcons/509.png",
+        "name": "Известия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch509/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzoQM3rG8aFsv6vAVQW3rikV1UQl4mn5OlZd56WCMkKg"
+      },
+      {
+        "id": "ch510",
+        "logo": "http://troya.tv/images/chIcons/510.png",
+        "name": "Мир 24\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch510/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzYfjrWKBV804VuUps56v156M9VQgayPbhu-G3XDbZTm"
+      },
+      {
+        "id": "ch528",
+        "logo": "http://troya.tv/images/chIcons/528.png",
+        "name": "Настоящее время HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch528/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzmiHmqtZuCCHv5G0Fxeoi05Wx72d6mBV4jxpUw7SlIf"
+      },
+      {
+        "id": "ch532",
+        "logo": "http://troya.tv/images/chIcons/532.png",
+        "name": "360 Новости\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch532/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5dJnJJLaVhqPtfAA_yaxKQAMatCpjtbEP-zz2xsqSzK"
+      },
+      {
+        "id": "ch589",
+        "logo": "http://troya.tv/images/chIcons/589.png",
+        "name": "News Network\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch589/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxlWzb20YJYNbZsI_lAp4acbN3qxRUkVbwtUn1NFLAAu"
+      },
+      {
+        "id": "ch498",
+        "logo": "http://troya.tv/images/chIcons/498.png",
+        "name": "EuroNews\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch498/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV43rzJgsOOp_kk3GIhTS3u9dIyyTlhVsr__IEBpsosQP"
+      },
+      {
+        "id": "ch499",
+        "logo": "http://troya.tv/images/chIcons/499.png",
+        "name": "BBC World News Europe\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch499/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7SzAtTfChK6UKw2YDyg4S5-3ONfmtTTIIOx_tsw0tvc"
+      },
+      {
+        "id": "ch500",
+        "logo": "http://troya.tv/images/chIcons/500.png",
+        "name": "CNN\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch500/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-znaVN6kQY4N7sco30bJvUzlZwiifJecxIA4G4n7Z46"
+      }
+    ]
+  },
+  {
+    "group": "Кино\n",
+    "list": [
+      {
+        "id": "ch008",
+        "logo": "http://troya.tv/images/chIcons/8.png",
+        "name": "Киносемья\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch008/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5iEQwpzS0OrgHyi_FLcr3JaIj8sUPG61H1mg9EfSpFf"
+      },
+      {
+        "id": "ch009",
+        "logo": "http://troya.tv/images/chIcons/9.png",
+        "name": "Кинохит\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch009/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8G4F54D2ELm2AHPHcWaekW4MuQlRTAXMUYdMpLcmOJg"
+      },
+      {
+        "id": "ch010",
+        "logo": "http://troya.tv/images/chIcons/10.png",
+        "name": "Киносвидание\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch010/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2yAVW-bIF61oGnuzPn4j9fv1W9h5qDvCL0yoqNGzH0B"
+      },
+      {
+        "id": "ch015",
+        "logo": "http://troya.tv/images/chIcons/15.png",
+        "name": "Наше новое кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch015/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3QlJ0zOMu7FwIhOtqJ_VYMrKHzanwHAjGa_sngTkzi9"
+      },
+      {
+        "id": "ch079",
+        "logo": "http://troya.tv/images/chIcons/79.png",
+        "name": "Киномикс\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch079/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0a3L-24Y_VMLSftcpG0lREtMxhh2-34o7x9tjjOYMP-"
+      },
+      {
+        "id": "ch054",
+        "logo": "http://troya.tv/images/chIcons/54.png",
+        "name": "Кинопремьера HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch054/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwruwv3iXUzeQWEAtwKcZYXIEP9Qu6ILH9oeN3EQqJZJ"
+      },
+      {
+        "id": "ch112",
+        "logo": "http://troya.tv/images/chIcons/112.png",
+        "name": "Мужское кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch112/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-Cf_5j5cIgiYal1co1AU2u51_LhPO5EQacseVVhJ422"
+      },
+      {
+        "id": "ch116",
+        "logo": "http://troya.tv/images/chIcons/116.png",
+        "name": "Родное кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch116/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6AyFKPdN-I_DTDQJEO607F_u1rdIwipIK4nueo_rlVz"
+      },
+      {
+        "id": "ch461",
+        "logo": "http://troya.tv/images/chIcons/461.png",
+        "name": "Индийское кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch461/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3DHIWNWJ6twOT6MbvrfQk0SdcMl6G03mtwSe6zA8TrT"
+      },
+      {
+        "id": "ch668",
+        "logo": "http://troya.tv/images/chIcons/668.png",
+        "name": "Киносерия HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch668/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8mm53YQGEzPRS5QMgki0Q0I1Q-IcMCJ-PW8g4RQubWl"
+      },
+      {
+        "id": "ch652",
+        "logo": "http://troya.tv/images/chIcons/652.png",
+        "name": "Киноужас HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch652/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7a8_7iLLY3V0ZHbYN0TtB8RRaOPzQNJTAKh1024lUxk"
+      },
+      {
+        "id": "ch460",
+        "logo": "http://troya.tv/images/chIcons/460.png",
+        "name": "Кинокомедия HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch460/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-KSL60-JBuqqT-8PLsRYrBpz6DDyySHv_s07KwqYjZ9"
+      },
+      {
+        "id": "ch017",
+        "logo": "http://troya.tv/images/chIcons/17.png",
+        "name": "TV 1000\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch017/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV23pf-MutX4f2mpvsTIoZQdND2Qe_aHkxGZiBJsP4Slz"
+      },
+      {
+        "id": "ch018",
+        "logo": "http://troya.tv/images/chIcons/18.png",
+        "name": "TV 1000 Action\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch018/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw6vq2kIz42DaUmuItbEDr_ij6tq8zd-US0NGKNFCEk9"
+      },
+      {
+        "id": "ch013",
+        "logo": "http://troya.tv/images/chIcons/13.png",
+        "name": "TV 1000 Русское Кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch013/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV94fwIprHAgQLd7OLdcgYfvrNCgVDomgfEnR2h6OxcXq"
+      },
+      {
+        "id": "ch651",
+        "logo": "http://troya.tv/images/chIcons/651.png",
+        "name": "TV 1000 World Kino\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch651/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwPWdWQo0Hg5pVAWFp0QAKCsmt2D8i_zBNn0Srs1-3NQ"
+      },
+      {
+        "id": "ch058",
+        "logo": "http://troya.tv/images/chIcons/58.png",
+        "name": "VIP Comedy\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch058/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxspwgmgXlhB4_tfD1LySHMMTqFR6CUJXSwauQuO2NAq"
+      },
+      {
+        "id": "ch060",
+        "logo": "http://troya.tv/images/chIcons/60.png",
+        "name": "VIP Premiere\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch060/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyITJmrfUCSlrQa7iDy-6krv4hCIdLo_t7K98H1Y4MxI"
+      },
+      {
+        "id": "ch059",
+        "logo": "http://troya.tv/images/chIcons/59.png",
+        "name": "VIP Megahit\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch059/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0e8YZp2_U518mjb7QXvlu_eWcyb97HIfGqqVPY2SZ1o"
+      },
+      {
+        "id": "ch701",
+        "logo": "http://troya.tv/images/chIcons/701.png",
+        "name": "ViP Serial HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch701/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-pV_mzjSngRGGwUTbM5VPKwim90nQtlp1iDtJLmvJgJ"
+      },
+      {
+        "id": "ch032",
+        "logo": "http://troya.tv/images/chIcons/32.png",
+        "name": "Amedia Hit\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch032/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV60IDHxNy2pHbaJ5vkytudjtWsLYWd5qxcHpg1EV6dzV"
+      },
+      {
+        "id": "ch515",
+        "logo": "http://troya.tv/images/chIcons/515.png",
+        "name": "Amedia 2 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch515/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7TOV5khfEXf5yCbWCEP5Kho9IgyRy3pefTft7knLKOH"
+      },
+      {
+        "id": "ch065",
+        "logo": "http://troya.tv/images/chIcons/65.png",
+        "name": "Amedia Premium HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch065/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzzIYtUig5uZCVJP7-VTFol8V0TwfNlh-yWZAk8YzdB1"
+      },
+      {
+        "id": "ch336",
+        "logo": "http://troya.tv/images/chIcons/336.png",
+        "name": "Мосфильм HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch336/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7bl9pMOvmpo_LnElqIhN8FyMiTTqAbZcKk4HD6xjdxp"
+      },
+      {
+        "id": "ch077",
+        "logo": "http://troya.tv/images/chIcons/77.png",
+        "name": "Кино тв\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch077/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5v5226fNqCUw11UMmYx5ExEUCKyDKDwE7OBEzOVqI5k"
+      },
+      {
+        "id": "ch072",
+        "logo": "http://troya.tv/images/chIcons/72.png",
+        "name": "Остросюжетное HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch072/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5s_DIUQ4ya-DCyFai9w00hD38lI4tMGDZUSWZp24mTH"
+      },
+      {
+        "id": "ch078",
+        "logo": "http://troya.tv/images/chIcons/78.png",
+        "name": "Дом Кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch078/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxRdY8fILcEhzGBo84pVHaEMgAPcSsI0N3B3bB_BaTQn"
+      },
+      {
+        "id": "ch080",
+        "logo": "http://troya.tv/images/chIcons/80.png",
+        "name": "Дом Кино Премиум HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch080/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4dXUv8HSObjWX-PR9P97jt1uTn2nUsynf7EMMEqknE9"
+      },
+      {
+        "id": "ch033",
+        "logo": "http://troya.tv/images/chIcons/33.png",
+        "name": "ЕвроКино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch033/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_crJdFBJuEo8iVHatGD021cJnMv15_fJPiJ_db_o-r1"
+      },
+      {
+        "id": "ch421",
+        "logo": "http://troya.tv/images/chIcons/421.png",
+        "name": "Flux HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch421/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2O--pVEyJ-BnVkeBQgYy4pVxYFYKWtna2cp2BHzqin3"
+      },
+      {
+        "id": "ch024",
+        "logo": "http://troya.tv/images/chIcons/24.png",
+        "name": "ТВ3\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch024/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7rJwQgPFrg1xUSKbjTSCoYvZKExIiSb836zWxHHg0s6"
+      },
+      {
+        "id": "ch409",
+        "logo": "http://troya.tv/images/chIcons/409.png",
+        "name": "ТВ 3 +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch409/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3shP0tia9moqZpOYdGTLSEM8-Ljyk19zgIaGJ47TZso"
+      },
+      {
+        "id": "ch410",
+        "logo": "http://troya.tv/images/chIcons/410.png",
+        "name": "ТВ 3 +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch410/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3RsVRgNweuVhwBOlCcRCx_tet-CcsXxvaDatnS3uA-n"
+      },
+      {
+        "id": "ch411",
+        "logo": "http://troya.tv/images/chIcons/411.png",
+        "name": "ТВ 3 +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch411/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_iSgbgOFeypYQ-8Iyszj9b5Sja93aU2m8NNwR43UWhO"
+      },
+      {
+        "id": "ch621",
+        "logo": "http://troya.tv/images/chIcons/621.png",
+        "name": "TV3 Film HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch621/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_NF1VHEf1kmNa4-O0yQ9tBERsKnRy0JsNXq41kF8ZLK"
+      },
+      {
+        "id": "ch110",
+        "logo": "http://troya.tv/images/chIcons/110.png",
+        "name": "Домашний\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch110/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV00tGySzMse2sGP9OaGvY_Qn_4djqRwmuJRfif081IaW"
+      },
+      {
+        "id": "ch417",
+        "logo": "http://troya.tv/images/chIcons/417.png",
+        "name": "Домашний +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch417/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1etPGqn2xw6kGDdxFxXzPKOwFPSWrShOmJAh3nQlasI"
+      },
+      {
+        "id": "ch418",
+        "logo": "http://troya.tv/images/chIcons/418.png",
+        "name": "Домашний +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch418/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV88nP8gKUYlDA0gGd_fvH1-rHksl3PSB_EigW38lX0mD"
+      },
+      {
+        "id": "ch620",
+        "logo": "http://troya.tv/images/chIcons/620.png",
+        "name": "НТВ Сериал\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch620/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxXWtxV_x0nOb-007Q_JFW37udf12URJl3LvqwXErMzm"
+      },
+      {
+        "id": "ch568",
+        "logo": "http://troya.tv/images/chIcons/568.png",
+        "name": "НТВ Хит\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch568/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-j81HblwKNrIRggXs4odXy6oiqD9FKq69z8ETF_CZlx"
+      },
+      {
+        "id": "ch103",
+        "logo": "http://troya.tv/images/chIcons/103.png",
+        "name": "Fox HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch103/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV68ITAehoeaHgIfaZHt4PZb1nrVqTX8fUfxJogE-UDvQ"
+      },
+      {
+        "id": "ch104",
+        "logo": "http://troya.tv/images/chIcons/104.png",
+        "name": "Fox life\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch104/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV89bVRlQUbFhMAiLo4CWHfmWz2QibY6_Prl3svcULYy2"
+      },
+      {
+        "id": "ch470",
+        "logo": "http://troya.tv/images/chIcons/470.png",
+        "name": "Paramount Channel HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch470/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-4QQCsgtK1ONxwCYVgyrbPcsXm095EIenaA1ZgtKh79"
+      },
+      {
+        "id": "ch038",
+        "logo": "http://troya.tv/images/chIcons/38.png",
+        "name": "Paramount Comedy HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch038/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5eQe2fH0yXvUdMKn0fO4vAitHfk2yhSBqXCCQLl2CQx"
+      },
+      {
+        "id": "ch084",
+        "logo": "http://troya.tv/images/chIcons/84.png",
+        "name": "Премиальное HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch084/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1BjYVMfJsBqc-gRZJyKr8kvskksu9vqnzDH_ICMyw0I"
+      },
+      {
+        "id": "ch098",
+        "logo": "http://troya.tv/images/chIcons/98.png",
+        "name": "Романтичное HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch098/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-g8U8CmG8ZwEX-ksIB7LViGb1gfHVDRk5EwMSPLFPr8"
+      },
+      {
+        "id": "ch114",
+        "logo": "http://troya.tv/images/chIcons/114.png",
+        "name": "Иллюзион+\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch114/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-x07R-ojWi5QEt9sRIyselt1PStWnpz8GtrCq3PiGiq"
+      },
+      {
+        "id": "ch115",
+        "logo": "http://troya.tv/images/chIcons/115.png",
+        "name": "Русский бестселлер\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch115/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6pq1IgpqIWQqOaQhj8vx7OBIpZ8tjaXPLcTuQpAps7v"
+      },
+      {
+        "id": "ch101",
+        "logo": "http://troya.tv/images/chIcons/101.png",
+        "name": "Русский Иллюзион\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch101/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVycEnf1RFebh7d0BuwpHneoG4tqyGtLjt2V-2FX_2H5d"
+      },
+      {
+        "id": "ch132",
+        "logo": "http://troya.tv/images/chIcons/132.png",
+        "name": "Русский роман\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch132/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9V0ieQMikJkv0OankconCKYUKqU78GwZ9FNhiKtJenR"
+      },
+      {
+        "id": "ch462",
+        "logo": "http://troya.tv/images/chIcons/462.png",
+        "name": "Русский детектив\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch462/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV119U9cUmoPLRWCcuhXdyPG9YxCigXdRvEW11DoOVYD-"
+      },
+      {
+        "id": "ch105",
+        "logo": "http://troya.tv/images/chIcons/105.png",
+        "name": "Комедия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch105/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-M-5VKs1giLvD4Nx_7Xb-qDE9InS2dSR9vqSNFoDxSY"
+      },
+      {
+        "id": "ch463",
+        "logo": "http://troya.tv/images/chIcons/463.png",
+        "name": "Русская комедия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch463/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzA8whEv_xINHi9o2G39IBNcpndg363RsymmFy-JoJ7d"
+      },
+      {
+        "id": "ch134",
+        "logo": "http://troya.tv/images/chIcons/134.png",
+        "name": "Шокирующее HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch134/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5k4OV6-GbddiLy8MJBbeXmenkE65pDq60lWCAj1MVzs"
+      },
+      {
+        "id": "ch136",
+        "logo": "http://troya.tv/images/chIcons/136.png",
+        "name": "Комедийное HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch136/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9QxI1-pjp1Qp9E723J7YhSL8Ad5wlJLjhx1iqJ2D4C2"
+      },
+      {
+        "id": "ch131",
+        "logo": "http://troya.tv/images/chIcons/131.png",
+        "name": "Наше HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch131/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9M_PxUUNVACzyYose27BXQP3QMyF9Csmm49RRrdulck"
+      },
+      {
+        "id": "ch139",
+        "logo": "http://troya.tv/images/chIcons/139.png",
+        "name": "Наше любимое HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch139/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV22m7uDlVc2tIaa4Ovn5sUziXmSERMAyI3FvLlM9IAK_"
+      },
+      {
+        "id": "ch140",
+        "logo": "http://troya.tv/images/chIcons/140.png",
+        "name": "Наш кинороман HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch140/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8DhirInZt0W4omYL4AKAChIKI67sRm6WAFc9t4zZ5DR"
+      },
+      {
+        "id": "ch326",
+        "logo": "http://troya.tv/images/chIcons/326.png",
+        "name": "Bollywood HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch326/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyaLxtd9qglDJm7bRTBkqLQmdPGR3454Lc52hLrEzqW8"
+      },
+      {
+        "id": "ch459",
+        "logo": "http://troya.tv/images/chIcons/459.png",
+        "name": "Plan B HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch459/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9AEbs66eK9ppBpRHM5jl4KgjU_0HD4hMWqRQiKWI7uq"
+      },
+      {
+        "id": "ch464",
+        "logo": "http://troya.tv/images/chIcons/464.png",
+        "name": "Sony Sci-Fi\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch464/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5Hq3iQKk-DuhuFsLCLPsZGKj90bhRMVgn05qbkgh8OX"
+      },
+      {
+        "id": "ch465",
+        "logo": "http://troya.tv/images/chIcons/465.png",
+        "name": "Sony Turbo\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch465/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2BjYroBf_JIW8uBC_cCeeIvsohAzJpy_GFrIYZMsC8S"
+      },
+      {
+        "id": "ch070",
+        "logo": "http://troya.tv/images/chIcons/70.png",
+        "name": ".Red HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch070/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1Z1nQSvogClLrZMA1g-0faeSAMOgwPYDQQC9DMlQ9nn"
+      },
+      {
+        "id": "ch466",
+        "logo": "http://troya.tv/images/chIcons/466.png",
+        "name": "Кинопоказ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch466/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8BDb97BxEOv0-l-nUobgXDc-DvyZYzfbnuoRgQm-PUC"
+      },
+      {
+        "id": "ch467",
+        "logo": "http://troya.tv/images/chIcons/467.png",
+        "name": "Синема\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch467/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw-wyzh03J6IPp4nn1hvckMJl70ixg7F0TLTGcvVaLCm"
+      },
+      {
+        "id": "ch468",
+        "logo": "http://troya.tv/images/chIcons/468.png",
+        "name": "Страшное HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch468/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6B0yWNXFMxFCNFSYMpF-s_vthAnXs0D539KMiBUyRH4"
+      },
+      {
+        "id": "ch469",
+        "logo": "http://troya.tv/images/chIcons/469.png",
+        "name": "TV XXI Век\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch469/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5Yi7MJBJPHP1UmmxYbAVXIjdjOJ2-1HMnjsjKE0n-yu"
+      },
+      {
+        "id": "ch501",
+        "logo": "http://troya.tv/images/chIcons/501.png",
+        "name": "Fan HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch501/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8VRd9kA4RVkvtxXyiDfRmINXw8wCNiGGOuOJNniglOU"
+      },
+      {
+        "id": "ch505",
+        "logo": "http://troya.tv/images/chIcons/505.png",
+        "name": "Феникс+ Кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch505/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7yI7U0bJSCTBfuvMENYKzilImaa43tQ7rkdWtX6yFTc"
+      },
+      {
+        "id": "ch508",
+        "logo": "http://troya.tv/images/chIcons/508.png",
+        "name": "Ретро\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch508/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVz7SxCcentRAoxLgHjnSaoX4ZEs3agqAzAIB4jNdIcq8"
+      },
+      {
+        "id": "ch525",
+        "logo": "http://troya.tv/images/chIcons/525.png",
+        "name": "Hollywood HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch525/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9FgraodeIKQYHnA16Lhb0ENUvPVbvE0Yua6YGBqANA-"
+      },
+      {
+        "id": "ch535",
+        "logo": "http://troya.tv/images/chIcons/535.png",
+        "name": "Дорама HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch535/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3C6Y2mdg2mktSdtFljnatO1PysumjML6ORgla1n83cm"
+      },
+      {
+        "id": "ch537",
+        "logo": "http://troya.tv/images/chIcons/537.png",
+        "name": "Еврокино HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch537/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw77gj6Xi_aQB7sMbuKQ1NwGF0ZCasYNocsKsyXur6kh"
+      },
+      {
+        "id": "ch543",
+        "logo": "http://troya.tv/images/chIcons/543.png",
+        "name": "Тайна\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch543/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6uwY4CvjVvHzuLVafqiqkPYiCULZ-6mTuWG_KEOdlZ9"
+      },
+      {
+        "id": "ch557",
+        "logo": "http://troya.tv/images/chIcons/557.png",
+        "name": "Star Cinema HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch557/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4OUK0yPptEK7_LIigiiqb6Zbd3ZhI2ODx9ZmkXz-ulT"
+      },
+      {
+        "id": "ch585",
+        "logo": "http://troya.tv/images/chIcons/585.png",
+        "name": "Star Family HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch585/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9PM_ORGgkGWaOfi2Zjlrf-3ltlVKCyedYBOvLn8h8EM"
+      },
+      {
+        "id": "ch560",
+        "logo": "http://troya.tv/images/chIcons/560.png",
+        "name": "Zee TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch560/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV68l_jlxTLJ9e3fOBl7dyAnbVXeEtqRenfKMT4I0SXD_"
+      },
+      {
+        "id": "ch604",
+        "logo": "http://troya.tv/images/chIcons/604.png",
+        "name": "Болт\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch604/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0aXgXERgh80a5JZyusMQIT6CVWjTvxi2hjwfsPuBlXQ"
+      },
+      {
+        "id": "ch636",
+        "logo": "http://troya.tv/images/chIcons/636.png",
+        "name": "Мир сериала\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch636/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_trPRPymx8xVCPYhCG7Y7LjgR7-_5d75Nuqzb7EFuQ9"
+      },
+      {
+        "id": "ch623",
+        "logo": "http://troya.tv/images/chIcons/623.png",
+        "name": "AMC\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch623/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3Npm3QsWb4B5TQz1Lt5teyfz7HTCv5pGk-iButbWdKh"
+      },
+      {
+        "id": "ch619",
+        "logo": "http://troya.tv/images/chIcons/619.png",
+        "name": "Киносат\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch619/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4vs2WEQkVukoZ83ptfdxNK25uSizz5kFJWgEbgWvq7r"
+      },
+      {
+        "id": "ch681",
+        "logo": "http://troya.tv/images/chIcons/681.png",
+        "name": "Epic Drama HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch681/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVymDGtmCsc8a5Zjx7KUaHRNyIZycVezhRWsN3BI3GOW6"
+      },
+      {
+        "id": "ch682",
+        "logo": "http://troya.tv/images/chIcons/682.png",
+        "name": "FilmZone HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch682/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-rlvKYFoooRyi7xn3JMNJmaXJfQUDm3JZ0_vNHO_UQ7"
+      },
+      {
+        "id": "ch683",
+        "logo": "http://troya.tv/images/chIcons/683.png",
+        "name": "FilmZone+ HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch683/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8wUTIM7EJ5TTZ4BwhAmglsZsU7X4NukKCPTO6oPySpU"
+      },
+      {
+        "id": "ch684",
+        "logo": "http://troya.tv/images/chIcons/684.png",
+        "name": "FilmBox ArtHouse\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch684/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwth_5r-yb1MIXHqNNZcQZVU3c13QTuc3BauLws06aEQ"
+      },
+      {
+        "id": "ch689",
+        "logo": "http://troya.tv/images/chIcons/689.png",
+        "name": "Блокбастер HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch689/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3YkTWqm-RlaOjoLSEufg26bsHkpzdkl71a9jezwjGsc"
+      },
+      {
+        "id": "ch690",
+        "logo": "http://troya.tv/images/chIcons/690.png",
+        "name": "Про Любовь HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch690/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5OO0lNZ1O-u864U22HHWeo5uSNVPfPcYiOzqVMK_I-r"
+      },
+      {
+        "id": "ch691",
+        "logo": "http://troya.tv/images/chIcons/691.png",
+        "name": "Хит HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch691/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyWjgxgp_i8wLX12saoMqLbSPVU1cmR9RnH9RiQZQCcg"
+      },
+      {
+        "id": "ch692",
+        "logo": "http://troya.tv/images/chIcons/692.png",
+        "name": "Камеди HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch692/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6fNrCXQFL978Wn4JIpuTeNN79f8OcZGJi6uX00biSxp"
+      },
+      {
+        "id": "ch703",
+        "logo": "http://troya.tv/images/chIcons/703.png",
+        "name": "День Победы HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch703/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVz1Y2yg0fIue1IpMWsWZbIYsvRiRQC84jaa7yQWNIHnB"
+      },
+      {
+        "id": "ch709",
+        "logo": "http://troya.tv/images/chIcons/709.png",
+        "name": "FlixSnip HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch709/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4W4QRtlufQ5mYQeO91f6HbvYN9JcO7X_r9SLhVoiPZk"
+      },
+      {
+        "id": "ch712",
+        "logo": "http://troya.tv/images/chIcons/712.png",
+        "name": "Shot HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch712/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8AnnJPJNzB0Tiss1U5ZkgbDlRDFA2ks-CbspMfKY321"
+      },
+      {
+        "id": "ch730",
+        "logo": "http://troya.tv/images/chIcons/730.png",
+        "name": "Trash HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch730/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4wHIFdDODXYBkXB2bIy6zud5seTqkCKPVyWOHNms8BF"
+      },
+      {
+        "id": "ch1272",
+        "logo": "http://troya.tv/images/chIcons/1272.png",
+        "name": "Premiumgroup  Premiere HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1272/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9-e3IiVSEF3g9d2mo5R8RzFJZD3t0yIFvfeKgWPia2Y"
+      },
+      {
+        "id": "ch128",
+        "logo": "http://troya.tv/images/chIcons/128.png",
+        "name": "Premiumgroup Premium HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch128/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6oWGus9QhNcfAO6jZrOXqLUEL37Z1qD_UKQfNeqSwG-"
+      },
+      {
+        "id": "ch1187",
+        "logo": "http://troya.tv/images/chIcons/1187.png",
+        "name": "Premiumgroup  Thriller HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1187/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwIDvmSJUyVay5PGDrGFqgizoMLZvJZm4CSgB5KJsu_y"
+      },
+      {
+        "id": "ch1179",
+        "logo": "http://troya.tv/images/chIcons/1179.png",
+        "name": "Premiumgroup  Paradox HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1179/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV90VMigNpNbBHv8zEytSN2G75ytIo4m1sA2u8NPevDgM"
+      },
+      {
+        "id": "ch1196",
+        "logo": "http://troya.tv/images/chIcons/1196.png",
+        "name": "Premiumgroup  РуКино HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1196/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyLW2JbqmyZCM7UxonfKrcwWsHQpH2ql-MxXPe9KviIP"
+      },
+      {
+        "id": "ch451",
+        "logo": "http://troya.tv/images/chIcons/451.png",
+        "name": "Premiumgroup  Paradise HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch451/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8oCN9iOx-T08A6-LN9KJRyuAWFl_gpo_cDnjHw5mlKS"
+      },
+      {
+        "id": "ch1166",
+        "logo": "http://troya.tv/images/chIcons/1166.png",
+        "name": "Premiumgroup  Victory HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1166/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8BeW2By68Qji7eEEvS7BmMG9B82NhBi3yIRkb1v2xWb"
+      },
+      {
+        "id": "ch1180",
+        "logo": "http://troya.tv/images/chIcons/1180.png",
+        "name": "Premiumgroup  Serial HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1180/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-1WT2PPEencdaDlpgFvpjad1-7MS9dEtb38Ro6sMLL3"
+      },
+      {
+        "id": "ch1042",
+        "logo": "http://troya.tv/images/chIcons/1042.png",
+        "name": "Premiumgroup  USSR HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1042/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV72IhFxB0t1Z0X2xqbKQmzR4AQkE5Aj65XcNC0eT9B8n"
+      },
+      {
+        "id": "ch496",
+        "logo": "http://troya.tv/images/chIcons/496.png",
+        "name": "Premiumgroup  VHS HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch496/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyURZ-yKbYNCuIf_4mmdfwUPMNvfrU8sEy-t_F5oi1xG"
+      },
+      {
+        "id": "ch1427",
+        "logo": "http://troya.tv/images/chIcons/1427.png",
+        "name": "Premiumgroup Christmas HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1427/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_2JthRGjjYT9X8BDgEGy9BzRzfmsKLOLzC3v5505X6H"
+      },
+      {
+        "id": "ch769",
+        "logo": "http://troya.tv/images/chIcons/769.png",
+        "name": "BCU Action HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch769/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8l3pfw30guUwBDEesLshVZl8ii8k7WGO3E-bUPC2yte"
+      },
+      {
+        "id": "ch770",
+        "logo": "http://troya.tv/images/chIcons/770.png",
+        "name": "BCU Catastrophe HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch770/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2S3qIUtWtE-fFrYXj1xxTb_Y7AHzw1Pan3KvK9Hg3aU"
+      },
+      {
+        "id": "ch771",
+        "logo": "http://troya.tv/images/chIcons/771.png",
+        "name": "BCU Cinema HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch771/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV252Av2mxTJZxUQwuFBSiWOAc5bzkNV4LRArvGN8JH7t"
+      },
+      {
+        "id": "ch834",
+        "logo": "http://troya.tv/images/chIcons/834.png",
+        "name": "BCU Cinema+ HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch834/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwPm72porJTcjc65EOhlx4EcK2O4K2GIpZM0tYKBfdy5"
+      },
+      {
+        "id": "ch772",
+        "logo": "http://troya.tv/images/chIcons/772.png",
+        "name": "BCU Comedy HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch772/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9SSCfj0yLZC5BkI_6zpJOUyraEpqyWfw-35CccV857g"
+      },
+      {
+        "id": "ch1000",
+        "logo": "http://troya.tv/images/chIcons/1000.png",
+        "name": "BCU Comedy OLD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1000/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV31jvt4J39bkMe4oThpWs5jgZJytbTyyUrxwYscNvs_9"
+      },
+      {
+        "id": "ch773",
+        "logo": "http://troya.tv/images/chIcons/773.png",
+        "name": "BCU Fantastic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch773/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9FXG4QYqoyokPg4zsceMalmWXRevKy-7tMh74aTTrBi"
+      },
+      {
+        "id": "ch774",
+        "logo": "http://troya.tv/images/chIcons/774.png",
+        "name": "BCU Filmystic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch774/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5_AGnpQdmYFKBmW28dT6RqSoB1pU7QnB6U8dJGHXpJg"
+      },
+      {
+        "id": "ch776",
+        "logo": "http://troya.tv/images/chIcons/776.png",
+        "name": "BCU Kinorating HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch776/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3PPcTeCujFSNbgRAk8LUHlsklqJMJSUQ2f_lVSE_SND"
+      },
+      {
+        "id": "ch777",
+        "logo": "http://troya.tv/images/chIcons/777.png",
+        "name": "BCU Marvel HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch777/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_f2MUYpndrpyfLmyTONK2VeOpUjiPVkyp_dFlRemEgn"
+      },
+      {
+        "id": "ch311",
+        "logo": "http://troya.tv/images/chIcons/311.png",
+        "name": "BCU Marvel OLD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch311/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyq8IEt-5Q6w14GlRYNCWnBxDQPNNlaf0YeEQXJMrfwa"
+      },
+      {
+        "id": "ch778",
+        "logo": "http://troya.tv/images/chIcons/778.png",
+        "name": "BCU Premiere HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch778/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwWpy_IRm6GNT_yS_TCcIZ-Hp5RX89fc0bvesAvOCEm7"
+      },
+      {
+        "id": "ch835",
+        "logo": "http://troya.tv/images/chIcons/835.png",
+        "name": "BCU STARS HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch835/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6LU7DWaCAHe9FGZ0xtdR8TD_UNRH6t83sjN4h23awVW"
+      },
+      {
+        "id": "ch785",
+        "logo": "http://troya.tv/images/chIcons/785.png",
+        "name": "BCU Reality HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch785/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVytFLJjX7K0QrX-MTX2vq2FchZYJZidye3p2AScCryzN"
+      },
+      {
+        "id": "ch782",
+        "logo": "http://troya.tv/images/chIcons/782.png",
+        "name": "BCU Кинозал Premiere 1 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch782/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5mFog7xPJhW1gzTgiHHf6Z0zjT5jsKL8FUvIxMofZ0r"
+      },
+      {
+        "id": "ch783",
+        "logo": "http://troya.tv/images/chIcons/783.png",
+        "name": "BCU Кинозал Premiere 2 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch783/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV94iSmNQZQs0qSNOm3VbBoq2FVcK08XBm9Dm3S8rXbPP"
+      },
+      {
+        "id": "ch784",
+        "logo": "http://troya.tv/images/chIcons/784.png",
+        "name": "BCU Кинозал Premiere 3 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch784/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2wU_Bf7_UP9jBc37yTj4m9GfdUOn95-z3n5l5AeO69A"
+      },
+      {
+        "id": "ch779",
+        "logo": "http://troya.tv/images/chIcons/779.png",
+        "name": "BCU Romantic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch779/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzpH_FJylHwFtZXZAuGJhdBb_UR8aQ9_Givvqh4oQOZP"
+      },
+      {
+        "id": "ch1545",
+        "logo": "http://troya.tv/images/chIcons/1545.png",
+        "name": "BCU Romantic OLD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1545/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVybnub0bCRwz2XVRWl-iejYqR7giFfpsPuEYcj4I50-N"
+      },
+      {
+        "id": "ch775",
+        "logo": "http://troya.tv/images/chIcons/775.png",
+        "name": "BCU History HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch775/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVz1Sn9aGhs2SzszOqpxXS0a4Ts1Wn7ywC8hWkk_eKBbd"
+      },
+      {
+        "id": "ch780",
+        "logo": "http://troya.tv/images/chIcons/780.png",
+        "name": "BCU Russian HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch780/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxMRZK1G8NRtt0H_TuOquKtzxenUCYUnmEuE4rdn_NHh"
+      },
+      {
+        "id": "ch781",
+        "logo": "http://troya.tv/images/chIcons/781.png",
+        "name": "BCU VHS HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch781/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-7Qtbd1QmjQeMhl_MJv53pkI3mL5qorV01BK0Y2Z1Pn"
+      },
+      {
+        "id": "ch788",
+        "logo": "http://troya.tv/images/chIcons/788.png",
+        "name": "BCU RUSerial HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch788/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8JwJEFL30gVH1kpvtmRCiLBtuPpYx4MoOgtjlJHSvV9"
+      },
+      {
+        "id": "ch789",
+        "logo": "http://troya.tv/images/chIcons/789.png",
+        "name": "BCU СССР HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch789/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzNr4zKAEYuRD-XLQgUqegf2Ch6U9tMbSCQL6_0uH2Bw"
+      },
+      {
+        "id": "ch790",
+        "logo": "http://troya.tv/images/chIcons/790.png",
+        "name": "BCUMEDIA HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch790/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwX6qv2hYWsbf4uMsX-M2Z9--IBgiTcq2c6xpCl6zb0-"
+      },
+      {
+        "id": "ch590",
+        "logo": "http://troya.tv/images/chIcons/590.png",
+        "name": "BCUMEDIA OLD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch590/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5jP7MtKeZOqOibdnSluil1bF_LozkQXhLTDK9aBIOYQ"
+      },
+      {
+        "id": "ch1026",
+        "logo": "http://troya.tv/images/chIcons/1026.png",
+        "name": "BCU Cosmo HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1026/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2yN_zjOAFr3YF1K9sDkkJZTjhwtaNTRlrGQm9DIF_3z"
+      },
+      {
+        "id": "ch1003",
+        "logo": "http://troya.tv/images/chIcons/1003.png",
+        "name": "BCU Cosma OLD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1003/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4Yew4BvNEbhK6TLNQilAAWAlNx3bTw-r3uvbYxJvV2O"
+      },
+      {
+        "id": "ch1429",
+        "logo": "http://troya.tv/images/chIcons/1429.png",
+        "name": "BCU TruMotion HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1429/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyhIg0o7YQ9xidZtgf9tvDmwiQxIbVVSAh9ESIPQH0n3"
+      },
+      {
+        "id": "ch559",
+        "logo": "http://troya.tv/images/chIcons/559.png",
+        "name": "BCU Kids+ HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch559/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_cD7KdTBeRnGrCqpcybQpYfg4mPRxrNkblqSfDpE950"
+      },
+      {
+        "id": "ch145",
+        "logo": "http://troya.tv/images/chIcons/145.png",
+        "name": "BCU Сваты HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch145/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3nf2ztihU4LK-mszwifNyYzmsOeK8771Q2uosB0eyQ4"
+      },
+      {
+        "id": "ch827",
+        "logo": "http://troya.tv/images/chIcons/827.png",
+        "name": "BCU Criminal HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch827/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5rgGx_pquE0XqTNHGnSaxTFPpd8acM300DoQFOnnkwt"
+      },
+      {
+        "id": "ch1444",
+        "logo": "http://troya.tv/images/chIcons/1444.png",
+        "name": "BCU Survival HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1444/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxV2RISZ3vosRc53adyRqOEt3kzqGqBftlubCWuO38KI"
+      },
+      {
+        "id": "ch1445",
+        "logo": "http://troya.tv/images/chIcons/1445.png",
+        "name": "BCU Survival OLD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1445/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV14cl0NtTteAhlN8KNyfPuMygMt94Gl3sDBgNnCsdIJL"
+      },
+      {
+        "id": "ch542",
+        "logo": "http://troya.tv/images/chIcons/542.png",
+        "name": "Киноджем 1 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch542/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9wxrTd9lA6po_u89mbKNCAGpJZ_MAVBfVvIUUzTBCBq"
+      },
+      {
+        "id": "ch521",
+        "logo": "http://troya.tv/images/chIcons/521.png",
+        "name": "Киноджем 2 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch521/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxBIKXU1rfn3wLorpQ7C4guuuG6tjFpQyotcJ8W6GRxN"
+      },
+      {
+        "id": "ch1030",
+        "logo": "http://troya.tv/images/chIcons/1030.png",
+        "name": "CineMan\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1030/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVz_3fukBbFHENoM7YqqcQhIdTj83KRjOwtUM8VydiCfM"
+      },
+      {
+        "id": "ch1031",
+        "logo": "http://troya.tv/images/chIcons/1031.png",
+        "name": "CineMan Top\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1031/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4OYVl3nRqu_24Uzgk4jM_tNI1SZHie473YmnQMCMPrr"
+      },
+      {
+        "id": "ch1032",
+        "logo": "http://troya.tv/images/chIcons/1032.png",
+        "name": "CineMan Action\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1032/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_MjT6XzAlGX6h95NOees4QzJLxXJBFW3LsiDk5R7Web"
+      },
+      {
+        "id": "ch1033",
+        "logo": "http://troya.tv/images/chIcons/1033.png",
+        "name": "CineMan Thriller\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1033/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_PnL5-X6NAJr9TEn6puN2di7lmlkRImxD40q0lO0AlF"
+      },
+      {
+        "id": "ch1074",
+        "logo": "http://troya.tv/images/chIcons/1074.png",
+        "name": "CineMan Катастрофы\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1074/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6W947njymU2lgrCZUJspDRXeeTPMbWI_2quB0k3vs3S"
+      },
+      {
+        "id": "ch1034",
+        "logo": "http://troya.tv/images/chIcons/1034.png",
+        "name": "CineMan Melodrama\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1034/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1jKEBAAZgqYyntfUpJwbR6EUmnuJyI6hGpvD2nb7wgP"
+      },
+      {
+        "id": "ch1035",
+        "logo": "http://troya.tv/images/chIcons/1035.png",
+        "name": "CineMan Marvel\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1035/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV79a2wFrcA_xB18ciQnpwnIrfUoq7Xb0YMNSj1SXx4B0"
+      },
+      {
+        "id": "ch1036",
+        "logo": "http://troya.tv/images/chIcons/1036.png",
+        "name": "CineMan Ужасы\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1036/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8CN_i8Jki40E7BKqE1yjnuRW8oQj0EtCeRNzSHjc1G-"
+      },
+      {
+        "id": "ch1037",
+        "logo": "http://troya.tv/images/chIcons/1037.png",
+        "name": "CineMan Комедия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1037/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV__zb2gTVH57f-gpP1uqdHzuDHl1FNhVwPc03g_WniaI"
+      },
+      {
+        "id": "ch1038",
+        "logo": "http://troya.tv/images/chIcons/1038.png",
+        "name": "CineMan VHS\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1038/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-1ujRAIF1GpM9rUaGa2uhM0NltEkSFX2eQjJ43b67p_"
+      },
+      {
+        "id": "ch1039",
+        "logo": "http://troya.tv/images/chIcons/1039.png",
+        "name": "CineMan РуКино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1039/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-PEbWc4C3E1ahVNAKLg8k_drxFQSz5EavRYTwnIUbUQ"
+      },
+      {
+        "id": "ch1040",
+        "logo": "http://troya.tv/images/chIcons/1040.png",
+        "name": "CineMan Сваты\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1040/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxo2UORoD2V4mxYklUQp8A1U4VzRJSFKQu5YZfuoaBRj"
+      },
+      {
+        "id": "ch1325",
+        "logo": "http://troya.tv/images/chIcons/1325.png",
+        "name": "CineMan Ментовские войны\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1325/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3cwqCkUdCrP7zk8mwThdF11oOHjm4ZLxyK-A-t_hWVs"
+      },
+      {
+        "id": "ch1326",
+        "logo": "http://troya.tv/images/chIcons/1326.png",
+        "name": "CineMan ПёС\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1326/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwIyUq0ZnPZewjtN6XVNbWDOV0wAEfZVx-nF-K_uQRH_"
+      },
+      {
+        "id": "ch1327",
+        "logo": "http://troya.tv/images/chIcons/1327.png",
+        "name": "CineMan Лесник\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1327/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7MkY9cnvq-HfY2srqShUNlH47NjrSp9wfKgEvAVGmkI"
+      },
+      {
+        "id": "ch1068",
+        "logo": "http://troya.tv/images/chIcons/1068.png",
+        "name": "TOP Великолепный Век\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1068/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV38sWLgeaY9fUzAAnA-lryV4R74Ylp5MVLSE6jIEtmpC"
+      },
+      {
+        "id": "ch1069",
+        "logo": "http://troya.tv/images/chIcons/1069.png",
+        "name": "TOP 80\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1069/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7tyqEaS05PH8HNRkpTTAm0L97edeAn0f78WWFgKGPVh"
+      },
+      {
+        "id": "ch1070",
+        "logo": "http://troya.tv/images/chIcons/1070.png",
+        "name": "TOP BUDO HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1070/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5mkDyQFSPXdzgUnCJfYhhKJQxQ4R7GE03WDXidhWFSB"
+      },
+      {
+        "id": "ch1071",
+        "logo": "http://troya.tv/images/chIcons/1071.png",
+        "name": "TOP CINEMA HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1071/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8r3wyZmFBAzkaZBBS8OCFNjDgxfvjbWQ5sfA5HmoeDi"
+      },
+      {
+        "id": "ch1072",
+        "logo": "http://troya.tv/images/chIcons/1072.png",
+        "name": "TOP USSR\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1072/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9O3PUgSl0DZwdoMlb8Z8vC0_rxp1jkeTACfkmkoNVrB"
+      },
+      {
+        "id": "ch1073",
+        "logo": "http://troya.tv/images/chIcons/1073.png",
+        "name": "TOP MIX HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1073/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6KJs6PWxLg6iVDmuhgbyKFkLdjdx6j8-QiuK_lWAdu1"
+      },
+      {
+        "id": "ch1219",
+        "logo": "http://troya.tv/images/chIcons/1219.png",
+        "name": "Minimax Newfilm HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1219/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0p53I8810jN6ToiIzVTy3_NJHUJHHyawQYdDvuqtzVr"
+      },
+      {
+        "id": "ch1216",
+        "logo": "http://troya.tv/images/chIcons/1216.png",
+        "name": "Minimax Newfilm 1 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1216/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6b4JCFMF0MjIxvlkzxdNKG34Vg2HyYGNZiku6X6j48H"
+      },
+      {
+        "id": "ch1217",
+        "logo": "http://troya.tv/images/chIcons/1217.png",
+        "name": "Minimax Newfilm 2 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1217/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0POQHCAC8VWgIecrmEkGeZp90YumHnRWSR4jTq3JJjC"
+      },
+      {
+        "id": "ch1218",
+        "logo": "http://troya.tv/images/chIcons/1218.png",
+        "name": "Minimax Newfilm 3 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1218/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyY2g5mVFhJAe13H80dTHhZ_538JDuWv8oTOqLXloAvG"
+      },
+      {
+        "id": "ch1215",
+        "logo": "http://troya.tv/images/chIcons/1215.png",
+        "name": "Minimax Love HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1215/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxsjiB_Vc_XGDwVPBXBta6SRl0X88jU8-twqW73QwYvQ"
+      },
+      {
+        "id": "ch1222",
+        "logo": "http://troya.tv/images/chIcons/1222.png",
+        "name": "Minimax Ufo HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1222/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_A5b90t7FyiggzMJl9PdUNg2RmKuWlqpoJA4Mw0o8ZW"
+      },
+      {
+        "id": "ch1214",
+        "logo": "http://troya.tv/images/chIcons/1214.png",
+        "name": "Minimax 007 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1214/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1HOV4gk-DCkowft6HvzOdyZ87HhTSdO8-gZyvTuEH6o"
+      },
+      {
+        "id": "ch1229",
+        "logo": "http://troya.tv/images/chIcons/1229.png",
+        "name": "Minimax Агата Кристи HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1229/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3jFUbX1bQFHx3u5uW6v_JxynKaDUxkTb-8BZeUxs7NM"
+      },
+      {
+        "id": "ch1232",
+        "logo": "http://troya.tv/images/chIcons/1232.png",
+        "name": "Minimax Боевик Classic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1232/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxt7BA4RPfsPZyoO07AwmJCb5-PvqecGiGlAOBi6AXq8"
+      },
+      {
+        "id": "ch1233",
+        "logo": "http://troya.tv/images/chIcons/1233.png",
+        "name": "Minimax Боевик HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1233/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4otmpAr9ZiwXi1HvdVbGBvN9tOI4PwWai0flfYWHtvK"
+      },
+      {
+        "id": "ch1234",
+        "logo": "http://troya.tv/images/chIcons/1234.png",
+        "name": "Minimax Вестерн HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1234/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5kVyT90cxUe8GBPCL4NTqP_iVlyV8H7kdR4FDAbDlsI"
+      },
+      {
+        "id": "ch1237",
+        "logo": "http://troya.tv/images/chIcons/1237.png",
+        "name": "Minimax  Затмение HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1237/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVybeoB-6YFqsf9j7sM_VR7BooX8Lktzv-n1BR5diT7L8"
+      },
+      {
+        "id": "ch1238",
+        "logo": "http://troya.tv/images/chIcons/1238.png",
+        "name": "Minimax История HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1238/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2TV9meaXgyYwjzR_Zp00FCPfWUWwqYLOy2mtJq2L4Hk"
+      },
+      {
+        "id": "ch1239",
+        "logo": "http://troya.tv/images/chIcons/1239.png",
+        "name": "Minimax Катастрофа HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1239/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV70qpxPfYW0MbLnKiBrl9YMmTHRB3gIa_5oDscFEEP2P"
+      },
+      {
+        "id": "ch1241",
+        "logo": "http://troya.tv/images/chIcons/1241.png",
+        "name": "Minimax Киберпанк HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1241/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV11r3UtucfgP7ecHY9tWWtLtuGuFYTw8ptlQzAB-Z0q7"
+      },
+      {
+        "id": "ch1242",
+        "logo": "http://troya.tv/images/chIcons/1242.png",
+        "name": "Minimax Комедия Classic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1242/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3nomnoJ4tQqp_XOzUF9_Kej15Y7PCbIVnFuDMyYAckM"
+      },
+      {
+        "id": "ch1243",
+        "logo": "http://troya.tv/images/chIcons/1243.png",
+        "name": "Minimax Комедия HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1243/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwNqx_AXBy5G2lFtJziNYZ2UdzsNoRwsjZ8hciL2Bcbl"
+      },
+      {
+        "id": "ch1244",
+        "logo": "http://troya.tv/images/chIcons/1244.png",
+        "name": "Minimax Криминал HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1244/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5A1GCAbeUgUF0I1V0h_CQTZ19SgJq1pPQ6Un7jUj2X5"
+      },
+      {
+        "id": "ch1245",
+        "logo": "http://troya.tv/images/chIcons/1245.png",
+        "name": "Minimax Крутые 90е HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1245/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-achT9SIdXQ6f9e62bQy3cGb_VfLJNfeYO5EkcwD5lM"
+      },
+      {
+        "id": "ch1246",
+        "logo": "http://troya.tv/images/chIcons/1246.png",
+        "name": "Minimax Кунг-Фу HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1246/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxlH101W9UR3LvVtbehPRRyt8mpKkOi-5KYzDpi3ycrR"
+      },
+      {
+        "id": "ch1249",
+        "logo": "http://troya.tv/images/chIcons/1249.png",
+        "name": "Minimax Мифология HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1249/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8OHnFg9_z5CpdUf84n7P3JvEP7ulhQ5lwhJl1JXcLhI"
+      },
+      {
+        "id": "ch1252",
+        "logo": "http://troya.tv/images/chIcons/1252.png",
+        "name": "Minimax Погружение HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1252/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1P57bPUYiee2l7sh7V3zAjWDsn5Yfvm7IEUGti794E1"
+      },
+      {
+        "id": "ch1255",
+        "logo": "http://troya.tv/images/chIcons/1255.png",
+        "name": "Minimax Роскино HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1255/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6q4fHo6AqRDcq-_It_DkbgG-roS3399bvPx9HIpt8Om"
+      },
+      {
+        "id": "ch1250",
+        "logo": "http://troya.tv/images/chIcons/1250.png",
+        "name": "Minimax Нуар HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1250/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw2iHOHz1dhkhZDNuEj7l5ewTQqZWj0inoiDm_mWvY8K"
+      },
+      {
+        "id": "ch1254",
+        "logo": "http://troya.tv/images/chIcons/1254.png",
+        "name": "Minimax Приключения HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1254/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVybiUQNiRnqJv9Ww1UiE1J12_PhvjPv_wqKHf-D1JlSb"
+      },
+      {
+        "id": "ch1230",
+        "logo": "http://troya.tv/images/chIcons/1230.png",
+        "name": "Minimax Байки Митяя HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1230/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwaaQsl1fuCDrIQIQcRW83ATOHL5x9_nUGK5PzDr_xFg"
+      },
+      {
+        "id": "ch1236",
+        "logo": "http://troya.tv/images/chIcons/1236.png",
+        "name": "Minimax Воронины HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1236/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1IXvsuWI4d03cYR_deCJbefmHGe7vd_4MrrdOKdD7JD"
+      },
+      {
+        "id": "ch1251",
+        "logo": "http://troya.tv/images/chIcons/1251.png",
+        "name": "Minimax Ольга HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1251/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9qQGwbbtTw0mDKBM0B3dqcx9laWZ4NmKMDMjtxqyxBZ"
+      },
+      {
+        "id": "ch1253",
+        "logo": "http://troya.tv/images/chIcons/1253.png",
+        "name": "Minimax Полицейский с Рублевки HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1253/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6x6mIYKVuCW0QcK7pCkXZvzpmPd-gV5d1Wv42YgwZIw"
+      },
+      {
+        "id": "ch1256",
+        "logo": "http://troya.tv/images/chIcons/1256.png",
+        "name": "Minimax Сваты HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1256/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1nji9nUVp4NZQ-NAMi4fZLOErJe7qDhA4TdDvVMLR9B"
+      },
+      {
+        "id": "ch1257",
+        "logo": "http://troya.tv/images/chIcons/1257.png",
+        "name": "Minimax Ситком HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1257/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1fr41XaI_TtCRw4yDlW5HhGPcAtmy1DqcOUtRcUqwCk"
+      },
+      {
+        "id": "ch1258",
+        "logo": "http://troya.tv/images/chIcons/1258.png",
+        "name": "Minimax Скорость HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1258/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1va9Ut0dbV1Kf3DHAzopqKRZU-CqJqiCSpmx46o007e"
+      },
+      {
+        "id": "ch1259",
+        "logo": "http://troya.tv/images/chIcons/1259.png",
+        "name": "Minimax Спорт HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1259/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-le7UbYRopR23XMByQ84vVV5Sdx67hewwI_cM-5V2RE"
+      },
+      {
+        "id": "ch1260",
+        "logo": "http://troya.tv/images/chIcons/1260.png",
+        "name": "Minimax Стивен Кинг HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1260/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2nMYMk8LBYHi5flpVuszqQAJY1S8Dji6SDcfbP0bAhI"
+      },
+      {
+        "id": "ch1261",
+        "logo": "http://troya.tv/images/chIcons/1261.png",
+        "name": "Minimax Супергерои HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1261/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzV6-fUOat1psZtz3hnGAMSDPjUNRrDVVx2PP4jgtsGR"
+      },
+      {
+        "id": "ch1263",
+        "logo": "http://troya.tv/images/chIcons/1263.png",
+        "name": "Minimax Триллер HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1263/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4Y3UbhRwUogWv5EcQOlSu7xi5iEuRHOS4LUmOJ3bO8K"
+      },
+      {
+        "id": "ch1264",
+        "logo": "http://troya.tv/images/chIcons/1264.png",
+        "name": "Minimax Ужастик HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1264/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwNjnJ-bfBY7_F8d9Xc7_BvNMFqA2ZxmOm3tPXIw2Nvc"
+      },
+      {
+        "id": "ch1266",
+        "logo": "http://troya.tv/images/chIcons/1266.png",
+        "name": "Minimax Уэс Крэйвен HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1266/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2xr4vv7LLa6ADfMhM1DcPvGvZui_VmCEtJy6dEwOjAr"
+      },
+      {
+        "id": "ch1267",
+        "logo": "http://troya.tv/images/chIcons/1267.png",
+        "name": "Minimax Фантастика HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1267/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3p320HSf9IkfzUQFtSsU6RFAlS_0dZM3QaYWNUU3fTN"
+      },
+      {
+        "id": "ch1268",
+        "logo": "http://troya.tv/images/chIcons/1268.png",
+        "name": "Minimax Фобия HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1268/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2-plxUbqkNR0yDgHX0s72AJ8kZNY_DpDhN65JWnm6m9"
+      },
+      {
+        "id": "ch1274",
+        "logo": "http://troya.tv/images/chIcons/1274.png",
+        "name": "Minimax Семейный 1 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1274/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2qx5mE05eIVhpZuSKnD6Y68ONvaAq8bcDoppW4wYVzv"
+      },
+      {
+        "id": "ch1270",
+        "logo": "http://troya.tv/images/chIcons/1270.png",
+        "name": "Minimax Семейный 2 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1270/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5cTJCobh-O25WapiLdC_lZDLAHDXXkx5lTU1mCtlwgq"
+      },
+      {
+        "id": "ch1223",
+        "logo": "http://troya.tv/images/chIcons/1223.png",
+        "name": "Minimax Ussr 1941-1945 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1223/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVx_R3nNMklgkpiZvjDkIagGxwjlVsqk-I0SHjyiKBBVW"
+      },
+      {
+        "id": "ch1273",
+        "logo": "http://troya.tv/images/chIcons/1273.png",
+        "name": "Minimax Ussr Детектив HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1273/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5HnBnvvvfC59wnikaWAoAObGnprf9eML9Nrl4-LPGQl"
+      },
+      {
+        "id": "ch1269",
+        "logo": "http://troya.tv/images/chIcons/1269.png",
+        "name": "Minimax Ussr Приключения HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1269/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5hEKMYn7yCn73lQpDCQ7g6JkPQllQ9gvGA9Zh8F_EPT"
+      },
+      {
+        "id": "ch1224",
+        "logo": "http://troya.tv/images/chIcons/1224.png",
+        "name": "Minimax Ussr Комедия HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1224/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4bbwyKxsDiDEekA0dU9gGcrlvwZfAUIFSJBG2pBZVqD"
+      },
+      {
+        "id": "ch1227",
+        "logo": "http://troya.tv/images/chIcons/1227.png",
+        "name": "Minimax Ussr Фантастика HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1227/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8eJ5RjO_LZuH-csR9iaqYSX3DELpI0uP9P70nflD6x3"
+      },
+      {
+        "id": "ch1275",
+        "logo": "http://troya.tv/images/chIcons/1275.png",
+        "name": "Minimax Ужасы Classic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1275/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyuD8vU3tBMwv9-jyV7qWA4-fY_h90HJuo74uINtPnal"
+      },
+      {
+        "id": "ch1276",
+        "logo": "http://troya.tv/images/chIcons/1276.png",
+        "name": "Minimax Ужасы HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1276/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5Y-JJDXcWQkWYer0E3qPKekYoX7i_Kj4qksXWyUNf2_"
+      },
+      {
+        "id": "ch1286",
+        "logo": "http://troya.tv/images/chIcons/1286.png",
+        "name": "Minimax Celebrity HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1286/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-vSNegH2Ah6I8adA-j7LyARKxCKyKWFKdQO3OSSrlG3"
+      },
+      {
+        "id": "ch1323",
+        "logo": "http://troya.tv/images/chIcons/1323.png",
+        "name": "Minimax Сlassic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1323/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0uZgFHGj5ZDOvdxlrE4ru7-kyp0-yh8GmlWzqvFoOeV"
+      },
+      {
+        "id": "ch1324",
+        "logo": "http://troya.tv/images/chIcons/1324.png",
+        "name": "Minimax Драма HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1324/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1lnWeVOQI3v3RXsBGA1oX-RHm9PJAwATy-ZfBpgNbcf"
+      },
+      {
+        "id": "ch382",
+        "logo": "http://troya.tv/images/chIcons/382.png",
+        "name": "Premiere HD 1\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch382/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6eUMHZNf0cK-MzsDuRattgpUnuyQhefcIJZwDAj3CAJ"
+      },
+      {
+        "id": "ch383",
+        "logo": "http://troya.tv/images/chIcons/383.png",
+        "name": "Premiere HD 2\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch383/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0RQ2bsyBnytx1DR3rYDh3IIctXbL3Ym9T4FO8_Nbr3h"
+      },
+      {
+        "id": "ch384",
+        "logo": "http://troya.tv/images/chIcons/384.png",
+        "name": "Premiere HD 3\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch384/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4-xMZ9HOjzo2EWZ4BeJGvx4IP13hWPThPejc5_aVl0H"
+      },
+      {
+        "id": "ch385",
+        "logo": "http://troya.tv/images/chIcons/385.png",
+        "name": "Premiere HD 4\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch385/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6jxaljy6zRda_OQO1lMIxlpvZ1FTUWLEpF9xMEpBEpL"
+      },
+      {
+        "id": "ch1116",
+        "logo": "http://troya.tv/images/chIcons/1116.png",
+        "name": "C More Hits HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1116/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVz-G22ZGi929xqAlk9Nyaf3zn7cjWBRZGBJ2Ykq2Ghdy"
+      },
+      {
+        "id": "ch1287",
+        "logo": "http://troya.tv/images/chIcons/1287.png",
+        "name": "MS Animated HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1287/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_DY3G3oPO2d9EIFQ9rZPF-ZoSyqoXEtT5uwlYidrpsw"
+      },
+      {
+        "id": "ch1288",
+        "logo": "http://troya.tv/images/chIcons/1288.png",
+        "name": "MS Crime HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1288/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8P9A42kZjTNznxI5hipkizZm9I0xflMB-LV-MN3pM1G"
+      },
+      {
+        "id": "ch1289",
+        "logo": "http://troya.tv/images/chIcons/1289.png",
+        "name": "MS Prisons HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1289/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8eRXf0mTyWJb5t9HtCmLXJymE-c0TEXsayrouMlcPv7"
+      },
+      {
+        "id": "ch1290",
+        "logo": "http://troya.tv/images/chIcons/1290.png",
+        "name": "MS Toons HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1290/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV74H4ZW_3l1RWcTMvgWa-6aseSbtm4KSYYFlVIx82cei"
+      },
+      {
+        "id": "ch1291",
+        "logo": "http://troya.tv/images/chIcons/1291.png",
+        "name": "MS Young Blood HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1291/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8e4Ep-qRGOZBwIuRngCzaATQ_UCDcOzftR0fMDfDVIO"
+      },
+      {
+        "id": "ch1297",
+        "logo": "http://troya.tv/images/chIcons/1297.png",
+        "name": "Yosso TV Grand\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1297/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-VwXD_ZLL5N_jOvW6STcdHCcX2qgHiwlsFkYjHmP8nM"
+      },
+      {
+        "id": "ch1298",
+        "logo": "http://troya.tv/images/chIcons/1298.png",
+        "name": "Yosso TV VHS\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1298/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7KZ1KxGMSfXogDwGB_jrjgfIwFRl--pW9hjO9C03okk"
+      },
+      {
+        "id": "ch1300",
+        "logo": "http://troya.tv/images/chIcons/1300.png",
+        "name": "Yosso TV Русские Фильмы\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1300/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_clIohPZ_xQaaL9pwCD3jH7gPq4A9GfojEOg8dVx1nt"
+      },
+      {
+        "id": "ch1301",
+        "logo": "http://troya.tv/images/chIcons/1301.png",
+        "name": "Yosso TV Советские Фильмы\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1301/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_eIYnn5h1txumFmi6quKs4MxEBBfM7QbjX4e382MAnZ"
+      },
+      {
+        "id": "ch1302",
+        "logo": "http://troya.tv/images/chIcons/1302.png",
+        "name": "Yosso TV Sexy\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1302/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6Blvu3Jcg_jGv-16yeCgCToDqvGAB4wJNz6d3BYEgYm"
+      },
+      {
+        "id": "ch1303",
+        "logo": "http://troya.tv/images/chIcons/1303.png",
+        "name": "Yosso TV New Кино\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1303/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7sdAA0I0PZL6pMaQ4QOuI5KDhfK-qhLv2ILBLpXbrgK"
+      },
+      {
+        "id": "ch1306",
+        "logo": "http://troya.tv/images/chIcons/1306.png",
+        "name": "Yosso TV Трагичное\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1306/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-v0f1TOKN1stYlHbQziM0_zjPWmhCdwgOEpt6iW1liq"
+      },
+      {
+        "id": "ch1307",
+        "logo": "http://troya.tv/images/chIcons/1307.png",
+        "name": "Yosso TV Забавное\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1307/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9YR9TB9kQrSbFf4pKIwE6nLz0sLlBk43_wLKxBb4B-b"
+      },
+      {
+        "id": "ch1308",
+        "logo": "http://troya.tv/images/chIcons/1308.png",
+        "name": "Yosso TV Best\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1308/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7YS0jS_Kqm0pvJSoANyjiH6Rc22i--JAhPbdpcx84Jp"
+      },
+      {
+        "id": "ch1309",
+        "logo": "http://troya.tv/images/chIcons/1309.png",
+        "name": "Yosso TV Ковбойское\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1309/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7ug8ERavNZJPqsZZzQfW8DcT0B5JY21pq9RJ2ASJqRQ"
+      },
+      {
+        "id": "ch1310",
+        "logo": "http://troya.tv/images/chIcons/1310.png",
+        "name": "Yosso TV Adrenaline\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1310/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzPupx6YE8YWziVPiOHimk63GZKf2jGQ5wzxhE00l14D"
+      },
+      {
+        "id": "ch1311",
+        "logo": "http://troya.tv/images/chIcons/1311.png",
+        "name": "Yosso TV Oblivion\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1311/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzZYRiAsXPeMR6Ad0LLMl0-KugfoPRjUKpGNvuQSs7pZ"
+      },
+      {
+        "id": "ch1312",
+        "logo": "http://troya.tv/images/chIcons/1312.png",
+        "name": "Yosso TV Adventure\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1312/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyTJSqhXT53ZNxdq1D5CDjUqT_94vvYwE_SOPGUm2pAB"
+      },
+      {
+        "id": "ch1313",
+        "logo": "http://troya.tv/images/chIcons/1313.png",
+        "name": "Yosso TV Thriller\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1313/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6UAIlqSS6_1U-oA9G4mkwc2oNaxWekaajC18CT_r8g8"
+      },
+      {
+        "id": "ch1315",
+        "logo": "http://troya.tv/images/chIcons/1315.png",
+        "name": "Yosso TV C-Marvel\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1315/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-MNhLbVxeqkWfTX3im712i_RA1Vh08uxlxArcifw7Vt"
+      },
+      {
+        "id": "ch1001",
+        "logo": "http://troya.tv/images/chIcons/1001.png",
+        "name": "Yosso TV C-Inquest\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1001/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0cJvrcyrlIvinV6Dot5RZ1xxUY_dxvmJroIEjTwt0hl"
+      },
+      {
+        "id": "ch1002",
+        "logo": "http://troya.tv/images/chIcons/1002.png",
+        "name": "Yosso TV C-Comedy\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1002/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2Y8pzN4__GcOruCsCfWVCB1HfITQuUE4DpLJolFz2Tu"
+      },
+      {
+        "id": "ch1434",
+        "logo": "http://troya.tv/images/chIcons/1434.png",
+        "name": "CPS Anime\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1434/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwBQ2Cwus6jHrcTZzBQUJ8oPrBXsVEomswxiWFYbQ-Cn"
+      },
+      {
+        "id": "ch1435",
+        "logo": "http://troya.tv/images/chIcons/1435.png",
+        "name": "CPS Action\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1435/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwSq0CaeL9ZJyyC2QtpaarK2fJM_s0b4S06Ht8BoDywx"
+      },
+      {
+        "id": "ch1436",
+        "logo": "http://troya.tv/images/chIcons/1436.png",
+        "name": "CPS Comedy\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1436/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4N6RAcd7SsfXgLB28_9cyJk5FY4Czi3w_AoJx96DsBY"
+      },
+      {
+        "id": "ch1437",
+        "logo": "http://troya.tv/images/chIcons/1437.png",
+        "name": "CPS Drama\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1437/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV47K4xFvhyCVcspj_xcnKVFrCmKGKoteTLlhuDjSt5nj"
+      },
+      {
+        "id": "ch1438",
+        "logo": "http://troya.tv/images/chIcons/1438.png",
+        "name": "CPS Fiction\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1438/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2zZdH0w6KrQD_4bnO--HuVAsiM-gMfKWmk4jZ3vrj0j"
+      },
+      {
+        "id": "ch1439",
+        "logo": "http://troya.tv/images/chIcons/1439.png",
+        "name": "CPS Fresh\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1439/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-ffrU8qnj1zfelrhikgGQdhoFRJ-4zaXVfiq37R_LxE"
+      },
+      {
+        "id": "ch1440",
+        "logo": "http://troya.tv/images/chIcons/1440.png",
+        "name": "CPS Mix\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1440/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwvuTQCrO8iM2E5esDdU6Sq58Fd4MhsFVRYk3iT3qGqN"
+      },
+      {
+        "id": "ch1441",
+        "logo": "http://troya.tv/images/chIcons/1441.png",
+        "name": "CPS Oscar\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1441/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-_uKgNAfQSd8KwAsqIvAr-y0IHWKbT4terbxvo6WLZV"
+      },
+      {
+        "id": "ch1442",
+        "logo": "http://troya.tv/images/chIcons/1442.png",
+        "name": "CPS USSR\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1442/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzM7YtNEAuiB0pDrcDbC-u2wpgechytW6GpKDQB1zmYW"
+      },
+      {
+        "id": "ch1443",
+        "logo": "http://troya.tv/images/chIcons/1443.png",
+        "name": "CPS Western\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1443/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV69ygmMkHtCzU2QYoaYqOd16zloZQiCl2vvYK8VsG6lr"
+      }
+    ]
+  },
+  {
+    "group": "UHD\n",
+    "list": [
+      {
+        "id": "ch553",
+        "logo": "http://troya.tv/images/chIcons/553.png",
+        "name": "BCU Premiere Ultra 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch553/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2oWkqCvP_p_ni-SQsRq8Dlwkd3puSfcKTHTbkzIxl6N"
+      },
+      {
+        "id": "ch511",
+        "logo": "http://troya.tv/images/chIcons/511.png",
+        "name": "Кино UHD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch511/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1e85Rgvj4oWt7ovU5AzvzG2aGCvwzKM01ar3ynclq6x"
+      },
+      {
+        "id": "ch558",
+        "logo": "http://troya.tv/images/chIcons/558.png",
+        "name": "Ultra HD Cinema\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch558/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6XzPjEKnAjBBk6PbQK7D-x6NtA07dGiDGGEFuRn6E1_"
+      },
+      {
+        "id": "ch642",
+        "logo": "http://troya.tv/images/chIcons/642.png",
+        "name": "Сериал UHD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch642/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV67fwiiQSssgaKP426rLs6LxLOjKHruwhn7nsLluKkYr"
+      },
+      {
+        "id": "ch849",
+        "logo": "http://troya.tv/images/chIcons/849.png",
+        "name": "BCU Ultra 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch849/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6RF__WwV9wNl30XF2v46Rk8jf4ZOYUoIRazzO2ebGT9"
+      },
+      {
+        "id": "ch1262",
+        "logo": "http://troya.tv/images/chIcons/1262.png",
+        "name": "Minimax Flip UHD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1262/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5XtNlzgNjzvT_VCEcH7hOFIKBlQQra3-YuaB76iq9Je"
+      },
+      {
+        "id": "ch527",
+        "logo": "http://troya.tv/images/chIcons/527.png",
+        "name": "Museum HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch527/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1xXF-wY99hTgSNq8ANlLx_B2Cvv7MsvisSYqKTnobI5"
+      },
+      {
+        "id": "ch566",
+        "logo": "http://troya.tv/images/chIcons/566.png",
+        "name": "Discovery Ultra\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch566/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-N5cwJEYyyQ8aFANPlRsZlTuAIhfMOqEZAIT5_u1r16"
+      },
+      {
+        "id": "ch640",
+        "logo": "http://troya.tv/images/chIcons/640.png",
+        "name": "Наша сибирь 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch640/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_s233Ni3AINr6I4EMSDWpK0ug5DUZBORchd9ZPSTw8e"
+      },
+      {
+        "id": "ch1316",
+        "logo": "http://troya.tv/images/chIcons/1316.png",
+        "name": "Yosso TV Yosso 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1316/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzZJQa72ef6oOGibykkQt6EkLCMCKDlKykuwGQYh7cpH"
+      },
+      {
+        "id": "ch1428",
+        "logo": "http://troya.tv/images/chIcons/1428.png",
+        "name": "BCU Kids 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1428/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_K6ytwP299G1vojmNwys41hn3seaUZUPDH92rOMuFJG"
+      }
+    ]
+  },
+  {
+    "group": "Детские\n",
+    "list": [
+      {
+        "id": "ch040",
+        "logo": "http://troya.tv/images/chIcons/40.png",
+        "name": "Карусель\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch040/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyggOyxH0sI0mMbbXUy-TpFCasi1Im-MABk43C9rGw5e"
+      },
+      {
+        "id": "ch045",
+        "logo": "http://troya.tv/images/chIcons/45.png",
+        "name": "Мульт\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch045/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-yJgke60l-HSfG28wcIUlaxqP3fEmcau6lEt5GlwXRL"
+      },
+      {
+        "id": "ch081",
+        "logo": "http://troya.tv/images/chIcons/81.png",
+        "name": "Cartoon Network\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch081/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6a1dt0GoqebD10jX2C-v7lf-w8spZzaLe27CzOquMIV"
+      },
+      {
+        "id": "ch041",
+        "logo": "http://troya.tv/images/chIcons/41.png",
+        "name": "Disney\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch041/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1AwFnMIMW2zQFuqa1nz80MySCppE9SBf2ZS3SwuKW9G"
+      },
+      {
+        "id": "ch042",
+        "logo": "http://troya.tv/images/chIcons/42.png",
+        "name": "TiJi\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch042/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6e0BHMqV9Aw0YgwB2ezKfmAWpMVgSZ8ghSnEuKlVN1Y"
+      },
+      {
+        "id": "ch043",
+        "logo": "http://troya.tv/images/chIcons/43.png",
+        "name": "Gulli Girl\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch043/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6XQCiFcO5LzKHn91fq9D31_6HwsKG_qpqrWfwFNaDNC"
+      },
+      {
+        "id": "ch044",
+        "logo": "http://troya.tv/images/chIcons/44.png",
+        "name": "Детский мир\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch044/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1i6nSSo9xZabiK_pDYs5blO0X_r-DnSaHQqgKIxJ1TL"
+      },
+      {
+        "id": "ch082",
+        "logo": "http://troya.tv/images/chIcons/82.png",
+        "name": "Мама\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch082/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyQsHJ4qrl2dvWd1lP_kuMes0F5WxI1qOStPlUxQ3k0g"
+      },
+      {
+        "id": "ch119",
+        "logo": "http://troya.tv/images/chIcons/119.png",
+        "name": "В гостях у сказки\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch119/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwwvrsNFsOGaMWBdgKqndNknArOejgAEzGvL0hgmOOJB"
+      },
+      {
+        "id": "ch323",
+        "logo": "http://troya.tv/images/chIcons/323.png",
+        "name": "Канал О!\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch323/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzvxioiuBQ37E9sboXKY1T4pfVUE_9YvcrA3S7sW5X8n"
+      },
+      {
+        "id": "ch379",
+        "logo": "http://troya.tv/images/chIcons/379.png",
+        "name": "Nick Jr\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch379/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyR0_QhdpfS4lnDExP7_qSj7a7Kx_-eMFJsPtrMAM0tN"
+      },
+      {
+        "id": "ch478",
+        "logo": "http://troya.tv/images/chIcons/478.png",
+        "name": "Уникум HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch478/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9glg4JL_tYbqCssPQCf2WxsFPRjFQWuyYG1se-eDKod"
+      },
+      {
+        "id": "ch479",
+        "logo": "http://troya.tv/images/chIcons/479.png",
+        "name": "Nickelodeon HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch479/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7kS0oWEsFzCf-GuNshYRBeXW2HEE3qxeyuLbCCnl-J7"
+      },
+      {
+        "id": "ch480",
+        "logo": "http://troya.tv/images/chIcons/480.png",
+        "name": "Карусель +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch480/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1QruX4KfNhXyZB59Vc_mQHu9tcnk5QKOV-mZsz6N4DB"
+      },
+      {
+        "id": "ch481",
+        "logo": "http://troya.tv/images/chIcons/481.png",
+        "name": "Карусель +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch481/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV13KBRAu6qtqVWBWnLSBDCiIoHBQyO7oL8QyBn0CqElv"
+      },
+      {
+        "id": "ch482",
+        "logo": "http://troya.tv/images/chIcons/482.png",
+        "name": "Карусель +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch482/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1tigJPzUjzKbxuAZ1p5VRndgvYSD6Auq3gMiN0UIqFT"
+      },
+      {
+        "id": "ch483",
+        "logo": "http://troya.tv/images/chIcons/483.png",
+        "name": "СТС Kids HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch483/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyeOijPK8w0XIj14ulmR8kOcxI-_BAiZF5onwNQmia8z"
+      },
+      {
+        "id": "ch484",
+        "logo": "http://troya.tv/images/chIcons/484.png",
+        "name": "Мультимузыка\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch484/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1tYtaCKDS1oFOUlOCUd2sPBB2_eL1fvniT6RGqZZ1O_"
+      },
+      {
+        "id": "ch485",
+        "logo": "http://troya.tv/images/chIcons/485.png",
+        "name": "JimJam\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch485/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVx2PavQSa0LJmh0U_mtbxKImIM7pcDNNYd_FR5pQGk47"
+      },
+      {
+        "id": "ch486",
+        "logo": "http://troya.tv/images/chIcons/486.png",
+        "name": "Boomerang\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch486/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9d0oISB6g48OUGNdsvfCy8jIi4XWgNHgOD8bmL_noDd"
+      },
+      {
+        "id": "ch487",
+        "logo": "http://troya.tv/images/chIcons/487.png",
+        "name": "Радость Моя\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch487/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzYxFI3bDwJ6JPqxbFbfhkdwkEXNFEFIGecK36r00KiR"
+      },
+      {
+        "id": "ch488",
+        "logo": "http://troya.tv/images/chIcons/488.png",
+        "name": "Ani\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch488/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4q9jvtDA8514vkU6L-yvkPh2BHXztRsPn1ieU9kpGN_"
+      },
+      {
+        "id": "ch489",
+        "logo": "http://troya.tv/images/chIcons/489.png",
+        "name": "Baby TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch489/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyrFGdZ9qBPWHhDB-3Y5KWJ3c5xPAnBhFxAQE1jRSewN"
+      },
+      {
+        "id": "ch617",
+        "logo": "http://troya.tv/images/chIcons/617.png",
+        "name": "Малыш\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch617/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyvuJg8O7yGsCUQBBXacdjhbAO16RWpqXp1MYPZbzOc4"
+      },
+      {
+        "id": "ch618",
+        "logo": "http://troya.tv/images/chIcons/618.png",
+        "name": "Рыжий\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch618/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7qY2AJDPYjzL0ps7CGiX2RAgECcz7bqX-fEkbc0fk2I"
+      },
+      {
+        "id": "ch634",
+        "logo": "http://troya.tv/images/chIcons/634.png",
+        "name": "Мультиландия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch634/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5__cAiP90Ox4nio6frfywoD5nikyP3TbldlRb9UNHz0"
+      },
+      {
+        "id": "ch638",
+        "logo": "http://troya.tv/images/chIcons/638.png",
+        "name": "Капитан Фантастика HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch638/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzTHJpt3u3lbDNNiPNHVh0-RRCQ2H7W3ieA_c7yjUKYX"
+      },
+      {
+        "id": "ch707",
+        "logo": "http://troya.tv/images/chIcons/707.png",
+        "name": "Duck HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch707/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3KZcRCs1rIrtNkhum-hb8DySeDK7AVSlw6FqJzebVHx"
+      },
+      {
+        "id": "ch786",
+        "logo": "http://troya.tv/images/chIcons/786.png",
+        "name": "BCU Kids HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch786/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzxE7xA4lVU1PQR_EuiCl4YV-lkuomSnClh_-wwqMqV_"
+      },
+      {
+        "id": "ch787",
+        "logo": "http://troya.tv/images/chIcons/787.png",
+        "name": "BCU Мультсериал HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch787/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV47mldVLXV0VNlsWppakGyQKlVjxLYaaXUkxQRd1u9u8"
+      },
+      {
+        "id": "ch1027",
+        "logo": "http://troya.tv/images/chIcons/1027.png",
+        "name": "Cartoons 90\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1027/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxvmXZaXqIJGPZVH6Dt51n_PCTow3WFnT4RBHR8j06gG"
+      },
+      {
+        "id": "ch1028",
+        "logo": "http://troya.tv/images/chIcons/1028.png",
+        "name": "Cartoons Short\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1028/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-RsqYqDNg61N-y5wCZSXtAvsJjm18o5GH8HMCk4ZqAe"
+      },
+      {
+        "id": "ch1029",
+        "logo": "http://troya.tv/images/chIcons/1029.png",
+        "name": "Cartoons Big\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1029/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw7BMpyD9h8Fdk5kPwqM8QqlmyeDDgyYVS9eefcGQg3M"
+      },
+      {
+        "id": "ch1221",
+        "logo": "http://troya.tv/images/chIcons/1221.png",
+        "name": "Minimax Tom and Jerry HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1221/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV77m5H1Ujy9G97Tr3KwLnoE9sfAn5dW_8vJE7eQzN0Ls"
+      },
+      {
+        "id": "ch1225",
+        "logo": "http://troya.tv/images/chIcons/1225.png",
+        "name": "Minimax Ussr Мультфильм HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1225/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4xDy80f-dCP15F_Ot4K9rHCPDNueGfU2qSpW-a5edIy"
+      },
+      {
+        "id": "ch1226",
+        "logo": "http://troya.tv/images/chIcons/1226.png",
+        "name": "Minimax Ussr Сказки HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1226/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7rTmPsrfNjSIvxS9mLYHAREAzhk8hk9fecQqMUjbmLU"
+      },
+      {
+        "id": "ch1231",
+        "logo": "http://troya.tv/images/chIcons/1231.png",
+        "name": "Minimax Honey HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1231/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV89V-LiMBSfsMGJOqIZe1tnSIFnEjyoXcoL9tvi1BT3-"
+      },
+      {
+        "id": "ch1247",
+        "logo": "http://troya.tv/images/chIcons/1247.png",
+        "name": "Minimax Lesson HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1247/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzWbsjnzG3BC9qW1SYlswpFbR_239rHI7rAqiv5hxZ7p"
+      },
+      {
+        "id": "ch1248",
+        "logo": "http://troya.tv/images/chIcons/1248.png",
+        "name": "Minimax Smile HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1248/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-JqcAI1dWikiijq_Z5i28TUHKfc4tRcvvdGe2pWX_km"
+      },
+      {
+        "id": "ch1265",
+        "logo": "http://troya.tv/images/chIcons/1265.png",
+        "name": "Minimax Walt Disney HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1265/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV--tmQO8Gvuff4KZzOPzIg2TAoog-PB2q_0X7mkalPZA"
+      },
+      {
+        "id": "ch1299",
+        "logo": "http://troya.tv/images/chIcons/1299.png",
+        "name": "Yosso TV Kids\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1299/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV97JaJ-1HTi11rJnGSNl_V9ve1ZnlASPbsZ0tZZRlUFM"
+      },
+      {
+        "id": "ch1304",
+        "logo": "http://troya.tv/images/chIcons/1304.png",
+        "name": "Yosso TV Союзмульт\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1304/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3TYDC9jBOpG1gZILl2JamkJzuRz1cqhV0tIiug68uly"
+      },
+      {
+        "id": "ch1314",
+        "logo": "http://troya.tv/images/chIcons/1314.png",
+        "name": "Yosso TV Cartoon\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1314/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwc0CEet95ypXCzgcQE6ZmqG2ZYEfY6w-_3ED-GpsD1Q"
+      }
+    ]
+  },
+  {
+    "group": "Sport\n",
+    "list": [
+      {
+        "id": "ch708",
+        "logo": "http://troya.tv/images/chIcons/708.png",
+        "name": "Футбольный HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch708/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV159boF8A0-xODIj4NFI4gDQt_jpNZlOBKcbUJJ5odui"
+      },
+      {
+        "id": "ch447",
+        "logo": "http://troya.tv/images/chIcons/447.png",
+        "name": "Спортивный HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch447/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1WCUweOxivhkpqRmt4pQYL_wY3ZlXuhwmIdLnIS7A9S"
+      },
+      {
+        "id": "ch663",
+        "logo": "http://troya.tv/images/chIcons/663.png",
+        "name": "Хоккейный HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch663/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-G1nSrpDV13j2R_nvJx3tZ4Pmxa3_NZUtyUDpOGgoXw"
+      }
+    ]
+  },
+  {
+    "group": "Музыкальные\n",
+    "list": [
+      {
+        "id": "ch031",
+        "logo": "http://troya.tv/images/chIcons/31.png",
+        "name": "MTV Dance\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch031/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4be23icy0oRt8mSFrpex4OzhV7SYZOpSoQAkp8D3LIT"
+      },
+      {
+        "id": "ch030",
+        "logo": "http://troya.tv/images/chIcons/30.png",
+        "name": "MTV Russia\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch030/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_t31n57gFYLFl3ImPmNlUqE0aQ7bANx6AWGbDzHdmeh"
+      },
+      {
+        "id": "ch019",
+        "logo": "http://troya.tv/images/chIcons/19.png",
+        "name": "MTV Hits\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch019/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7eCsu-eXWqi2rRaoLgLsY8hAbjGUg5TrubW2MeUnjmP"
+      },
+      {
+        "id": "ch495",
+        "logo": "http://troya.tv/images/chIcons/495.png",
+        "name": "MTV HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch495/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwcOgdp8V6iWUUofOZioNVL3WiPVVx2SMFOgHNUdZaOw"
+      },
+      {
+        "id": "ch020",
+        "logo": "http://troya.tv/images/chIcons/20.png",
+        "name": "МУЗ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch020/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV655zAws8Aweb3tszB_oiU8yI64vRKJdL9nnZ3TgGnkA"
+      },
+      {
+        "id": "ch027",
+        "logo": "http://troya.tv/images/chIcons/27.png",
+        "name": "RU.TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch027/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6wtg-vnSltyPIDtYetJXHgxhhSTpZ97C-FOymIi1qTr"
+      },
+      {
+        "id": "ch130",
+        "logo": "http://troya.tv/images/chIcons/130.png",
+        "name": "Mezzo Live HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch130/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-QakKanq6b3asXfO3Aoy10sjFpn3FWZSHsGS_dRYbqu"
+      },
+      {
+        "id": "ch029",
+        "logo": "http://troya.tv/images/chIcons/29.png",
+        "name": "MTV 80s\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch029/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV31xbb6iXISNQf4UM1LmsBeWNHSTzKb-iJ_qh3XLYY5C"
+      },
+      {
+        "id": "ch028",
+        "logo": "http://troya.tv/images/chIcons/28.png",
+        "name": "MTV 00s\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch028/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV55mzywbkvzweQVKXDEKsGWBnrkb_rZ7susU-Rjx5oEf"
+      },
+      {
+        "id": "ch324",
+        "logo": "http://troya.tv/images/chIcons/324.png",
+        "name": "iConcerts HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch324/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw1Wmaug6Bq_RIZZ5et-drPKiPTr9kFJGGtai6Z0SFVB"
+      },
+      {
+        "id": "ch325",
+        "logo": "http://troya.tv/images/chIcons/325.png",
+        "name": "Шансон TB\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch325/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyfPUeDNDXCVFrVzf_3tA_cHrLRhvMJn3ezlvNB66E4T"
+      },
+      {
+        "id": "ch328",
+        "logo": "http://troya.tv/images/chIcons/328.png",
+        "name": "1HD Music\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch328/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4qpUj_5cGMEvBlCcxs4_HB2pyoS1tnhZEb4ahNFpa6p"
+      },
+      {
+        "id": "ch490",
+        "logo": "http://troya.tv/images/chIcons/490.png",
+        "name": "Bridge TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch490/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1OPK4AMe7DumDs8a15W7Jj5uOj1m2B1Cl7Axgth550Y"
+      },
+      {
+        "id": "ch491",
+        "logo": "http://troya.tv/images/chIcons/491.png",
+        "name": "Bridge TV Deluxe HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch491/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw6EE67SVI8g12whBU__vr0UZTL_asGK2QwADG3Syctt"
+      },
+      {
+        "id": "ch492",
+        "logo": "http://troya.tv/images/chIcons/492.png",
+        "name": "Bridge TV Classic\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch492/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyxTqRNKwBvUG810swdtpBoGEy4F5KWJ7sCkSJXwKLHR"
+      },
+      {
+        "id": "ch493",
+        "logo": "http://troya.tv/images/chIcons/493.png",
+        "name": "Bridge TV Hits\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch493/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxbFSbgz1vTTRDbRPHqCVvxYwQlZvjbfWoieFCIjMW3B"
+      },
+      {
+        "id": "ch494",
+        "logo": "http://troya.tv/images/chIcons/494.png",
+        "name": "Bridge TV Русский хит\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch494/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV49nep8KJj1M6H2wHQGCmELKEPh2e68NtJpskgRMTrOj"
+      },
+      {
+        "id": "ch497",
+        "logo": "http://troya.tv/images/chIcons/497.png",
+        "name": "MCM TOP\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch497/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyIF9W7SEwFiRVxeQA5Jdiz2aIdlh6ZaDEmXOYuSWNxY"
+      },
+      {
+        "id": "ch523",
+        "logo": "http://troya.tv/images/chIcons/523.png",
+        "name": "Ля-минор\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch523/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4TUZdxnHoOK5Aj2IowYpiZdJIprYhVojI4BMP6r-OZB"
+      },
+      {
+        "id": "ch529",
+        "logo": "http://troya.tv/images/chIcons/529.png",
+        "name": "Жара HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch529/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV20Lb9RvxRHQ-QwqAJE7yF4g0E_zrm3328mPDGxXmoW0"
+      },
+      {
+        "id": "ch552",
+        "logo": "http://troya.tv/images/chIcons/552.png",
+        "name": "MTV Live HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch552/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4XjZvH0klfRjSB9mD-GuBxAFbugKtHI9lCZc59s17g7"
+      },
+      {
+        "id": "ch554",
+        "logo": "http://troya.tv/images/chIcons/554.png",
+        "name": "O2TV HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch554/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8-ctKbo3Xo7vS5H7UZjCeZ3N6A-AvcCNoZ7RtaT85gl"
+      },
+      {
+        "id": "ch555",
+        "logo": "http://troya.tv/images/chIcons/555.png",
+        "name": "Russian MusicBox HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch555/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7u3Is5SYa-UYlFc0P3o4L3MpOS43WJJHpc_wUDhDFwr"
+      },
+      {
+        "id": "ch594",
+        "logo": "http://troya.tv/images/chIcons/594.png",
+        "name": "OTV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch594/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0BCKr0RXd5oERr5phicMLBl_8ZB0f7NtadAsPNNOoUi"
+      },
+      {
+        "id": "ch615",
+        "logo": "http://troya.tv/images/chIcons/615.png",
+        "name": "Музыка первого\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch615/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxYvE21_tqe7oXQDWZwhwqb_0sxCTL99MnvtSsMtUN_g"
+      },
+      {
+        "id": "ch631",
+        "logo": "http://troya.tv/images/chIcons/631.png",
+        "name": "4 Ever music HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch631/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-7EH50wMjUuiuMRzvc4l_8d5Wl9iMJGFJUMuB2j1uC-"
+      },
+      {
+        "id": "ch650",
+        "logo": "http://troya.tv/images/chIcons/650.png",
+        "name": "Music Box GOLD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch650/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3lh-x4LnoxeSXonpRsbHzkQqqiVkd8IcCMhlM3UjRdE"
+      },
+      {
+        "id": "ch653",
+        "logo": "http://troya.tv/images/chIcons/653.png",
+        "name": "EU Music HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch653/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwWcNFvv2hbEEGKRhwdPnDU5BtOcd52WpbbSfq9cMZq4"
+      },
+      {
+        "id": "ch660",
+        "logo": "http://troya.tv/images/chIcons/660.png",
+        "name": "C-Music HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch660/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1MufBCzNmXCCMGUuwf3H3KxFVphrZvIoSvSCi4o8nyP"
+      },
+      {
+        "id": "ch661",
+        "logo": "http://troya.tv/images/chIcons/661.png",
+        "name": "AIVA HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch661/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5lnT7oMBSt8L6P2Tdvg3uWVI1APolxmn8baohraBug7"
+      },
+      {
+        "id": "ch715",
+        "logo": "http://troya.tv/images/chIcons/715.png",
+        "name": "Europa Plus TV HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch715/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6kxMqcVPwcAfIuD7HAFGKzJRBMTGlG9JejsaHdE6_ks"
+      },
+      {
+        "id": "ch716",
+        "logo": "http://troya.tv/images/chIcons/716.png",
+        "name": "ТНТ Music HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch716/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_48vvUYbhq-Ek-7GdZD5cpDfGlSEsl7XOXayie2imfE"
+      },
+      {
+        "id": "ch1220",
+        "logo": "http://troya.tv/images/chIcons/1220.png",
+        "name": "Minimax Rock HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1220/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV25J0w6t6DH5IPUjfnEZbkIh71ZkJIKhMhw3-MJDcl_B"
+      },
+      {
+        "id": "ch1228",
+        "logo": "http://troya.tv/images/chIcons/1228.png",
+        "name": "Minimax World Hits HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1228/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4s41EehnHYg5g3_w_2nRUzcY5O_NVoQ2uCfe5EHEu5T"
+      },
+      {
+        "id": "ch1240",
+        "logo": "http://troya.tv/images/chIcons/1240.png",
+        "name": "Minimax Квартирник HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1240/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzFVflqjZW2VG28o-xvEouFWKJB5Uc7Zj7M_dZ58cKPI"
+      },
+      {
+        "id": "ch1305",
+        "logo": "http://troya.tv/images/chIcons/1305.png",
+        "name": "Yosso TV Music Hits\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1305/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6gU3M7GRhw9AhzoaJGjnzL6lTHjGtRoci3YIigYIvJu"
+      }
+    ]
+  },
+  {
+    "group": "Образовательные\n",
+    "list": [
+      {
+        "id": "ch073",
+        "logo": "http://troya.tv/images/chIcons/73.png",
+        "name": "Наука 2.0\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch073/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_rzFGRxgj-mDQO9LBLINVqNucVeMp-pcEAm3_BecPU0"
+      },
+      {
+        "id": "ch123",
+        "logo": "http://troya.tv/images/chIcons/123.png",
+        "name": "Discovery channel HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch123/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_1hZ5F22pxhn_TR3BEKCp8XnhHKt2lT3NeziWyFXnBB"
+      },
+      {
+        "id": "ch125",
+        "logo": "http://troya.tv/images/chIcons/125.png",
+        "name": "National Geographic HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch125/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2leXuj9C_-7jMMDSnNKjfBay5-2hD72Z0br2FniQiDC"
+      },
+      {
+        "id": "ch126",
+        "logo": "http://troya.tv/images/chIcons/126.png",
+        "name": "Viasat History\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch126/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_CO_bE9Ko8oU0GWVMPo31GQJV_8Rvuec3OM5k7POa7T"
+      },
+      {
+        "id": "ch142",
+        "logo": "http://troya.tv/images/chIcons/142.png",
+        "name": "Планета HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch142/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8KI85zTLCrojq8MK51N6ulX6ICYw2Fv3GIbRwClv8_9"
+      },
+      {
+        "id": "ch143",
+        "logo": "http://troya.tv/images/chIcons/143.png",
+        "name": "Приключения HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch143/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxlfdd55gVMXYzwBNcx8g0-Sv57v3Gq-O00NiUl9kUcS"
+      },
+      {
+        "id": "ch148",
+        "logo": "http://troya.tv/images/chIcons/148.png",
+        "name": "Тайны Галактики HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch148/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0nU9Mh8FhVL8smBaFQRr90JZB7E9OwGm0Z8x5oEFIRI"
+      },
+      {
+        "id": "ch327",
+        "logo": "http://troya.tv/images/chIcons/327.png",
+        "name": "Оружие\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch327/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV17_xPvoMYu3T1KmXHHAIS72TgoFxb8Eig-pIzS8gHky"
+      },
+      {
+        "id": "ch416",
+        "logo": "http://troya.tv/images/chIcons/416.png",
+        "name": "Galaxy HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch416/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7q_O3tKCTdllySFj3VEwR_ArrDpO6eFYz8fFESUZG5Y"
+      },
+      {
+        "id": "ch431",
+        "logo": "http://troya.tv/images/chIcons/431.png",
+        "name": "Discovery Turbo Xtra HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch431/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0igkVczCGtXcfgOg5OFxMcmbrLXLdLXwRoXWa7MDEJ-"
+      },
+      {
+        "id": "ch432",
+        "logo": "http://troya.tv/images/chIcons/432.png",
+        "name": "History HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch432/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV80N5D_IHgEajA287i6F31QrsSdaSqVcmV4kYwQd8pw1"
+      },
+      {
+        "id": "ch433",
+        "logo": "http://troya.tv/images/chIcons/433.png",
+        "name": "History2 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch433/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1cLdcZmQp_Q5HRX5AAz6x5cwRvmff65ULQJD0zJCBsk"
+      },
+      {
+        "id": "ch434",
+        "logo": "http://troya.tv/images/chIcons/434.png",
+        "name": "Investigation Discovery CEE HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch434/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3bQLzxT5CCYKpSsFBlx_8VimtHEKubqDsxQt-CFir9p"
+      },
+      {
+        "id": "ch435",
+        "logo": "http://troya.tv/images/chIcons/435.png",
+        "name": "TLC HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch435/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7YISKS7EHeQDDFTMThR5Unb0Ok2FaDIUfYJ7Hh4aByH"
+      },
+      {
+        "id": "ch436",
+        "logo": "http://troya.tv/images/chIcons/436.png",
+        "name": "Эврика HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch436/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxa3NPCtTb2GCZ6ezlQeWQs-cmgF7PIkKdi0SAzreSJN"
+      },
+      {
+        "id": "ch437",
+        "logo": "http://troya.tv/images/chIcons/437.png",
+        "name": "Нано HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch437/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV03OJP4mwp3W6S_XpOKSqANK8eCFgP0tyfPAeYj4Tg77"
+      },
+      {
+        "id": "ch438",
+        "logo": "http://troya.tv/images/chIcons/438.png",
+        "name": "Техно 24\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch438/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3kD8Pq18PcXTP6qHMdmz_9Br8-K17uNuLw3OltVX6mE"
+      },
+      {
+        "id": "ch440",
+        "logo": "http://troya.tv/images/chIcons/440.png",
+        "name": "Доктор\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch440/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9pp_1mJDO4IzvFAw-AY-1sZTAewvvEkZuIsCvso68jH"
+      },
+      {
+        "id": "ch441",
+        "logo": "http://troya.tv/images/chIcons/441.png",
+        "name": "Da Vinci\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch441/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyGJN6i02xwKQRVMLtdtFAaLM9p1NKGgS6gPLe4DJbGA"
+      },
+      {
+        "id": "ch442",
+        "logo": "http://troya.tv/images/chIcons/442.png",
+        "name": "История\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch442/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9y5ffINHqQ1xdLIRBZS4nHug_P9GaCt_YGH5UU6qiJ8"
+      },
+      {
+        "id": "ch443",
+        "logo": "http://troya.tv/images/chIcons/443.png",
+        "name": "365 дней ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch443/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9UFNYSklWODCHETOMVETueTYADyADwpTK-KHB2a2UPb"
+      },
+      {
+        "id": "ch444",
+        "logo": "http://troya.tv/images/chIcons/444.png",
+        "name": "RTG HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch444/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1NL2y1xuzZpJY_khXCCSwvwPcA5FNwR8ZL2VHX7lUL0"
+      },
+      {
+        "id": "ch445",
+        "logo": "http://troya.tv/images/chIcons/445.png",
+        "name": "Travel Channel HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch445/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV09VYNb-5bIKh3Rl0dRUE6MzCog1yexqGELCfCwxXaNN"
+      },
+      {
+        "id": "ch446",
+        "logo": "http://troya.tv/images/chIcons/446.png",
+        "name": "Travel+Adventure HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch446/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_yU-AjrqZN-p3zHv9hdwokMiZq-upp7Y0_2m6lWauWF"
+      },
+      {
+        "id": "ch520",
+        "logo": "http://troya.tv/images/chIcons/520.png",
+        "name": "Пёс и Ко\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch520/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVy7CqOYP1XISlgDuXm31HcNbL9cgn6ognOnBF_CX5VCQ"
+      },
+      {
+        "id": "ch522",
+        "logo": "http://troya.tv/images/chIcons/522.png",
+        "name": "Мужской\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch522/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6srzlCuxxOh12yI0vuk8hs-T5GCRZjEN31CZ8krEQ0n"
+      },
+      {
+        "id": "ch533",
+        "logo": "http://troya.tv/images/chIcons/533.png",
+        "name": "Большая Азия HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch533/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4n1if0k45OGddiCMsQ4J9EJM779dF5ja93zFMcOZg27"
+      },
+      {
+        "id": "ch539",
+        "logo": "http://troya.tv/images/chIcons/539.png",
+        "name": "Здоровое ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch539/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8T64yqPkVzzrK7s2T9IE8OM5_ScqmABvbOtFoXsPlfV"
+      },
+      {
+        "id": "ch548",
+        "logo": "http://troya.tv/images/chIcons/548.png",
+        "name": "DTX\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch548/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-ONRUBs8yD_B7wN1xvlRZhsdg2sdB4NmQZkM5kf4hbc"
+      },
+      {
+        "id": "ch551",
+        "logo": "http://troya.tv/images/chIcons/551.png",
+        "name": "Home 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch551/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV30iEJH4vIbhfH9SRUTlTH4z-qWmo9TId831iKJLGoaA"
+      },
+      {
+        "id": "ch614",
+        "logo": "http://troya.tv/images/chIcons/614.png",
+        "name": "Арсенал HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch614/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-ehLeAM_8yW3lWZssevCY6O_JTQKDeyMWkERpfMUCQY"
+      },
+      {
+        "id": "ch629",
+        "logo": "http://troya.tv/images/chIcons/629.png",
+        "name": "RTG TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch629/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVw6uJtbrp0FnwIba05QZ5vlqS7TGzJ4Vg2ZRj_PblMvz"
+      },
+      {
+        "id": "ch630",
+        "logo": "http://troya.tv/images/chIcons/630.png",
+        "name": "Телекафе\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch630/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6fgoKF_qJ8OHaHqLrqWGUiPMS9VB70k1dxIosaTM4eq"
+      },
+      {
+        "id": "ch632",
+        "logo": "http://troya.tv/images/chIcons/632.png",
+        "name": "Глазами туриста HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch632/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9oWd7o9AqbIZ5wY18fkBpnT-fwRcE2vBR4no6sgSQ-u"
+      },
+      {
+        "id": "ch637",
+        "logo": "http://troya.tv/images/chIcons/637.png",
+        "name": "Discovery World\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch637/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVypPdzeRLM-REVAAtCiByyFTWuuUkM-juq6fYLHZzXvi"
+      },
+      {
+        "id": "ch644",
+        "logo": "http://troya.tv/images/chIcons/644.png",
+        "name": "Nasa 4k/тест\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch644/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVygrnUeSTbaQcAtZ304Jp8KAw8ke2NK20JWIIH6GyB6x"
+      },
+      {
+        "id": "ch656",
+        "logo": "http://troya.tv/images/chIcons/656.png",
+        "name": "DocuBox HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch656/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1Epd2Dl0AkQ4lHrtH3Qg8xyq4m-H6c5TuAst0bOjtZY"
+      },
+      {
+        "id": "ch659",
+        "logo": "http://troya.tv/images/chIcons/659.png",
+        "name": "Телепутешествия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch659/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVynL6QMm6lQeFBy-1iaQSJXbsYBfE2Tq-KnHWnb0Tkei"
+      },
+      {
+        "id": "ch664",
+        "logo": "http://troya.tv/images/chIcons/664.png",
+        "name": "Мир Вокруг HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch664/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5-SJfTKTWFOue_4bvzDLjP8rjL6rw30deISrF52LnKV"
+      },
+      {
+        "id": "ch665",
+        "logo": "http://troya.tv/images/chIcons/665.png",
+        "name": "MyZen 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch665/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3aRhEqFtnIQBWQThvmwK3osFDamEY5hsRalzdhXoBwq"
+      },
+      {
+        "id": "ch667",
+        "logo": "http://troya.tv/images/chIcons/667.png",
+        "name": "Загородный int HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch667/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwWzWLHHcZi69A1y93nNl-9OftLArDzfL1PWcY7I1URP"
+      },
+      {
+        "id": "ch680",
+        "logo": "http://troya.tv/images/chIcons/680.png",
+        "name": "English Club TV HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch680/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwaCnWpNHTWI_caG2JUw_zEM_CSJJtsirvVvMUK9aiKe"
+      },
+      {
+        "id": "ch710",
+        "logo": "http://troya.tv/images/chIcons/710.png",
+        "name": "Поехали! HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch710/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8-uxbiSDuAB8uBAB6VbitKJdeOkp4k9nra_chg0B7-i"
+      },
+      {
+        "id": "ch718",
+        "logo": "http://troya.tv/images/chIcons/718.png",
+        "name": "Smartzone HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch718/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV771u_KkITWOMyhQxEoEzCZ85Z_fboj4TNvD5sSfiBeH"
+      },
+      {
+        "id": "ch719",
+        "logo": "http://troya.tv/images/chIcons/719.png",
+        "name": "КтоКуда\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch719/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1yAZ5Tr984mIrGerpnsuDXitFOuvUALCqTlLz9C9qXv"
+      },
+      {
+        "id": "ch720",
+        "logo": "http://troya.tv/images/chIcons/720.png",
+        "name": "Motor Trend HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch720/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3WbwlwNrw5shKMJI9yaq8sI589tz2fYe4ebBpnDz0Ge"
+      },
+      {
+        "id": "ch721",
+        "logo": "http://troya.tv/images/chIcons/721.png",
+        "name": "DTX HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch721/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8RfUKXCtzD_0CPJvvDbp1qPY8QVQ4y2PKiGfHU7xzxX"
+      },
+      {
+        "id": "ch722",
+        "logo": "http://troya.tv/images/chIcons/722.png",
+        "name": "Discovery Science HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch722/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwo1XnB__Tt7LYwCixFvH1IstSPMvRmSk1jfj5SmcAmM"
+      },
+      {
+        "id": "ch723",
+        "logo": "http://troya.tv/images/chIcons/723.png",
+        "name": "HGTV HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch723/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6HWb2qSByELU5qqLlVvs-MLaoK1kMP8geIO0hxNwNfa"
+      }
+    ]
+  },
+  {
+    "group": "Природа\n",
+    "list": [
+      {
+        "id": "ch012",
+        "logo": "http://troya.tv/images/chIcons/12.png",
+        "name": "Viasat Nature\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch012/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5ZRyUUG6B4-Fs7If642hec2q2NCtP-Db4rYGNLwrTx1"
+      },
+      {
+        "id": "ch047",
+        "logo": "http://troya.tv/images/chIcons/47.png",
+        "name": "Nat Geo Wild HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch047/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6707TSVhh4MdsS8rSsNwhtwhm1uxGhF6OzinRKjH48a"
+      },
+      {
+        "id": "ch067",
+        "logo": "http://troya.tv/images/chIcons/67.png",
+        "name": "Диалоги о рыбалке\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch067/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVx2OSILwlFbWb_hksVfGyrbgbdDLnDXjX7TfZXoxOLRg"
+      },
+      {
+        "id": "ch069",
+        "logo": "http://troya.tv/images/chIcons/69.png",
+        "name": "Дикий\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch069/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwIxMFeXSXfuCjqObYX2dUfhB78ATInyvs-QMDy_2mx9"
+      },
+      {
+        "id": "ch085",
+        "logo": "http://troya.tv/images/chIcons/85.png",
+        "name": "Охотник и рыболов HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch085/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5k0qSMU2oYrNwj2KKhSZN8IaRY2IakdLvIiBa6BeWix"
+      },
+      {
+        "id": "ch124",
+        "logo": "http://troya.tv/images/chIcons/124.png",
+        "name": "Animal Planet HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch124/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-4tz3jv0O1FU9wl6AT3kzGP7wFWb2lswD3Omwgpr6i_"
+      },
+      {
+        "id": "ch141",
+        "logo": "http://troya.tv/images/chIcons/141.png",
+        "name": "В мире животных HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch141/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6OCo2J7YpXSLDXqbNURhj-CtPE3FjD6FlzoKItKphL5"
+      },
+      {
+        "id": "ch448",
+        "logo": "http://troya.tv/images/chIcons/448.png",
+        "name": "Охота и рыбалка\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch448/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-RlbtNA3NsIFCzMA_XKRFvETaCFwmDtFNRCUqyRrQK-"
+      },
+      {
+        "id": "ch449",
+        "logo": "http://troya.tv/images/chIcons/449.png",
+        "name": "Дикая Охота HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch449/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV89npsuOWWTupISl1djpVAcsgV4vfnv40rlSiPjD32m9"
+      },
+      {
+        "id": "ch450",
+        "logo": "http://troya.tv/images/chIcons/450.png",
+        "name": "Дикая Рыбалка HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch450/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6HzyB5xdQEToS_TGRcGHyp4C6esnwp3ygOXJnhITWjc"
+      },
+      {
+        "id": "ch452",
+        "logo": "http://troya.tv/images/chIcons/452.png",
+        "name": "Живая природа HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch452/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1JsNPwrJq0wWaDMxp3jglz5DC_9GIRLY5QXzXr9RHBU"
+      },
+      {
+        "id": "ch453",
+        "logo": "http://troya.tv/images/chIcons/453.png",
+        "name": "Живая планета\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch453/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7nzaDPwplbryUGVeRi9wNBZfK6qbgREI_eOqXTfim2t"
+      },
+      {
+        "id": "ch624",
+        "logo": "http://troya.tv/images/chIcons/624.png",
+        "name": "Загородный\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch624/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5VVFzZRMSiTRb5MeL3cJfYDKBtoX1KiV5lgn9C5Pz1v"
+      },
+      {
+        "id": "ch728",
+        "logo": "http://troya.tv/images/chIcons/728.png",
+        "name": "Ocean TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch728/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVy52C-fCeOKxgoMKKD9dxbEC6xlBsPCQn4VRPYsnKem6"
+      },
+      {
+        "id": "ch731",
+        "logo": "http://troya.tv/images/chIcons/731.png",
+        "name": "Рыбалка HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch731/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxLnVk0eHxXGuNOdDlVmkbLYrEuAnmlUundaZjVYDl2e"
+      },
+      {
+        "id": "ch1271",
+        "logo": "http://troya.tv/images/chIcons/1271.png",
+        "name": "Minimax Live Planet HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1271/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8ShBY-A4e_W0-4E_2rmPG_dt2Lktny0qDN8zbg9fc0C"
+      }
+    ]
+  },
+  {
+    "group": "Разное\n",
+    "list": [
+      {
+        "id": "ch011",
+        "logo": "http://troya.tv/images/chIcons/11.png",
+        "name": "Viasat Explore\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch011/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0hSQ6Qv5Gg6_mugXIMs5LsqBm_t-6HO0-c9uHdWLou7"
+      },
+      {
+        "id": "ch016",
+        "logo": "http://troya.tv/images/chIcons/16.png",
+        "name": "АВТО 24\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch016/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_FAYchooNJK0U_R5aDlJnt4UMgUClTgFxCssF4x3foW"
+      },
+      {
+        "id": "ch026",
+        "logo": "http://troya.tv/images/chIcons/26.png",
+        "name": "Сарафан\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch026/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8q29a5SeiClMff1hjijUSwvl7wlqGfqz5_CqS2yL2Pb"
+      },
+      {
+        "id": "ch046",
+        "logo": "http://troya.tv/images/chIcons/46.png",
+        "name": "Кухня ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch046/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1msYTOaY0e8ROf30za7UMT7AB2UBfuc8KYvzyPpO_cW"
+      },
+      {
+        "id": "ch454",
+        "logo": "http://troya.tv/images/chIcons/454.png",
+        "name": "Еда Премиум HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch454/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVz7hLMrKjzk1lGjoqaAFWo1cgmp38vpXOB8oAhqxLxLl"
+      },
+      {
+        "id": "ch538",
+        "logo": "http://troya.tv/images/chIcons/538.png",
+        "name": "Еда\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch538/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7oju3srZyp4Gc0sVW67mSAFFw9sg8sPRDbyBbu0FnuL"
+      },
+      {
+        "id": "ch455",
+        "logo": "http://troya.tv/images/chIcons/455.png",
+        "name": "Food Network HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch455/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1feJRdExWrAlzlKtYdRQgljhf_bt0zW6BKrqEN328yH"
+      },
+      {
+        "id": "ch075",
+        "logo": "http://troya.tv/images/chIcons/75.png",
+        "name": "БОБЁР\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch075/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2FzbZLLzg_SRWmgedXlDWudG6VHWyq9u7xGV5zbWDFL"
+      },
+      {
+        "id": "ch076",
+        "logo": "http://troya.tv/images/chIcons/76.png",
+        "name": "2X2\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch076/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9NxPyD8xX8lb-yysRrcQmiq8jnx6Bg0Q-tgWQWyMnB2"
+      },
+      {
+        "id": "ch422",
+        "logo": "http://troya.tv/images/chIcons/422.png",
+        "name": "2х2 +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch422/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyAp6SIBV-O_A4pBrRJpQ39d02kW0qe7h64gi9HuqHU1"
+      },
+      {
+        "id": "ch100",
+        "logo": "http://troya.tv/images/chIcons/100.png",
+        "name": "RTVI\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch100/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8eB-B_S1v-5nMcgIn1XkOP_vbNwAnjPpU3NiYupWY5g"
+      },
+      {
+        "id": "ch106",
+        "logo": "http://troya.tv/images/chIcons/106.png",
+        "name": "КВН ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch106/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzavYuFLxh2HQgVDk7cSyjAvUMElk7Cdj00n9Mg2hO_X"
+      },
+      {
+        "id": "ch107",
+        "logo": "http://troya.tv/images/chIcons/107.png",
+        "name": "Совершенно секретно\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch107/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5rttuOyNvPOzk6hrD9mJNrnrE8WbFensy10KZpBGMBc"
+      },
+      {
+        "id": "ch108",
+        "logo": "http://troya.tv/images/chIcons/108.png",
+        "name": "Моя Планета\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch108/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2Twzwjr2t_ENtMUXVGavLLR4h9J1iGBoUgC-wuJIPbu"
+      },
+      {
+        "id": "ch109",
+        "logo": "http://troya.tv/images/chIcons/109.png",
+        "name": "Че\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch109/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_LUBPVL7ybw4LqI0Dr_vdo-3fLbXao4YQF52iY4u9qr"
+      },
+      {
+        "id": "ch408",
+        "logo": "http://troya.tv/images/chIcons/408.png",
+        "name": "Че +4\n",
+        "timezone": "+4",
+        "link": "http://3.troya.tv:34000/ch408/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVy1IiBwbsyoExpNljPP2yc_iySQ6nxuM13YkQzcNfNM2"
+      },
+      {
+        "id": "ch111",
+        "logo": "http://troya.tv/images/chIcons/111.png",
+        "name": "СТС love\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch111/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzar6Z2dXiD9EeCFQeNYNzm96rRi20fx3SaDR4GW5NoC"
+      },
+      {
+        "id": "ch113",
+        "logo": "http://troya.tv/images/chIcons/113.png",
+        "name": "Ностальгия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch113/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVytElmjNL4Lo7s_qgk15mUB_vV479phKEHyxelJj28y3"
+      },
+      {
+        "id": "ch117",
+        "logo": "http://troya.tv/images/chIcons/117.png",
+        "name": "НСТ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch117/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2cPrM2B5xgw73kitoUdvTEmEXvi5Bc60Cw1RyGZ6X7e"
+      },
+      {
+        "id": "ch118",
+        "logo": "http://troya.tv/images/chIcons/118.png",
+        "name": "Время\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch118/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_hc58AV5-2PUdLqA5tWPXb6mifj48OWSj9GLzuSluqM"
+      },
+      {
+        "id": "ch120",
+        "logo": "http://troya.tv/images/chIcons/120.png",
+        "name": "НТВ Стиль\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch120/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6ZWAyU2hwAmYq0KIgKZ0Dm1itWZ3QwzhqZpBdAdGaYH"
+      },
+      {
+        "id": "ch122",
+        "logo": "http://troya.tv/images/chIcons/122.png",
+        "name": "HD life\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch122/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV3IC-YigLxUZu_iuz5LEOr7Ep05dHdNxP_VQzH1Wt7h_"
+      },
+      {
+        "id": "ch392",
+        "logo": "http://troya.tv/images/chIcons/392.png",
+        "name": "НТВ Мир\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch392/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwAnNd-MTquXPlJ10agKQ1bE1L24qArbPpyS7E-N9abB"
+      },
+      {
+        "id": "ch402",
+        "logo": "http://troya.tv/images/chIcons/402.png",
+        "name": "Trace urban\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch402/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4dtaML5kfam05rrb6SOdzRlpbO1RrPXE51Qi2n7BBLn"
+      },
+      {
+        "id": "ch403",
+        "logo": "http://troya.tv/images/chIcons/403.png",
+        "name": "Мир +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch403/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-8b0egEYmeZFm0W5vE0p0hA2-sjskzuoHhk46czicmi"
+      },
+      {
+        "id": "ch404",
+        "logo": "http://troya.tv/images/chIcons/404.png",
+        "name": "Мир +6\n",
+        "timezone": "+6",
+        "link": "http://3.troya.tv:34000/ch404/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4AsziXPmEuM2j5_tRKbxX_k5xb2AVq-GcWtVOuIFNV0"
+      },
+      {
+        "id": "ch405",
+        "logo": "http://troya.tv/images/chIcons/405.png",
+        "name": "ОТР\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch405/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6paD5udff-502ut3p7wZzfypEtwfh6thl38ixdYEyZG"
+      },
+      {
+        "id": "ch414",
+        "logo": "http://troya.tv/images/chIcons/414.png",
+        "name": "Суббота\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch414/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0AFw1R5qq9PXdSqpFcv10FcbCm8H6I9i2NeeqeGqptm"
+      },
+      {
+        "id": "ch415",
+        "logo": "http://troya.tv/images/chIcons/415.png",
+        "name": "Суббота +2\n",
+        "timezone": "+2",
+        "link": "http://3.troya.tv:34000/ch415/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV67vi4VnKjOfVEFGwLd3tQSpAz_brQM0eTJUwilgYVZs"
+      },
+      {
+        "id": "ch419",
+        "logo": "http://troya.tv/images/chIcons/419.png",
+        "name": "8 канал\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch419/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwKVQhUcRsW9uOYTaXbtN4x3HZbgGO2yfEPigAOSIyUm"
+      },
+      {
+        "id": "ch420",
+        "logo": "http://troya.tv/images/chIcons/420.png",
+        "name": "Ю\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch420/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5AOrRR8VLSbwZtVCn0bf-OIPGft8jdk0hgsxu8yff-P"
+      },
+      {
+        "id": "ch426",
+        "logo": "http://troya.tv/images/chIcons/426.png",
+        "name": "Вопросы и ответы\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch426/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-c7HmW_vRWMnU9n0G0e5E9QYTZCK25d7N2aHzVhuurN"
+      },
+      {
+        "id": "ch439",
+        "logo": "http://troya.tv/images/chIcons/439.png",
+        "name": "RTД HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch439/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6WbOFE7q5mNlneQ2kg1fGt5mjTyLamqJLd90JqFin2b"
+      },
+      {
+        "id": "ch456",
+        "logo": "http://troya.tv/images/chIcons/456.png",
+        "name": "Авто плюс HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch456/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7vuluRinrME0tTZHaX-opT3jWp53ZtmOIkL2FTLVAeo"
+      },
+      {
+        "id": "ch503",
+        "logo": "http://troya.tv/images/chIcons/503.png",
+        "name": "E TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch503/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyNbzKbDCEDSctDkpprphor2F1dpA9R5x7DCInImQHul"
+      },
+      {
+        "id": "ch504",
+        "logo": "http://troya.tv/images/chIcons/504.png",
+        "name": "Усадьба\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch504/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVy2zj1R5zQJxLTWUFWltf6IdTtp4d4YmZMi94MJtYRgA"
+      },
+      {
+        "id": "ch507",
+        "logo": "http://troya.tv/images/chIcons/507.png",
+        "name": "Точка ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch507/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVy4dl27YW0l46n_Ve_F8Dt6kgzU31X8tGC5Xi1JoXID0"
+      },
+      {
+        "id": "ch516",
+        "logo": "http://troya.tv/images/chIcons/516.png",
+        "name": "360 HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch516/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4CPVagp24sof0XQmg0E98bgA3PoJvCk4rVM4E-CKfll"
+      },
+      {
+        "id": "ch517",
+        "logo": "http://troya.tv/images/chIcons/517.png",
+        "name": "Спас\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch517/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV807PX-Sax6y2M-z_0Y6NpohSz1AlyCs7fB83jspRWom"
+      },
+      {
+        "id": "ch518",
+        "logo": "http://troya.tv/images/chIcons/518.png",
+        "name": "Союз\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch518/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV79I0PgT2_q_ESgYT_g4neWuZqqgcfB-C2ced0oC4Mn_"
+      },
+      {
+        "id": "ch519",
+        "logo": "http://troya.tv/images/chIcons/519.png",
+        "name": "Просвещение\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch519/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5nm6Srn6_pt6vwT8cb7mY1CKC6hdle5Xi-thMht8Vuc"
+      },
+      {
+        "id": "ch531",
+        "logo": "http://troya.tv/images/chIcons/531.png",
+        "name": "Жар Птица\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch531/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV1AsVLgtbgg0i-vbiISuiLY3rSUdbW8259yMgfX6b44g"
+      },
+      {
+        "id": "ch534",
+        "logo": "http://troya.tv/images/chIcons/534.png",
+        "name": "Доверие\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch534/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5N5Vwp25majINoDluy2WsRSZ4WAZHsGJgwcqFa9fJpZ"
+      },
+      {
+        "id": "ch540",
+        "logo": "http://troya.tv/images/chIcons/540.png",
+        "name": "Красная линия\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch540/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV-xkmcqyj5n6pcDTVkdY7xRwfhmQHgeXyAtgCEGKbWs-"
+      },
+      {
+        "id": "ch524",
+        "logo": "http://troya.tv/images/chIcons/524.png",
+        "name": "Jurnal TV MD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch524/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVxjJ56Zk6c_In-Tnyq2ff-NAzOVMeqauqtUzcbPLXRIC"
+      },
+      {
+        "id": "ch541",
+        "logo": "http://troya.tv/images/chIcons/541.png",
+        "name": "ЛДПР ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch541/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_CJNzPbxULoWeYetzCbhXaz---OBLrHRAQy3kvL9V2G"
+      },
+      {
+        "id": "ch545",
+        "logo": "http://troya.tv/images/chIcons/545.png",
+        "name": "Эхо-ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch545/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyOUNUbVYRKqEjSxSh62lZybLSZIPpdbxDIBXwt_5hQA"
+      },
+      {
+        "id": "ch546",
+        "logo": "http://troya.tv/images/chIcons/546.png",
+        "name": "Ювелирочка\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch546/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7QavX7nQeM5_HQIeCqp0X_h5gUiZRmgOoBwR6VpdPqV"
+      },
+      {
+        "id": "ch549",
+        "logo": "http://troya.tv/images/chIcons/549.png",
+        "name": "DW-TV\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch549/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV0Re_VJ2eWoYqXWbC295cjAuKQv_gaMpz4MuhutkA4uz"
+      },
+      {
+        "id": "ch550",
+        "logo": "http://troya.tv/images/chIcons/550.png",
+        "name": "Fashion TV HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch550/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVzZTT8hcj6u8lBo1Jr2ihLojRv5SfReWHg_fez_tlNh7"
+      },
+      {
+        "id": "ch556",
+        "logo": "http://troya.tv/images/chIcons/556.png",
+        "name": "Shop and Show\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch556/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV4KDA22tkgvde41v62zAWV_gqyixP2W4CzUaAhrUS9gu"
+      },
+      {
+        "id": "ch612",
+        "logo": "http://troya.tv/images/chIcons/612.png",
+        "name": "НТВ Право\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch612/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV8eML3dIZPmIPLkyLz0M2M1CkdSph8M1gYsdrK3dyK1h"
+      },
+      {
+        "id": "ch613",
+        "logo": "http://troya.tv/images/chIcons/613.png",
+        "name": "НТВ Стиль\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch613/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV6fWgj4Fhb2cDSto129hO9EC4K8ATd9mW27nwBFzAv-M"
+      },
+      {
+        "id": "ch616",
+        "logo": "http://troya.tv/images/chIcons/616.png",
+        "name": "Кто есть кто\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch616/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyDvY0kilR07mGEVscfI2OW99CwGlSer1ns4wimJrOFB"
+      },
+      {
+        "id": "ch625",
+        "logo": "http://troya.tv/images/chIcons/625.png",
+        "name": "Психология\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch625/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV9pTsaH7Dse9J83zKJfd78Qw2ZG-bWgK99AhwXwwIAzf"
+      },
+      {
+        "id": "ch626",
+        "logo": "http://troya.tv/images/chIcons/626.png",
+        "name": "Домашние животные\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch626/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVyNwJDaNOYtbmUaU6LObVsz3-eFWUduXioD7_fN0VwK-"
+      },
+      {
+        "id": "ch627",
+        "logo": "http://troya.tv/images/chIcons/627.png",
+        "name": "Зоопарк\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch627/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV7bh2DGWXc4YnStMtd4M7plSTHS8AIFUHBCPF319TVtq"
+      },
+      {
+        "id": "ch628",
+        "logo": "http://troya.tv/images/chIcons/628.png",
+        "name": "Успех\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch628/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV_a9BTRT5XdpavBGusD2BXNVCOrLGPd_R-Y8g_gWWJmF"
+      },
+      {
+        "id": "ch633",
+        "logo": "http://troya.tv/images/chIcons/633.png",
+        "name": "Перец International\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch633/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV5rvEGJYGCINjHbw9HPU_wq8fnA7bNn7YghjqaXTa2uJ"
+      },
+      {
+        "id": "ch654",
+        "logo": "http://troya.tv/images/chIcons/654.png",
+        "name": "Love Nature 4K\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch654/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV2hPgOD70iNY6OzCyIG9Cs6qR1h3lEFu5GykMJ6DlnnK"
+      },
+      {
+        "id": "ch1235",
+        "logo": "http://troya.tv/images/chIcons/1235.png",
+        "name": "Minimax Relax HD\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1235/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVV500Za7mCKvRYQScDmvfQiEvzqPjdN7XmzxDaq_n7uwQ"
+      },
+      {
+        "id": "ch1524",
+        "logo": "http://troya.tv/images/chIcons/1524.png",
+        "name": "Анекдот ТВ\n",
+        "timezone": null,
+        "link": "http://3.troya.tv:34000/ch1524/mono.m3u8?token=telik.Cxh0bafQ71XSE1qaBQUVVwWSINMiDeqSjfTHqEthJu3-hgPE2MuSFUJf35PmaJni"
+      }
+    ]
+  }
+]
