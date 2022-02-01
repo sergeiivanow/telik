@@ -8,9 +8,12 @@ platform :ios do
     ENV["MATCH_PASSWORD"]
   end
 
-  lane :sync_match_development do
+  lane :sync_match do
     match(type: "development", readonly: true)
+    match(type: "appstore", readonly: true)
+    match(type: "adhoc", readonly: true)
   end
+
 
   lane :login do
     app_store_connect_api_key(
@@ -24,9 +27,9 @@ platform :ios do
 
   desc "Deploy"
   lane :deploy do
-    login
     setup_ci if ENV['CI']
-    match(type: "appstore", readonly: true)
+    login
+    sync_match
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
@@ -39,8 +42,9 @@ platform :ios do
   desc "Beta"
   lane :beta do
     # ensure_git_status_clean
-    login
     setup_ci if ENV['CI']
+    login
+    sync_match
     match(type: "adhoc", readonly: true,)
     gym(
       scheme: "Runner",
