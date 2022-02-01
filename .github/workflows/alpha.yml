@@ -48,36 +48,36 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           STORE_FILE: release.jks
 
-        - name: Build iOS
-          run: |
-            flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
+      - name: Build iOS
+        run: |
+          flutter build ios --release --no-codesign --build-number=$GITHUB_RUN_NUMBER
 
-        - name: Define a basic authorization for match
-          run: |
-            echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
-            echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
-        
-        - name: Package and sign iOS
-          uses: maierj/fastlane-action@v2.0.1
-          with:
-            lane: 'beta'
-            subdirectory: 'ios'
-        
-        # - name: Automated commit
-        #   run: |
-        #     git add -A
-        #     git commit -m 'Automated commit'
-        #     git push
+      - name: Define a basic authorization for match
+        run: |
+          echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
+          echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
+      
+      - name: Package and sign iOS
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'beta'
+          subdirectory: 'ios'
+      
+      # - name: Automated commit
+      #   run: |
+      #     git add -A
+      #     git commit -m 'Automated commit'
+      #     git push
 
-        - uses: actions/upload-artifact@v2
-          with:
-            name: Artifact
-            path: |
-              build/app/outputs/apk/release/*.apk
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Artifact
+          path: |
+            build/app/outputs/apk/release/*.apk
 
-        - uses: actions/upload-artifact@v2
-          with:
-            name: Artifact
-            path: |
-              ios/build/*.ipa
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Artifact
+          path: |
+            ios/build/*.ipa
 
