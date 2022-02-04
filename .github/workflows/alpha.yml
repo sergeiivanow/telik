@@ -65,7 +65,7 @@ jobs:
       
       - name: Automated commit
         run: |
-          git add -A pubspec.yaml
+          git add pubspec.yaml
           git commit -m 'Automated commit'
           git push
 
