@@ -1,14 +1,14 @@
-name: Release
-
 on:
   push:
     tags:
       - 'v*.*.*'
 
+name: Release
+
 jobs:
 
   build:
-    name: Build Apps
+    name: Build
     runs-on: macos-latest
     env:
       CI: ${{ secrets.CI }}
@@ -24,9 +24,6 @@ jobs:
       ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
 
     steps:
-      - name: Define tag version
-        run: echo "TAG_VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
-
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v1
         with:
@@ -37,17 +34,23 @@ jobs:
 
       - run: flutter pub get
 
-      - name: Build and sign Android App
+      - name: Bump app version
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'bump_flutter_version'
+          subdirectory: 'android'
+
+      - name: Build and sign Android
         run: | 
           echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          flutter build apk --build-name={{ env.TAG_VERSION }} --build-number=$GITHUB_RUN_NUMBER
-          flutter build appbundle --build-name={{ env.TAG_VERSION }} --build-number=$GITHUB_RUN_NUMBER
+          flutter build apk
+          flutter build appbundle
         env:
           STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           STORE_FILE: release.jks
-
+      
       - name: Create play store credentials
         id: create-json
         uses: jsdaniell/create-json@1.1.2
@@ -62,21 +65,33 @@ jobs:
           lane: 'deploy'
           subdirectory: 'android'
 
-      - name: Build iOS App
+      - name: Build iOS
         run: |
-          flutter build ios --release --no-codesign --build-name={{ env.TAG_VERSION }} --build-number=$GITHUB_RUN_NUMBER
+          flutter build ios --release --no-codesign
 
       - name: Define a basic authorization for match
         run: |
           echo "${{ secrets.ASC_AUTH_KEY }}" | base64 -d > ${{ github.workspace }}/ios/fastlane/asc-auth-key.p8
           echo "MATCH_GIT_BASIC_AUTHORIZATION=$(echo -n '${{ github.actor }}:${{ secrets.ACCESS_TOKEN }}' | base64)" >> $GITHUB_ENV 
       
-      - name: Beta ios
+      - name: Package and sign iOS
         uses: maierj/fastlane-action@v2.0.1
         with:
           lane: 'beta'
           subdirectory: 'ios'
       
+      - name: Beta ios
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'deploy'
+          subdirectory: 'ios'
+      
+      - name: Automated commit
+        run: |
+          git add pubspec.yaml
+          git commit -m 'Automated commit'
+          git push
+
       - name: Release
         uses: ncipollo/release-action@v1
         with:
