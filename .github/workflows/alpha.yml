@@ -32,11 +32,11 @@ jobs:
 
       - run: flutter pub get
 
-      # - name: Bump app version
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'bump_flutter_version'
-      #     subdirectory: 'android'
+      - name: Bump app version
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'bump_flutter_version'
+          subdirectory: 'android'
 
       - name: Build and sign Android
         run: | 
@@ -63,11 +63,11 @@ jobs:
           lane: 'beta'
           subdirectory: 'ios'
       
-      # - name: Automated commit
-      #   run: |
-      #     git add -A
-      #     git commit -m 'Automated commit'
-      #     git push
+      - name: Automated commit
+        run: |
+          git add -A pubspec.yaml
+          git commit -m 'Automated commit'
+          git push
 
       - uses: actions/upload-artifact@v2
         with:
