@@ -4,7 +4,6 @@ on:
 name: Alpha
 
 jobs:
-
   build:
     name: Build
     runs-on: macos-latest
