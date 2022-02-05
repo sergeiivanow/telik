@@ -1,7 +1,7 @@
 on:
   push:
-    tags:
-      - '*.*.*'
+    # tags:
+    #   - '*.*.*'
 
 name: Release
 
@@ -80,11 +80,11 @@ jobs:
           lane: 'beta'
           subdirectory: 'ios'
       
-      - name: Beta ios
-        uses: maierj/fastlane-action@v2.0.1
-        with:
-          lane: 'deploy'
-          subdirectory: 'ios'
+      # - name: Beta ios
+      #   uses: maierj/fastlane-action@v2.0.1
+      #   with:
+      #     lane: 'deploy'
+      #     subdirectory: 'ios'
       
       # - name: Automated commit
       #   run: |
