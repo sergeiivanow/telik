@@ -34,36 +34,36 @@ jobs:
 
       - run: flutter pub get
 
-      - name: Bump app version
-        uses: maierj/fastlane-action@v2.0.1
-        with:
-          lane: 'bump_flutter_version'
-          subdirectory: 'android'
+      # - name: Bump app version
+      #   uses: maierj/fastlane-action@v2.0.1
+      #   with:
+      #     lane: 'bump_flutter_version'
+      #     subdirectory: 'android'
 
-      - name: Build and sign Android
-        run: | 
-          echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
-          flutter build apk
-          flutter build appbundle
-        env:
-          STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          STORE_FILE: release.jks
+      # - name: Build and sign Android
+      #   run: | 
+      #     echo "${{ secrets.STORE_FILE }}" | base64 -d > ${{ github.workspace }}/android/app/release.jks
+      #     flutter build apk
+      #     flutter build appbundle
+      #   env:
+      #     STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
+      #     KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      #     KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+      #     STORE_FILE: release.jks
       
-      - name: Create play store credentials
-        id: create-json
-        uses: jsdaniell/create-json@1.1.2
-        with:
-          name: "play-store-credentials.json"
-          json: ${{ secrets.SERVICE_ACCOUNT_JSON }}
-          dir: 'android/fastlane/'
+      # - name: Create play store credentials
+      #   id: create-json
+      #   uses: jsdaniell/create-json@1.1.2
+      #   with:
+      #     name: "play-store-credentials.json"
+      #     json: ${{ secrets.SERVICE_ACCOUNT_JSON }}
+      #     dir: 'android/fastlane/'
 
-      - name: Upload appbundle to the Google play
-        uses: maierj/fastlane-action@v2.0.1
-        with:
-          lane: 'deploy'
-          subdirectory: 'android'
+      # - name: Upload appbundle to the Google play
+      #   uses: maierj/fastlane-action@v2.0.1
+      #   with:
+      #     lane: 'deploy'
+      #     subdirectory: 'android'
 
       - name: Build iOS
         run: |
@@ -86,11 +86,11 @@ jobs:
           lane: 'deploy'
           subdirectory: 'ios'
       
-      - name: Automated commit
-        run: |
-          git add pubspec.yaml
-          git commit -m 'Automated commit'
-          git push
+      # - name: Automated commit
+      #   run: |
+      #     git add pubspec.yaml
+      #     git commit -m 'Automated commit'
+      #     git push
 
       - name: Release
         uses: ncipollo/release-action@v1

@@ -10,6 +10,8 @@ platform :ios do
 
   lane :sync_match do
     match(type: "development", readonly: true)
+    match(type: "adhoc", readonly: true)
+    match(type: "appstore", readonly: true)
   end
 
 
@@ -27,7 +29,7 @@ platform :ios do
   lane :deploy do
     setup_ci if ENV['CI']
     login
-    match(type: "appstore", readonly: true)
+    sync_match
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
@@ -42,7 +44,7 @@ platform :ios do
     # ensure_git_status_clean
     setup_ci if ENV['CI']
     login
-    match(type: "adhoc", readonly: true,)
+    sync_match
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
