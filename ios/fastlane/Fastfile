@@ -51,7 +51,7 @@ platform :ios do
     match(type: "adhoc", readonly: true)
     update_code_signing_settings(
       use_automatic_signing: false,
-      profile_name: "match Development com.sergejivanov.telik",
+      profile_name: "match AdHoc com.sergejivanov.telik",
     )
     gym(
       scheme: "Runner",
