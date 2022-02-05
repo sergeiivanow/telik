@@ -27,6 +27,7 @@ platform :ios do
   lane :deploy do
     setup_ci if ENV['CI']
     login
+    sync_match
     match(type: "appstore", readonly: true)
     gym(
       scheme: "Runner",
@@ -42,6 +43,7 @@ platform :ios do
     # ensure_git_status_clean
     setup_ci if ENV['CI']
     login
+    sync_match
     match(type: "adhoc", readonly: true)
     gym(
       scheme: "Runner",
