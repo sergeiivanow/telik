@@ -39,6 +39,12 @@ jobs:
         with:
           lane: 'bump_flutter_version'
           subdirectory: 'android'
+      
+      - name: Automated commit
+        run: |
+          git add pubspec.yaml
+          git commit -m 'Automated commit'
+          git push
 
       - name: Build and sign Android
         run: | 
@@ -85,12 +91,6 @@ jobs:
         with:
           lane: 'deploy'
           subdirectory: 'ios'
-      
-      - name: Automated commit
-        run: |
-          git add pubspec.yaml
-          git commit -m 'Automated commit'
-          git push
 
       - name: Release
         uses: ncipollo/release-action@v1
