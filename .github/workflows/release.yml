@@ -25,8 +25,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
       - name: Set tag version
         run: echo "TAG_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - name: Test
@@ -40,11 +38,11 @@ jobs:
 
       # - run: flutter pub get
 
-      - name: Bump app version
-        uses: maierj/fastlane-action@v2.0.1
-        with:
-          lane: 'bump_flutter_version'
-          subdirectory: 'android'
+      # - name: Bump app version
+      #   uses: maierj/fastlane-action@v2.0.1
+      #   with:
+      #     lane: 'bump_flutter_version'
+      #     subdirectory: 'android'
 
       # - name: Build and sign Android
       #   run: | 
@@ -92,11 +90,12 @@ jobs:
       #     lane: 'deploy'
       #     subdirectory: 'ios'
 
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v8
-        with:
-          message: 'Automated commit'
-          add: 'pubspec.yaml'
+
+      - name: Automated commit
+        run: |
+          git add pubspec.yaml
+          git commit -m 'Automated commit'
+          git push origin HEAD:master
 
       # - name: Release
       #   uses: ncipollo/release-action@v1
