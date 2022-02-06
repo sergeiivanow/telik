@@ -95,7 +95,7 @@ jobs:
         run: |
           git add pubspec.yaml
           git commit -m 'Automated commit'
-          git push origin mamin
+          git push origin main
 
       # - name: Release
       #   uses: ncipollo/release-action@v1
