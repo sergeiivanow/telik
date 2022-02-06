@@ -38,11 +38,11 @@ jobs:
 
       # - run: flutter pub get
 
-      # - name: Bump app version
-      #   uses: maierj/fastlane-action@v2.0.1
-      #   with:
-      #     lane: 'bump_flutter_version'
-      #     subdirectory: 'android'
+      - name: Bump app version
+        uses: maierj/fastlane-action@v2.0.1
+        with:
+          lane: 'bump_flutter_version'
+          subdirectory: 'android'
 
       # - name: Build and sign Android
       #   run: | 
