@@ -95,7 +95,7 @@ jobs:
         run: |
           git add pubspec.yaml
           git commit -m 'Automated commit'
-          git push
+          git push origin/main
 
       # - name: Release
       #   uses: ncipollo/release-action@v1
@@ -104,4 +104,3 @@ jobs:
       #       build/app/outputs/apk/release/*.apk
       #       ios/build/*.ipa
       #     token: ${{ secrets.ACCESS_TOKEN }}
-      
