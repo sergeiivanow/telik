@@ -90,11 +90,11 @@ jobs:
       #     lane: 'deploy'
       #     subdirectory: 'ios'
 
-      - name: Automated commit
-        run: |
-          git add pubspec.yaml
-          git commit -m 'Automated commit'
-          git push
+       - name: Commit changes
+        uses: EndBug/add-and-commit@v8
+        with:
+          message: 'Automated commit'
+          add: 'pubspec.yaml'
 
       # - name: Release
       #   uses: ncipollo/release-action@v1
