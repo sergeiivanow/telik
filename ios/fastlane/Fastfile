@@ -27,8 +27,12 @@ platform :ios do
   lane :deploy do
     setup_ci if ENV['CI']
     login
-    sync_match
     match(type: "appstore", readonly: true)
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      profile_name: "match AppStore com.sergejivanov.telik",
+      code_sign_identity: "Apple Distribution",
+    )
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
@@ -43,8 +47,12 @@ platform :ios do
     # ensure_git_status_clean
     setup_ci if ENV['CI']
     login
-    sync_match
     match(type: "adhoc", readonly: true)
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      profile_name: "match AdHoc com.sergejivanov.telik",
+      code_sign_identity: "Apple Distribution",
+    )
     gym(
       scheme: "Runner",
       workspace: "Runner.xcworkspace",
