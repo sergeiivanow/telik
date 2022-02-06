@@ -95,7 +95,7 @@ jobs:
         run: |
           git add pubspec.yaml
           git commit -m 'Automated commit'
-          echo git branch
+          git push 
 
       # - name: Release
       #   uses: ncipollo/release-action@v1
