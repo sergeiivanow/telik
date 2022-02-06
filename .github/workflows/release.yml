@@ -1,7 +1,7 @@
 on:
   push:
-    tags:
-      - '*.*.*'
+    # tags:
+    #   - '*.*.*'
 
 name: Release
 
@@ -95,7 +95,7 @@ jobs:
         run: |
           git add pubspec.yaml
           git commit -m 'Automated commit'
-          git push origin/main
+          git push
 
       # - name: Release
       #   uses: ncipollo/release-action@v1
