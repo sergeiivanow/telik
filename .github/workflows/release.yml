@@ -93,6 +93,7 @@ jobs:
 
       - name: Automated commit
         run: |
+          git checkout main
           git add pubspec.yaml
           git commit -m 'Automated commit'
           git push 
