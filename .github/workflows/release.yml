@@ -90,7 +90,7 @@ jobs:
       #     lane: 'deploy'
       #     subdirectory: 'ios'
 
-       - name: Commit changes
+      - name: Commit changes
         uses: EndBug/add-and-commit@v8
         with:
           message: 'Automated commit'
